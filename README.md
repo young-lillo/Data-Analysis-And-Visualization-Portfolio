@@ -15,7 +15,7 @@ Included materials:
 - Dashboard screenshots and a Metabase dashboard specification
 - Documentation for project goals, data preparation, visualization design, publishing, and deployment
 
-Live dashboard: [Metabase collection](https://data.youngllilo.works/collection/6-airbnb)
+Live dashboard: [Airbnb Global Listings Reviews Analytics](https://data.youngllilo.works/dashboard/6-airbnb-global-listings-reviews-analytics)
 
 ### [FVSD Literacy Intervention Portfolio](FVSD%20Literacy%20Intervention%20Portfolio)
 

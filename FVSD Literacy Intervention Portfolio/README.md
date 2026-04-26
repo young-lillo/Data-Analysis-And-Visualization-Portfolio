@@ -91,18 +91,16 @@ cd <your-repo-folder>
 
 ## Screenshot Dashboard
 
-The live dashboard is available here:
+![FVSD Literacy Intervention Dashboard](docs/assets/screenshots/overview.png)
+
+Live dashboard:
 
 - [FVSD Literacy Intervention Dashboard](https://data.youngllilo.works/public/dashboard/3115be47-ce51-4585-b045-d350a25a9b0d)
 
-Recommended screenshot path for GitHub presentation:
-
-- `docs/assets/screenshots/overview.png`
-
 ## Insights / Learning
 
-- The strongest story is not raw score reporting. The stronger analytics angle is resource planning under literacy risk.
-- `CRISP-DM` fits the project well because the work starts from a business decision and ends in deployment-ready decision support.
-- Forecasting should stay pragmatic and scenario-driven. This dataset supports planning better than aggressive predictive claims.
-- Teacher-demand metrics should be explained as required staffing load, not confirmed staffing availability.
-- Metabase is a practical choice for this portfolio because it supports stakeholder-friendly dashboards with lower operational overhead than a heavier BI stack.
+- The strongest analytics story is intervention pressure, not raw score reporting. Proficiency levels become more useful when translated into Tier 2 and Tier 3 support demand.
+- School and grade drilldowns help leaders see where literacy risk is concentrated, so the dashboard supports planning conversations instead of only showing assessment history.
+- Staffing and cost metrics make the project operational: student need is converted into estimated teacher load and assessment-program budget impact.
+- Forecasting should stay scenario-driven. This dataset supports next-term planning signals better than high-confidence predictive claims.
+- Metabase works well for this portfolio because it supports public dashboard sharing, filterable school-level views, narrative insight cards, and repeatable dashboard creation from PostgreSQL views.

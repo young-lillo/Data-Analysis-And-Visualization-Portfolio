@@ -2,7 +2,7 @@
 
 This project turns a global Airbnb listings and reviews dataset into a hospitality analytics dashboard for market comparison, pricing signals, tourism seasonality, COVID recovery, and traveler value-for-money.
 
-Live dashboard: [Metabase collection](https://data.youngllilo.works/collection/6-airbnb)
+Live dashboard: [Airbnb Global Listings Reviews Analytics](https://data.youngllilo.works/dashboard/6-airbnb-global-listings-reviews-analytics)
 
 ## Project Context
 
