@@ -1,0 +1,52 @@
+{
+  "source_file": "docs/assets/user-files/social-media-content-performance-dataset.xlsx",
+  "rows": 5600,
+  "duplicate_post_ids": 600,
+  "platforms": [
+    "Facebook",
+    "Instagram",
+    "LinkedIn",
+    "TikTok",
+    "X.com",
+    "YouTube"
+  ],
+  "regions": [
+    "Australia",
+    "Brazil",
+    "Canada",
+    "Germany",
+    "India",
+    "Japan",
+    "UK",
+    "USA"
+  ],
+  "content_types": [
+    "Organic",
+    "Sponsored"
+  ],
+  "content_categories": [
+    "Customer Story",
+    "Educational",
+    "Entertainment",
+    "Event / Webinar",
+    "Product Promotion"
+  ],
+  "post_types": [
+    "Article",
+    "Carousel",
+    "Image",
+    "Live Stream",
+    "PDF",
+    "Text",
+    "Video"
+  ],
+  "hashtags": 18,
+  "date_min": "2024-01-01",
+  "date_max": "2025-05-01",
+  "missing_clicks": 3740,
+  "missing_ctr": 3740,
+  "click_trackable_rows": 1860,
+  "nonzero_video_rows": 2948,
+  "nonzero_live_stream_rows": 924,
+  "engagement_component_mismatch_rows": 5600
+}

@@ -1,6 +1,6 @@
 # Data Analysis and Visualization Portfolio
 
-This repository collects two end-to-end analytics portfolio projects. Each folder contains the project README, documentation, data-preparation logic, dashboard assets, and deployment notes needed to understand or reproduce the work.
+This repository collects three end-to-end analytics portfolio projects. Each folder contains the project README, documentation, data-preparation logic, dashboard assets, and deployment notes needed to understand or reproduce the work.
 
 ## Portfolio Projects
 
@@ -30,6 +30,19 @@ Included materials:
 
 Live dashboard: [FVSD Literacy Intervention Dashboard](https://data.youngllilo.works/public/dashboard/3115be47-ce51-4585-b045-d350a25a9b0d)
 
+### [Social Media Marketing Performance Portfolio](Social%20Media%20Marketing%20Performance%20Portfolio)
+
+Marketing analytics project turning social content performance data into a Metabase dashboard for platform comparison, content strategy, posting-time optimization, hashtag effectiveness, and organic-versus-sponsored performance.
+
+Included materials:
+
+- Source workbook and reproducible Python preparation script
+- PostgreSQL schema, load script, and analytics views
+- Local Docker setup for PostgreSQL and Metabase
+- Dashboard automation script and documentation for preparation, visualization, and publish handoff
+
+Local dashboard: `http://localhost:3001/dashboard/2`
+
 ## Skills Demonstrated
 
 - Data cleaning and preparation with Python
@@ -43,15 +56,20 @@ Live dashboard: [FVSD Literacy Intervention Dashboard](https://data.youngllilo.w
 
 ```text
 .
-├── Airbnb Global Listings Reviews Analytics/
-│   ├── README.md
-│   ├── docs/
-│   └── tools/
-└── FVSD Literacy Intervention Portfolio/
-    ├── README.md
-    ├── docs/
-    ├── postgres/
-    └── tools/
+|-- Airbnb Global Listings Reviews Analytics/
+|   |-- README.md
+|   |-- docs/
+|   `-- tools/
+|-- FVSD Literacy Intervention Portfolio/
+|   |-- README.md
+|   |-- docs/
+|   |-- postgres/
+|   `-- tools/
+`-- Social Media Marketing Performance Portfolio/
+    |-- README.md
+    |-- docs/
+    |-- postgres/
+    `-- tools/
 ```
 
 Start with the README inside each project folder for project-specific setup, data preparation, dashboard, and deployment details.
