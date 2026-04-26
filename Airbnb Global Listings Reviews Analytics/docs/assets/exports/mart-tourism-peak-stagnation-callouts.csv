@@ -1,0 +1,31 @@
+city,callout_type,review_month,review_count,recovery_index
+Bangkok,Peak month,2020-01,12933,1.541
+Bangkok,COVID stagnation low,2021-02,276,0.033
+Bangkok,Latest month,2021-02,276,0.033
+Cape Town,Peak month,2020-02,13024,1.686
+Cape Town,COVID stagnation low,2020-05,415,0.054
+Cape Town,Latest month,2021-02,2742,0.355
+Hong Kong,Peak month,2019-03,4275,1.33
+Hong Kong,COVID stagnation low,2021-02,426,0.133
+Hong Kong,Latest month,2021-02,426,0.133
+Istanbul,Peak month,2019-09,7358,1.379
+Istanbul,COVID stagnation low,2021-03,1,0.0
+Istanbul,Latest month,2021-03,1,0.0
+Mexico City,Peak month,2019-11,20578,1.442
+Mexico City,COVID stagnation low,2020-05,685,0.048
+Mexico City,Latest month,2021-02,5297,0.371
+New York,Peak month,2019-09,27406,1.313
+New York,COVID stagnation low,2021-02,425,0.02
+New York,Latest month,2021-02,425,0.02
+Paris,Peak month,2019-06,38774,1.324
+Paris,COVID stagnation low,2020-04,880,0.03
+Paris,Latest month,2021-02,1772,0.061
+Rio de Janeiro,Peak month,2020-01,14015,1.887
+Rio de Janeiro,COVID stagnation low,2020-04,829,0.112
+Rio de Janeiro,Latest month,2021-02,5249,0.707
+Rome,Peak month,2019-10,37448,1.357
+Rome,COVID stagnation low,2020-04,260,0.009
+Rome,Latest month,2021-02,354,0.013
+Sydney,Peak month,2020-01,16542,1.376
+Sydney,COVID stagnation low,2021-02,982,0.082
+Sydney,Latest month,2021-02,982,0.082

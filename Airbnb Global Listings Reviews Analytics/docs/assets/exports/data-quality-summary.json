@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-04-25",
+  "listing_rows": 279712,
+  "review_rows": 5373143,
+  "unmatched_review_rows": 0,
+  "review_min_date": "2008-11-16",
+  "review_max_date": "2021-03-01",
+  "canonical_cities": [
+    "Paris",
+    "New York",
+    "Sydney",
+    "Rome",
+    "Rio de Janeiro",
+    "Istanbul",
+    "Mexico City",
+    "Bangkok",
+    "Cape Town",
+    "Hong Kong"
+  ],
+  "null_counts_top_12": [
+    [
+      "district",
+      242700
+    ],
+    [
+      "host_response_time",
+      128782
+    ],
+    [
+      "host_response_rate",
+      128782
+    ],
+    [
+      "host_acceptance_rate",
+      113087
+    ],
+    [
+      "review_scores_value",
+      91785
+    ],
+    [
+      "review_scores_location",
+      91775
+    ],
+    [
+      "review_scores_checkin",
+      91771
+    ],
+    [
+      "review_scores_accuracy",
+      91713
+    ],
+    [
+      "review_scores_communication",
+      91687
+    ],
+    [
+      "review_scores_cleanliness",
+      91665
+    ],
+    [
+      "review_scores_rating",
+      91405
+    ],
+    [
+      "bedrooms",
+      29435
+    ]
+  ],
+  "exchange_rate_method": "fixed 2020 annual-average local currency per USD"
+}

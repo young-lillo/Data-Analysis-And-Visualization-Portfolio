@@ -1,0 +1,10 @@
+.env
+.env.*
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+postgres-data/
+metabase-data/
+docs/assets/exports/*.csv
+docs/assets/exports/data-preparation-summary.json

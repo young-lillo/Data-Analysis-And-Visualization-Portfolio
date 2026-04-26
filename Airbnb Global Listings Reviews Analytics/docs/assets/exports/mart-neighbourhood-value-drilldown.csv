@@ -1,0 +1,391 @@
+city,neighbourhood,listing_count,median_price_usd,avg_rating
+Istanbul,Sancaktepe,53,21.12,100.0
+Rio de Janeiro,Engenho Novo,36,20.94,99.0
+Rio de Janeiro,Alto da Boa Vista,43,156.46,98.86
+Rio de Janeiro,Cosme Velho,84,53.02,97.78
+Cape Town,Ward 109,51,72.91,97.71
+Bangkok,Bueng Kum,65,31.96,97.65
+New York,Rockaway Beach,46,120.0,97.37
+Cape Town,Ward 69,420,105.17,97.31
+New York,DUMBO,30,173.0,97.14
+New York,Brooklyn Heights,109,150.0,97.11
+Istanbul,Esenler,53,11.41,96.92
+Bangkok,Thung khru,31,32.69,96.89
+Rio de Janeiro,Sao Cristovao,81,32.76,96.89
+New York,Columbia St,34,141.0,96.82
+New York,Parkchester,36,71.0,96.78
+New York,Glendale,47,55.0,96.75
+Cape Town,Ward 61,824,85.06,96.74
+Cape Town,Ward 62,612,121.51,96.73
+New York,Carroll Gardens,169,150.0,96.62
+Rio de Janeiro,Gavea,194,67.86,96.59
+Cape Town,Ward 71,302,104.81,96.56
+New York,South Slope,208,124.0,96.52
+New York,NoHo,48,205.0,96.5
+New York,Cobble Hill,71,150.0,96.43
+Hong Kong,Sha Tin,51,50.03,96.28
+Bangkok,Taling Chan,46,56.72,96.27
+Sydney,Pittwater,1165,274.79,96.26
+Rio de Janeiro,Barra de Guaratiba,56,60.1,96.25
+Rio de Janeiro,Rio Comprido,91,38.77,96.22
+Rio de Janeiro,Todos os Santos,30,43.62,96.21
+Cape Town,Ward 84,323,60.76,96.21
+New York,Boerum Hill,136,140.0,96.21
+Hong Kong,Tuen Mun,33,51.57,96.19
+Cape Town,Ward 112,102,52.55,96.14
+Hong Kong,Sai Kung,84,64.47,96.08
+Rio de Janeiro,Jardim Botanico,204,58.16,96.0
+Rio de Janeiro,Vila Isabel,188,31.21,95.97
+New York,Civic Center,38,151.0,95.94
+New York,Prospect Heights,229,108.0,95.92
+New York,Park Slope,360,132.0,95.9
+Rio de Janeiro,Humaita,168,50.31,95.88
+New York,Windsor Terrace,85,100.0,95.88
+Istanbul,Silivri,45,107.01,95.88
+Cape Town,Ward 74,981,112.83,95.87
+Cape Town,Ward 14,40,74.43,95.83
+Cape Town,Ward 85,69,57.72,95.79
+New York,Greenpoint,807,102.0,95.79
+Sydney,Sutherland Shire,510,96.76,95.78
+Rio de Janeiro,Campo Grande,83,38.77,95.74
+Rio de Janeiro,Urca,111,51.38,95.71
+New York,Claremont Village,32,62.5,95.67
+Bangkok,Sai Mai,52,22.37,95.64
+Rio de Janeiro,Botafogo,1222,38.77,95.63
+Sydney,Penrith,165,82.64,95.58
+New York,Red Hook,67,120.0,95.58
+New York,Clinton Hill,419,119.0,95.54
+New York,Arverne,64,125.0,95.54
+Cape Town,Ward 59,549,60.15,95.53
+New York,Fort Greene,338,128.5,95.48
+Rio de Janeiro,Curicica,57,32.18,95.46
+Cape Town,Ward 15,378,60.06,95.46
+New York,St. George,42,81.5,95.44
+Mexico City,A�lvaro Obregon,977,27.92,95.41
+Rio de Janeiro,Praca da Bandeira,53,31.8,95.41
+Rio de Janeiro,Laranjeiras,426,46.24,95.4
+Bangkok,Pom Prap Sattru Phai,155,37.71,95.39
+Rio de Janeiro,Jardim Guanabara,53,25.2,95.37
+New York,Ozone Park,41,81.0,95.37
+Sydney,Warringah,1705,117.08,95.34
+Rio de Janeiro,Gloria,211,34.9,95.32
+Cape Town,Ward 64,944,60.76,95.32
+Rio de Janeiro,Santa Teresa,882,36.84,95.31
+New York,Kew Gardens,33,69.0,95.3
+Bangkok,Chom Thong,93,29.65,95.29
+Rio de Janeiro,Tijuca,472,38.58,95.29
+Rio de Janeiro,Flamengo,612,40.42,95.29
+Cape Town,Ward 77,1227,65.31,95.29
+Cape Town,Ward 73,236,57.51,95.27
+New York,Bayside,36,89.0,95.27
+Rome,III Monte Sacro,426,57.01,95.26
+New York,Williamsburg,2733,100.0,95.26
+Rio de Janeiro,Joa,81,484.68,95.24
+Mexico City,La Magdalena Contreras,145,23.5,95.22
+Bangkok,Bang Sue,285,25.53,95.18
+Rio de Janeiro,Leblon,1165,87.24,95.17
+New York,Gowanus,174,120.0,95.17
+New York,St. Albans,64,78.0,95.14
+Rio de Janeiro,Jacarepagua,1335,63.2,95.13
+New York,Astoria,663,70.0,95.12
+Rio de Janeiro,Maracana,168,58.16,95.1
+Mexico City,Miguel Hidalgo,3288,43.24,95.07
+New York,Woodhaven,69,55.0,95.05
+Cape Town,Ward 58,373,45.57,95.04
+Rio de Janeiro,Centro,773,29.08,95.03
+Cape Town,Ward 46,33,36.45,95.0
+Istanbul,Maltepe,386,26.82,94.98
+Mexico City,Benito Juarez,3133,26.06,94.96
+Mexico City,Cuajimalpa de Morelos,516,41.89,94.96
+New York,Ditmars Steinway,223,75.0,94.96
+Cape Town,Ward 21,187,39.49,94.95
+Mexico City,Cuauhtemoc,7626,36.77,94.94
+New York,Flatbush,431,75.0,94.93
+Mexico City,Coyoacan,1675,23.27,94.92
+Rio de Janeiro,Barra da Tijuca,2724,77.55,94.92
+Istanbul,Umraniye,239,35.67,94.91
+New York,Sunset Park,304,75.0,94.9
+Cape Town,Ward 4,284,62.85,94.86
+New York,Williamsbridge,39,67.0,94.85
+New York,Bay Ridge,119,64.0,94.83
+New York,West Village,598,166.5,94.81
+New York,Nolita,210,144.5,94.8
+New York,SoHo,282,169.5,94.8
+Cape Town,Ward 57,498,36.42,94.73
+Rio de Janeiro,Recreio dos Bandeirantes,1179,69.79,94.73
+New York,Fort Hamilton,40,98.5,94.73
+Cape Town,Ward 54,2552,134.73,94.72
+New York,Tompkinsville,37,69.0,94.71
+New York,Richmond Hill,73,75.0,94.69
+Bangkok,Thon buri,261,31.92,94.68
+Rome,X Ostia/Acilia,631,68.42,94.63
+Sydney,Hunters Hill,51,106.75,94.62
+Cape Town,Ward 8,86,36.45,94.6
+Bangkok,Lak Si,149,25.56,94.55
+Sydney,Manly,1631,137.74,94.54
+Sydney,Mosman,480,163.22,94.47
+Cape Town,Ward 67,31,36.45,94.43
+New York,Wakefield,61,59.0,94.43
+Rio de Janeiro,Guaratiba,82,74.64,94.42
+New York,Norwood,30,59.5,94.41
+Sydney,North Sydney,1188,89.53,94.41
+Cape Town,Ward 103,68,48.61,94.4
+Sydney,Camden,52,68.87,94.39
+Cape Town,Ward 5,83,39.49,94.37
+Rome,VI Roma delle Torri,251,45.61,94.36
+Rio de Janeiro,Ipanema,2572,76.1,94.34
+Rio de Janeiro,Lagoa,262,89.47,94.33
+Bangkok,Chatu Chak,632,33.49,94.3
+Bangkok,Khlong San,494,38.35,94.25
+New York,Allerton,32,69.5,94.24
+Cape Town,Ward 105,105,60.76,94.22
+Mexico City,Tlahuac,52,11.59,94.21
+Rome,XII Monte Verde,1323,68.42,94.19
+New York,Crown Heights,1127,80.0,94.16
+New York,Canarsie,135,89.0,94.16
+New York,Inwood,175,65.0,94.12
+New York,Kensington,124,73.0,94.11
+Rome,XIII Aurelia,1697,68.42,94.1
+Sydney,Waverley,4737,103.31,94.1
+New York,East Village,1314,129.0,94.1
+New York,Battery Park City,69,150.0,94.1
+Sydney,Liverpool,138,65.43,94.09
+New York,Downtown Brooklyn,55,135.0,94.08
+Sydney,Leichhardt,817,103.31,94.06
+New York,Tribeca,167,209.0,94.06
+Mexico City,Venustiano Carranza,440,20.92,94.05
+Rio de Janeiro,Copacabana,7712,48.47,94.05
+Bangkok,Khan Na Yao,69,31.96,94.04
+Cape Town,Ward 70,177,42.96,94.03
+Rio de Janeiro,Vargem Pequena,117,58.16,94.02
+New York,Brighton Beach,62,99.5,94.02
+New York,Sunnyside,279,70.0,94.01
+Bangkok,Phaya Thai,536,38.14,94.0
+Rio de Janeiro,Anil,42,51.67,94.0
+Mexico City,Tlalpan,841,18.62,93.99
+New York,Gramercy,247,129.0,93.99
+New York,Prospect-Lefferts Gardens,357,79.0,93.97
+Rome,VII San Giovanni/Cinecitta,2079,62.71,93.96
+New York,Brownsville,62,60.0,93.94
+New York,Murray Hill,417,144.0,93.94
+Hong Kong,Southern,48,128.16,93.93
+Bangkok,Samphanthawong,144,42.87,93.92
+Sydney,Hornsby,425,64.05,93.91
+New York,Bedford-Stuyvesant,2711,80.0,93.91
+New York,Concourse,54,80.0,93.91
+Bangkok,Min Buri,70,32.75,93.86
+Rio de Janeiro,Pechincha,51,48.47,93.86
+New York,Sheepshead Bay,134,87.5,93.86
+New York,Jackson Heights,213,51.0,93.85
+Rome,V Prenestino/Centocelle,1087,45.61,93.84
+Cape Town,Ward 23,1056,68.05,93.84
+New York,Briarwood,34,70.0,93.84
+Cape Town,Ward 1,207,45.57,93.83
+New York,East Elmhurst,146,64.5,93.83
+Cape Town,Ward 113,289,36.76,93.82
+Mexico City,Iztapalapa,300,16.03,93.8
+Mexico City,Azcapotzalco,248,20.94,93.78
+Rome,XIV Monte Mario,573,62.71,93.78
+New York,Greenwich Village,259,169.0,93.76
+Sydney,Woollahra,1382,104.68,93.75
+Rio de Janeiro,Camorim,252,48.47,93.74
+New York,Ridgewood,291,59.0,93.74
+Mexico City,Iztacalco,264,17.99,93.73
+Rome,XI Arvalia/Portuense,531,57.01,93.73
+Bangkok,Din Daeng,576,30.36,93.71
+Rio de Janeiro,Vidigal,134,32.96,93.71
+Rio de Janeiro,Catete,236,38.77,93.71
+Rome,XV Cassia/Flaminia,501,68.42,93.71
+New York,Harlem,1972,80.0,93.7
+New York,Flatiron District,75,175.0,93.7
+New York,Little Italy,102,100.0,93.68
+New York,Upper West Side,1454,135.5,93.68
+Rome,VIII Appia Antica,804,57.01,93.67
+Bangkok,Yan na wa,230,41.61,93.66
+Rio de Janeiro,Leme,505,50.41,93.66
+Paris,Popincourt,6206,85.52,93.61
+New York,Upper East Side,1342,125.0,93.59
+Bangkok,Bangkok Yai,102,38.35,93.58
+Hong Kong,Yuen Long,132,58.34,93.55
+Istanbul,Kadikoy,2260,27.68,93.54
+Bangkok,Huai Khwang,1500,31.96,93.51
+Rio de Janeiro,Grajau,48,32.47,93.5
+Istanbul,Adalar,195,69.34,93.5
+New York,Flatlands,72,82.5,93.49
+Bangkok,Bang Na,575,28.73,93.48
+Paris,Enclos-St-Laurent,4628,91.22,93.48
+New York,Washington Heights,633,65.0,93.47
+Bangkok,Sathon,880,31.92,93.46
+Istanbul,Sariyer,324,51.08,93.45
+Rio de Janeiro,Taquara,119,38.77,93.44
+Paris,Menilmontant,3758,70.7,93.43
+New York,Corona,60,45.0,93.4
+Rio de Janeiro,Freguesia (Jacarepagua),141,50.02,93.4
+New York,Fordham,38,57.0,93.38
+Paris,Hotel-de-Ville,1972,124.29,93.37
+Paris,Buttes-Montmartre,7237,79.82,93.31
+New York,Long Island City,376,87.5,93.31
+Bangkok,Bang Kho laen,154,31.96,93.3
+Rio de Janeiro,Andarai,51,33.15,93.3
+Istanbul,Beykoz,112,63.42,93.3
+Cape Town,Ward 55,475,64.16,93.3
+Bangkok,Khlong Toei,2376,35.15,93.29
+Rome,I Centro Storico,14874,90.08,93.29
+New York,Morningside Heights,233,85.0,93.27
+New York,Cypress Hills,104,60.0,93.26
+Sydney,Marrickville,1111,60.61,93.25
+Paris,Reuilly,2654,79.82,93.25
+New York,Fresh Meadows,35,80.0,93.25
+Paris,Palais-Bourbon,1771,114.03,93.24
+Paris,Opera,3157,102.62,93.2
+New York,Lower East Side,707,115.0,93.17
+Bangkok,Bangkok Noi,177,34.83,93.13
+New York,East Flatbush,380,72.0,93.13
+Cape Town,Ward 102,58,44.05,93.09
+New York,Maspeth,93,65.0,93.08
+Paris,Buttes-Chaumont,3728,74.12,93.08
+Mexico City,Gustavo A. Madero,386,19.9,93.06
+Istanbul,Besiktas,1632,35.88,93.05
+Paris,Batignolles-Monceau,4330,90.08,93.05
+Paris,Vaugirard,4826,91.22,93.03
+Rome,IX Eur,347,68.42,93.0
+Paris,Observatoire,2485,82.1,92.97
+New York,Bushwick,1678,60.0,92.96
+Rome,II Parioli/Nomentano,1991,68.42,92.96
+Cape Town,Ward 115,3293,60.76,92.94
+Paris,Pantheon,2140,107.18,92.94
+Sydney,City Of Kogarah,214,49.59,92.91
+Rio de Janeiro,Sao Conrado,226,96.06,92.9
+Bangkok,Phra Khanong,696,28.78,92.89
+Istanbul,Eyup,234,35.67,92.88
+Bangkok,Vadhana,2455,46.33,92.83
+Sydney,Canada Bay,383,68.87,92.83
+New York,Midwood,91,70.0,92.83
+Cape Town,Ward 83,249,57.72,92.82
+Istanbul,Uskudar,727,21.4,92.8
+New York,Queens Village,54,77.5,92.77
+New York,Hell's Kitchen,1506,130.0,92.77
+Bangkok,Bang Phlat,255,25.56,92.75
+Mexico City,Xochimilco,149,18.62,92.74
+New York,Mott Haven,62,74.5,92.73
+Paris,Louvre,1408,131.13,92.73
+Paris,Temple,2943,114.03,92.7
+New York,Financial District,515,124.0,92.7
+Cape Town,Ward 53,204,39.49,92.69
+Bangkok,Suanluang,463,31.92,92.66
+Sydney,Willoughby,477,77.13,92.65
+Bangkok,Bang Kapi,332,24.78,92.62
+Rio de Janeiro,Itanhanga,137,77.55,92.62
+Paris,Luxembourg,1998,123.72,92.62
+Sydney,Sydney,8074,82.64,92.61
+Rome,IV Tiburtina,532,51.31,92.57
+Paris,Gobelins,2278,79.82,92.56
+New York,Two Bridges,64,84.5,92.56
+Sydney,Ryde,594,59.57,92.55
+New York,Springfield Gardens,79,82.0,92.54
+Bangkok,Bang Rak,1079,44.07,92.52
+Cape Town,Ward 63,68,29.77,92.51
+Sydney,Ku-Ring-Gai,306,68.87,92.49
+Sydney,Fairfield,86,52.0,92.48
+Sydney,Ashfield,255,58.54,92.43
+New York,East Harlem,728,87.0,92.4
+Sydney,Botany Bay,628,55.1,92.38
+Bangkok,Parthum Wan,573,59.34,92.38
+New York,Chelsea,872,145.0,92.38
+Istanbul,Atasehir,397,34.24,92.37
+New York,Flushing,352,60.0,92.37
+Cape Town,Ward 100,350,68.32,92.35
+Bangkok,Ratchathewi,1371,39.94,92.33
+Sydney,The Hills Shire,295,51.65,92.31
+Paris,Passy,3215,114.03,92.3
+New York,Chinatown,261,109.0,92.23
+Istanbul,Kucukcekmece,194,34.96,92.22
+Bangkok,Wang Thong Lang,166,22.37,92.16
+Bangkok,Bang Khen,148,27.83,92.16
+Hong Kong,North,193,46.16,92.16
+Bangkok,Dusit,117,35.73,92.15
+Sydney,Randwick,3045,75.76,92.15
+Paris,Bourse,2188,114.03,92.15
+Bangkok,Rat Burana,55,31.96,92.14
+New York,Kingsbridge,51,70.0,92.09
+New York,Jamaica,182,70.0,92.08
+Istanbul,Gungoren,73,40.66,91.91
+Cape Town,Ward 107,528,60.15,91.84
+Rio de Janeiro,Paqueta,34,50.41,91.83
+New York,East New York,186,79.5,91.81
+Sydney,Rockdale,855,53.72,91.79
+Bangkok,Lat Krabang,260,31.65,91.77
+Istanbul,Beylikduzu,116,42.8,91.7
+Paris,Elysee,1768,144.24,91.7
+Sydney,Lane Cove,284,74.72,91.68
+New York,Roosevelt Island,48,80.0,91.68
+New York,Longwood,48,66.5,91.64
+New York,Forest Hills,96,89.0,91.58
+Sydney,Bankstown,259,53.72,91.55
+Bangkok,Phasi Charoen,179,25.56,91.51
+Bangkok,Don Mueang,210,25.56,91.5
+New York,Kips Bay,392,125.0,91.49
+Hong Kong,Central & Western,930,69.49,91.39
+Hong Kong,Islands,289,102.89,91.27
+New York,South Ozone Park,35,80.0,91.22
+Rio de Janeiro,Estacio,70,24.53,91.21
+Hong Kong,Wan Chai,1438,38.68,91.21
+Istanbul,Beyoglu,6674,37.1,91.18
+Istanbul,Kagithane,662,25.68,91.16
+Cape Town,Ward 60,107,36.45,91.16
+New York,Bensonhurst,64,68.5,91.14
+Istanbul,Bakirkoy,293,35.67,91.13
+New York,Throgs Neck,30,65.0,91.08
+Sydney,Auburn,377,68.87,91.01
+New York,Gravesend,65,69.0,90.92
+Sydney,Blacktown,276,43.73,90.86
+New York,Borough Park,89,56.0,90.86
+New York,Midtown,1451,149.0,90.84
+New York,Woodside,363,34.0,90.79
+Sydney,Canterbury,337,48.21,90.77
+New York,Elmhurst,241,50.0,90.72
+Istanbul,Sisli,3522,41.23,90.65
+Istanbul,Tuzla,106,34.6,90.63
+Istanbul,Bahcelievler,231,26.54,90.55
+Sydney,Burwood,230,48.21,90.44
+Bangkok,Pra Wet,187,30.36,90.41
+Sydney,Campbelltown,107,57.16,90.3
+Rio de Janeiro,Vargem Grande,96,53.51,90.14
+Bangkok,Phra Nakhon,802,31.96,90.03
+Bangkok,Khlong Sam Wa,43,38.35,90.0
+Istanbul,Bagcilar,231,45.8,89.83
+Sydney,Parramatta,537,54.41,89.82
+New York,Rosedale,60,80.0,89.74
+Sydney,Hurstville,180,44.77,89.71
+New York,Stuyvesant Town,63,100.0,89.48
+Bangkok,Saphan Sung,49,31.64,89.42
+New York,Theater District,303,170.0,89.35
+Cape Town,Ward 27,42,30.38,89.31
+New York,Port Morris,41,84.0,89.3
+Istanbul,Kartal,204,28.53,89.28
+Istanbul,Fatih,3326,39.66,89.26
+Hong Kong,Eastern,265,42.55,89.25
+Istanbul,Sile,177,72.91,89.24
+Sydney,Strathfield,178,48.21,89.19
+Istanbul,Pendik,233,28.53,88.66
+Istanbul,Arnavutkoy,89,44.23,88.55
+Hong Kong,Yau Tsim Mong,3038,45.84,88.35
+Sydney,Holroyd,96,43.73,88.12
+Hong Kong,Kowloon City,332,55.25,88.04
+Cape Town,Ward 3,85,30.38,88.02
+Bangkok,Lat Phrao,76,38.35,87.96
+Istanbul,Avcilar,257,28.53,87.71
+New York,Rego Park,77,70.0,87.24
+Cape Town,Ward 11,44,33.42,87.04
+Cape Town,Ward 2,136,37.06,86.93
+Istanbul,Basaksehir,282,59.99,86.83
+Hong Kong,Kwun Tong,32,64.34,86.47
+Istanbul,Buyukcekmece,113,53.65,86.44
+Hong Kong,Sham Shui Po,154,32.94,85.77
+Istanbul,Gaziosmanpasa,83,55.93,84.78
+Istanbul,Esenyurt,720,32.24,84.55
+Istanbul,Zeytinburnu,116,48.79,84.05
+Bangkok,Bang Khae,103,31.64,83.85
+Rio de Janeiro,Engenho de Dentro,44,69.99,82.92
+Istanbul,Bayrampasa,37,26.54,82.75
+Istanbul,Cekmekoy,60,32.46,80.82

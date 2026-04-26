@@ -1,0 +1,41 @@
+city,room_type,superhost_listing_count,regular_listing_count,superhost_median_usd,regular_median_usd,premium_usd
+Bangkok,Entire place,2728,7894,36.25,38.35,-2.09
+Bangkok,Hotel room,164,856,38.35,41.13,-2.78
+Bangkok,Private room,882,6111,28.76,33.78,-5.02
+Bangkok,Shared room,109,616,11.18,15.43,-4.25
+Cape Town,Entire place,3903,10238,72.91,81.23,-8.32
+Cape Town,Hotel room,35,271,99.64,78.98,20.66
+Cape Town,Private room,654,3842,30.38,39.49,-9.11
+Cape Town,Shared room,9,118,21.87,17.04,4.83
+Hong Kong,Entire place,377,2209,96.7,87.55,9.15
+Hong Kong,Hotel room,7,173,1289.32,58.02,1231.3
+Hong Kong,Private room,843,3044,32.23,41.26,-9.03
+Hong Kong,Shared room,59,371,22.69,24.5,-1.81
+Istanbul,Entire place,2242,10180,49.94,49.94,0.0
+Istanbul,Hotel room,119,683,40.95,48.65,-7.7
+Istanbul,Private room,828,9771,21.69,23.4,-1.71
+Istanbul,Shared room,41,641,11.41,15.69,-4.28
+Mexico City,Entire place,4202,6341,46.07,43.38,2.7
+Mexico City,Hotel room,62,184,57.87,55.82,2.05
+Mexico City,Private room,2056,6829,17.69,18.62,-0.93
+Mexico City,Shared room,72,309,11.63,13.96,-2.33
+New York,Entire place,3887,15504,131.0,145.0,-14.0
+New York,Hotel room,43,256,213.0,143.5,69.5
+New York,Private room,2933,13685,65.0,60.0,5.0
+New York,Shared room,108,578,40.0,45.0,-5.0
+Paris,Entire place,6620,48726,111.74,91.22,20.52
+Paris,Hotel room,283,1113,189.28,176.74,12.54
+Paris,Private room,1173,6318,71.84,57.01,14.82
+Paris,Shared room,36,388,45.04,38.2,6.84
+Rio de Janeiro,Entire place,3605,15660,48.47,73.28,-24.82
+Rio de Janeiro,Hotel room,26,73,40.13,28.89,11.24
+Rio de Janeiro,Private room,869,5747,22.49,34.7,-12.21
+Rio de Janeiro,Shared room,53,558,21.52,19.39,2.13
+Rome,Entire place,5250,11989,85.52,88.94,-3.42
+Rome,Hotel room,235,1041,62.71,68.42,-5.7
+Rome,Private room,1641,7280,50.17,57.01,-6.84
+Rome,Shared room,20,180,20.52,22.81,-2.28
+Sydney,Entire place,2802,17529,113.64,123.97,-10.33
+Sydney,Hotel room,53,180,141.87,92.63,49.24
+Sydney,Private room,1209,11230,48.21,46.83,1.38
+Sydney,Shared room,15,578,24.1,26.86,-2.75

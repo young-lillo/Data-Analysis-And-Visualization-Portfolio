@@ -1,0 +1,12 @@
+.env
+.env.*
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+postgres-data/
+metabase-data/
+raw-data/
+data/
+*.log
+*.tmp

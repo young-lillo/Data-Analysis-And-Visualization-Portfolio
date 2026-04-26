@@ -1,0 +1,41 @@
+city,room_type,listing_count,p25_price_usd,median_price_usd,p75_price_usd
+Bangkok,Entire place,10623,23.97,38.09,63.91
+Bangkok,Hotel room,1020,25.56,40.61,70.3
+Bangkok,Private room,6993,22.37,31.96,57.52
+Bangkok,Shared room,725,11.18,14.38,20.77
+Cape Town,Entire place,14150,47.41,78.22,159.97
+Cape Town,Hotel room,306,52.86,82.05,152.53
+Cape Town,Private room,4503,24.3,37.79,66.83
+Cape Town,Shared room,127,12.15,17.13,36.45
+Hong Kong,Entire place,2589,52.73,88.96,132.41
+Hong Kong,Hotel room,180,32.36,58.02,106.18
+Hong Kong,Private room,3888,28.11,38.68,59.18
+Hong Kong,Shared room,430,16.37,24.05,35.2
+Istanbul,Entire place,12429,31.96,49.94,80.61
+Istanbul,Hotel room,802,28.53,46.23,77.86
+Istanbul,Private room,10605,14.27,23.26,41.09
+Istanbul,Shared room,683,11.41,14.27,26.68
+Mexico City,Entire place,10548,30.58,44.21,67.3
+Mexico City,Hotel room,246,29.73,56.01,92.75
+Mexico City,Private room,8890,13.5,18.62,27.92
+Mexico City,Shared room,381,9.77,13.96,23.27
+New York,Entire place,19397,100.0,140.0,200.0
+New York,Hotel room,299,95.5,150.0,288.5
+New York,Private room,16630,45.0,60.0,88.0
+New York,Shared room,686,33.0,45.0,80.0
+Paris,Entire place,55378,68.42,93.5,136.83
+Paris,Hotel room,1396,116.31,179.59,302.17
+Paris,Private room,7492,45.61,60.43,91.22
+Paris,Shared room,424,28.51,38.77,57.01
+Rio de Janeiro,Entire place,19285,38.77,67.86,135.32
+Rio de Janeiro,Hotel room,99,15.51,35.48,56.22
+Rio de Janeiro,Private room,6619,19.39,31.02,56.22
+Rio de Janeiro,Shared room,612,11.63,19.39,38.77
+Rome,Entire place,17248,62.71,87.8,125.43
+Rome,Hotel room,1276,50.17,68.42,102.62
+Rome,Private room,8923,38.77,55.87,79.82
+Rome,Shared room,200,17.1,22.81,34.21
+Sydney,Entire place,20358,82.64,121.21,206.61
+Sydney,Hotel room,233,75.76,102.62,151.52
+Sydney,Private room,12445,34.44,46.83,65.43
+Sydney,Shared room,594,20.66,26.86,41.32

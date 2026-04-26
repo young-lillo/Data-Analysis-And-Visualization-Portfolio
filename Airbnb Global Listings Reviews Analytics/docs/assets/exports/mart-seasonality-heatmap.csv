@@ -1,0 +1,121 @@
+city,month_number,avg_review_count
+Bangkok,01,3487.8
+Bangkok,02,2670.82
+Bangkok,03,2386.3
+Bangkok,04,2126.89
+Bangkok,05,1971.67
+Bangkok,06,1917.9
+Bangkok,07,2432.33
+Bangkok,08,2325.4
+Bangkok,09,2074.6
+Bangkok,10,2044.6
+Bangkok,11,2452.2
+Bangkok,12,2663.36
+Cape Town,01,4261.6
+Cape Town,02,3825.3
+Cape Town,03,3407.0
+Cape Town,04,2293.56
+Cape Town,05,1410.78
+Cape Town,06,967.36
+Cape Town,07,1160.73
+Cape Town,08,1677.6
+Cape Town,09,2251.89
+Cape Town,10,2541.6
+Cape Town,11,3111.6
+Cape Town,12,3370.36
+Hong Kong,01,1304.7
+Hong Kong,02,936.91
+Hong Kong,03,1034.5
+Hong Kong,04,1117.6
+Hong Kong,05,1072.7
+Hong Kong,06,971.9
+Hong Kong,07,1153.6
+Hong Kong,08,1183.7
+Hong Kong,09,924.7
+Hong Kong,10,1247.7
+Hong Kong,11,1145.5
+Hong Kong,12,1235.6
+Istanbul,01,1635.64
+Istanbul,02,1341.45
+Istanbul,03,1007.5
+Istanbul,04,1124.4
+Istanbul,05,1114.55
+Istanbul,06,1128.45
+Istanbul,07,1507.9
+Istanbul,08,1788.45
+Istanbul,09,1976.91
+Istanbul,10,2016.09
+Istanbul,11,1835.1
+Istanbul,12,1475.64
+Mexico City,01,4772.5
+Mexico City,02,4728.2
+Mexico City,03,4827.44
+Mexico City,04,2780.0
+Mexico City,05,2580.0
+Mexico City,06,3121.0
+Mexico City,07,3421.9
+Mexico City,08,3705.3
+Mexico City,09,3873.4
+Mexico City,10,4626.2
+Mexico City,11,5426.9
+Mexico City,12,4690.4
+New York,01,5216.5
+New York,02,3441.33
+New York,03,4875.36
+New York,04,4783.25
+New York,05,6014.58
+New York,06,5751.0
+New York,07,5929.5
+New York,08,6544.0
+New York,09,7685.58
+New York,10,7878.75
+New York,11,6334.33
+New York,12,6596.0
+Paris,01,8443.67
+Paris,02,6498.75
+Paris,03,7626.0
+Paris,04,7758.0
+Paris,05,8548.64
+Paris,06,9858.0
+Paris,07,10322.0
+Paris,08,9180.64
+Paris,09,10088.0
+Paris,10,10537.17
+Paris,11,7609.33
+Paris,12,7433.17
+Rio de Janeiro,01,4605.09
+Rio de Janeiro,02,3378.36
+Rio de Janeiro,03,2790.6
+Rio de Janeiro,04,1754.5
+Rio de Janeiro,05,1449.7
+Rio de Janeiro,06,1525.82
+Rio de Janeiro,07,1859.09
+Rio de Janeiro,08,2158.36
+Rio de Janeiro,09,2531.55
+Rio de Janeiro,10,2787.18
+Rio de Janeiro,11,2662.73
+Rio de Janeiro,12,2430.55
+Rome,01,5364.54
+Rome,02,5030.85
+Rome,03,6820.7
+Rome,04,7879.25
+Rome,05,10180.0
+Rome,06,9496.5
+Rome,07,9291.5
+Rome,08,8699.27
+Rome,09,10292.75
+Rome,10,11609.82
+Rome,11,5963.83
+Rome,12,4962.25
+Sydney,01,5111.55
+Sydney,02,4227.27
+Sydney,03,4026.27
+Sydney,04,3090.3
+Sydney,05,2388.09
+Sydney,06,2816.7
+Sydney,07,3094.18
+Sydney,08,3057.18
+Sydney,09,3260.18
+Sydney,10,4249.18
+Sydney,11,4609.82
+Sydney,12,4101.75

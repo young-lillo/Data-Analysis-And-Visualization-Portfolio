@@ -1,0 +1,17 @@
+driver,n,pearson_with_price_usd
+accommodates,279712,0.167
+bedrooms,250277,0.147
+host_total_listings_count,279547,0.0339
+review_scores_location,187937,0.0219
+review_scores_value,187927,-0.0188
+host_identity_verified,279547,0.0158
+host_is_superhost,279547,-0.0118
+minimum_nights,279712,0.0117
+review_scores_rating,188307,0.011
+review_scores_cleanliness,188047,0.0097
+host_has_profile_pic,279547,-0.006
+instant_bookable,279712,-0.0058
+review_scores_communication,188025,-0.0037
+review_scores_accuracy,187999,-0.0019
+review_scores_checkin,187941,-0.0014
+maximum_nights,279712,-0.0002

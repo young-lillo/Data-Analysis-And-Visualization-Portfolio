@@ -1,0 +1,41 @@
+city,room_type,listing_count
+Bangkok,Entire place,10623
+Bangkok,Hotel room,1020
+Bangkok,Private room,6993
+Bangkok,Shared room,725
+Cape Town,Entire place,14150
+Cape Town,Hotel room,306
+Cape Town,Private room,4503
+Cape Town,Shared room,127
+Hong Kong,Entire place,2589
+Hong Kong,Hotel room,180
+Hong Kong,Private room,3888
+Hong Kong,Shared room,430
+Istanbul,Entire place,12429
+Istanbul,Hotel room,802
+Istanbul,Private room,10605
+Istanbul,Shared room,683
+Mexico City,Entire place,10548
+Mexico City,Hotel room,246
+Mexico City,Private room,8890
+Mexico City,Shared room,381
+New York,Entire place,19397
+New York,Hotel room,299
+New York,Private room,16630
+New York,Shared room,686
+Paris,Entire place,55378
+Paris,Hotel room,1396
+Paris,Private room,7492
+Paris,Shared room,424
+Rio de Janeiro,Entire place,19285
+Rio de Janeiro,Hotel room,99
+Rio de Janeiro,Private room,6619
+Rio de Janeiro,Shared room,612
+Rome,Entire place,17248
+Rome,Hotel room,1276
+Rome,Private room,8923
+Rome,Shared room,200
+Sydney,Entire place,20358
+Sydney,Hotel room,233
+Sydney,Private room,12445
+Sydney,Shared room,594
