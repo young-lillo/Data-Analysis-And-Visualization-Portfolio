@@ -1,9 +1,9 @@
-region,longitude,latitude
-Australia,133.7751,-25.2744
-Brazil,-51.9253,-14.235
-Canada,-106.3468,56.1304
-Germany,10.4515,51.1657
-India,78.9629,20.5937
-Japan,138.2529,36.2048
-UK,-3.436,55.3781
-USA,-95.7129,37.0902
+region,country,longitude,latitude
+APAC,Australia,133.7751,-25.2744
+APAC,India,78.9629,20.5937
+APAC,Japan,138.2529,36.2048
+Europe,Germany,10.4515,51.1657
+Europe,UK,-3.436,55.3781
+Latin America,Brazil,-51.9253,-14.235
+North America,Canada,-106.3468,56.1304
+North America,USA,-95.7129,37.0902

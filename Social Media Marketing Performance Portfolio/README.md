@@ -2,6 +2,8 @@
 
 This project turns social media content performance data into a marketing analytics dashboard for platform comparison, content strategy, posting-time optimization, hashtag effectiveness, video/live-stream interest, and organic-versus-sponsored performance.
 
+Live dashboard: `https://data.youngllilo.works/dashboard/11-social-media-marketing-performance`
+
 Local dashboard: `http://localhost:3001/dashboard/2`
 
 Local public dashboard: `http://localhost:3001/public/dashboard/b9f811ac-fd0a-49c3-b4b6-d4597cc04d13`
@@ -10,7 +12,7 @@ Local public dashboard: `http://localhost:3001/public/dashboard/b9f811ac-fd0a-49
 
 The dataset contains 5,600 social post records across 6 platforms, 8 regions, 5 content categories, 7 post types, and 18 main hashtags. The covered date range is `2024-01-01` to `2025-05-01`.
 
-The project uses `CRISP-DM`, Python, PostgreSQL-compatible SQL, Docker, and Metabase. The data model is PostgreSQL-first so it can run locally and later move to Supabase with minimal changes.
+The project uses `CRISP-DM`, Python, PostgreSQL-compatible SQL, Docker, Supabase, and Metabase. The data model is PostgreSQL-first so it can run locally and on Supabase with minimal changes.
 
 ## Goals
 
@@ -57,7 +59,7 @@ What I did with the dataset:
 
 ### 3. Data Visualize
 
-I used Metabase to build a local dashboard backed by PostgreSQL views and prepared marts.
+I used Metabase to build a dashboard backed by PostgreSQL/Supabase views and prepared marts.
 
 Tools used:
 
@@ -79,7 +81,7 @@ Dashboard sections:
 - key insights and suggested actions
 - trackable post detail
 
-The dashboard includes field-backed filters for `Platform`, `Region`, `Content Type`, and `Content Category`.
+The hosted dashboard is published in Metabase at `https://data.youngllilo.works/dashboard/11-social-media-marketing-performance`. The hosted Supabase schema is `social_media_marketing_v2`.
 
 ## How to Clone the Project
 
@@ -122,6 +124,10 @@ docker compose up -d
 More detail: [`docs/publish.md`](docs/publish.md)
 
 ## Dashboard
+
+Live dashboard:
+
+- `https://data.youngllilo.works/dashboard/11-social-media-marketing-performance`
 
 Local dashboard:
 

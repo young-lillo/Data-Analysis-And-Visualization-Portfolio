@@ -1,7 +1,7 @@
-platform,channel_group
-Facebook,Facebook
-Instagram,Instagram
-LinkedIn,LinkedIn
-TikTok,TikTok
-X.com,X.com
-YouTube,YouTube
+platform,channel_group,is_challenge_platform
+Facebook,Facebook,False
+Instagram,Instagram,True
+LinkedIn,LinkedIn,True
+TikTok,TikTok,True
+X (Twitter),X (Twitter),True
+YouTube,YouTube,False

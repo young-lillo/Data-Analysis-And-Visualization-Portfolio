@@ -2,24 +2,29 @@
 
 ## Goal
 
-Prepare a trusted analytics surface for the Social Media Marketing Performance portfolio and make it directly usable by Supabase-compatible PostgreSQL and Metabase.
+Prepare a trusted analytics surface for the Social Media Performance Analytics Challenge and make it directly usable by Supabase-compatible PostgreSQL and Metabase.
 
 ## Inputs
 
 - Source workbook: `docs/assets/user-files/social-media-content-performance-dataset.xlsx`
 - Source sheet count: `1`
 - Project contract: `docs/project-plan.md`
+- Confirmed dashboard scope: full workbook by default; challenge scope remains available in the data model, not as a dashboard filter
 
 ## Executed Steps
 
-1. Copied the user workbook into the project docs tree for local reproducibility.
-2. Built reproducible exports with [build-social-media-prepared-exports.py](../tools/build-social-media-prepared-exports.py).
-3. Standardized source column names into a SQL-friendly shape.
-4. Added a stable `post_row_id` because `post_id` is not unique in the file.
-5. Parsed numeric, date, and timestamp fields.
-6. Derived time attributes including day of week, month, and hour buckets.
-7. Derived KPI helpers such as `reach_efficiency`, `click_efficiency`, `view_efficiency`, and trackable-click flags.
-8. Built dimension and mart exports for platform, region, content, hashtag, posting-time, and paid-versus-organic analysis.
+1. Rebuilt prepared exports with [build-social-media-prepared-exports.py](D:\VScode\Test\data-visualization-skills\projects\social-media-marketing-performance-portfolio\tools\build-social-media-prepared-exports.py).
+2. Standardized source columns into a SQL-friendly shape.
+3. Added stable `post_row_id` because `post_id` is not unique.
+4. Normalized `X.com`, `X`, and `Twitter` to `X (Twitter)`.
+5. Derived `country` from the source `Region` field because no `Country` column exists in the workbook.
+6. Derived macro `region` from country: `North America`, `Latin America`, `Europe`, and `APAC`.
+7. Derived `promotion_type` from `Content_Type`.
+8. Added `is_challenge_scope` for June 2024 plus TikTok, Instagram, LinkedIn, and X (Twitter).
+9. Added `scope_segment` so analysts can distinguish `Challenge Scope` versus `Full Workbook Only` in SQL exploration and QA.
+10. Parsed timestamp, date, numeric, and metric fields.
+11. Derived time features, KPI helpers, video flags, and click-trackability flags.
+12. Built dimensions, fact table, mart exports, and correlation-ready inputs.
 
 ## Prepared Outputs
 
@@ -36,6 +41,7 @@ Location: `docs/assets/exports/`
 - `mart-hashtag-performance.csv`
 - `mart-content-type-comparison.csv`
 - `mart-video-live-region-performance.csv`
+- `mart-correlation-inputs.csv`
 - `data-preparation-summary.json`
 
 ## Validation Summary
@@ -43,10 +49,15 @@ Location: `docs/assets/exports/`
 From `data-preparation-summary.json`:
 
 - Source rows: `5,600`
+- Challenge-scope rows: `246`
+- Full-workbook-only rows: `5,354`
 - Duplicate `post_id`: `600`
-- Platforms: `6`
-- Regions: `8`
-- Hashtags: `18`
+- Source platforms: `Facebook`, `Instagram`, `LinkedIn`, `TikTok`, `X.com`, `YouTube`
+- Normalized platforms: `Facebook`, `Instagram`, `LinkedIn`, `TikTok`, `X (Twitter)`, `YouTube`
+- Countries: `Australia`, `Brazil`, `Canada`, `Germany`, `India`, `Japan`, `UK`, `USA`
+- Derived regions: `APAC`, `Europe`, `Latin America`, `North America`
+- Country source: `Derived from Region column`
+- Promotion types: `Organic`, `Paid/Promoted`
 - Date range: `2024-01-01` to `2025-05-01`
 - Missing `Clicks`: `3,740`
 - Missing `Click Through Rate`: `3,740`
@@ -60,18 +71,34 @@ From `data-preparation-summary.json`:
 - `fact-social-post-performance.csv`
   One source row per published post record.
 - `mart-platform-performance.csv`
-  One row per `platform x post_type x content_type`.
+  One row per `scope_segment x platform x post_type x promotion_type`.
 - `mart-region-content-performance.csv`
-  One row per `region x content_category x platform`.
+  One row per `scope_segment x region x country x content_category x platform`.
 - `mart-posting-time-performance.csv`
-  One row per `platform x day_of_week x hour`.
+  One row per `scope_segment x platform x day_of_week x hour`.
 - `mart-hashtag-performance.csv`
-  One row per `hashtag x platform`.
+  One row per `scope_segment x hashtag x platform x region x country`.
+- `mart-content-type-comparison.csv`
+  One row per `scope_segment x promotion_type x source_content_type x platform`.
+- `mart-video-live-region-performance.csv`
+  One row per `scope_segment x region x country x platform`.
+- `mart-correlation-inputs.csv`
+  One row per post with driver and metric fields for correlation and lift analysis.
 
 ## Derived Business Logic
 
 - `post_row_id`
   Stable row-level primary key because `post_id` repeats.
+- `country`
+  Derived from source `Region` because the workbook does not include a separate country field.
+- `region`
+  Derived macro region from `country`.
+- `promotion_type`
+  `Organic` stays `Organic`; `Sponsored` becomes `Paid/Promoted`.
+- `is_challenge_scope`
+  True when `post_date` is in June 2024 and platform is TikTok, Instagram, LinkedIn, or X (Twitter).
+- `scope_segment`
+  `Challenge Scope` when `is_challenge_scope` is true; otherwise `Full Workbook Only`.
 - `is_click_trackable`
   True when `clicks` or `click_through_rate` is available.
 - `is_video_post`
@@ -84,10 +111,11 @@ From `data-preparation-summary.json`:
 
 ## Data Risks
 
+- The source has no separate `Country` column; country is inferred from the source `Region` values.
+- The current workbook is broader than the June 2024 four-platform challenge scope.
 - `post_id` is not unique, so row-level analysis must use `post_row_id`.
-- Click and CTR coverage is partial and concentrated in a subset of platforms.
-- `engagement` is not equal to `likes + shares + comments`, so it should be treated as a source-provided aggregate metric.
-- The file contains `Facebook` and `YouTube` in addition to the four platforms described in the project brief.
+- Click and CTR coverage is partial, so conversion charts must use trackable rows carefully.
+- `engagement` is not equal to `likes + shares + comments`, so treat it as a source-provided aggregate.
 - Only one `main_hashtag` is available per row, so hashtag analysis is simplified.
 
 ## Hand-off Contract For Visualization
@@ -102,4 +130,10 @@ Metabase should treat the following as canonical sources:
 - `vw_sm_hashtag_effectiveness`
 - `vw_sm_video_live_region_interest`
 - `vw_sm_organic_vs_sponsored`
+- `vw_sm_regional_ctr_comparison`
+- `vw_sm_correlation_driver_inputs`
 - `vw_sm_post_detail`
+
+## Unresolved Questions
+
+- None.

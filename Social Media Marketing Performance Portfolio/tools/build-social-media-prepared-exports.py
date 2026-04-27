@@ -16,6 +16,32 @@ DAY_ORDER = {
     "Sunday": 7,
 }
 
+COUNTRY_TO_REGION = {
+    "USA": "North America",
+    "Canada": "North America",
+    "Brazil": "Latin America",
+    "UK": "Europe",
+    "Germany": "Europe",
+    "India": "APAC",
+    "Japan": "APAC",
+    "Australia": "APAC",
+}
+
+PLATFORM_LABELS = {
+    "X.com": "X (Twitter)",
+    "X": "X (Twitter)",
+    "Twitter": "X (Twitter)",
+}
+
+CHALLENGE_PLATFORMS = {"TikTok", "Instagram", "LinkedIn", "X (Twitter)"}
+CHALLENGE_START = pd.Timestamp("2024-06-01")
+CHALLENGE_END = pd.Timestamp("2024-06-30")
+
+PROMOTION_LABELS = {
+    "Organic": "Organic",
+    "Sponsored": "Paid/Promoted",
+}
+
 
 def hour_bucket(hour: float | int | None) -> str:
     if pd.isna(hour):
@@ -47,6 +73,7 @@ def main() -> None:
             "Content_Type": "content_type",
             "Content_Category": "content_category",
             "Post_Type": "post_type",
+            "Country": "country",
             "Region": "region",
             "Longitude": "longitude",
             "Latitude": "latitude",
@@ -70,6 +97,15 @@ def main() -> None:
     )
     frame.insert(0, "source_row_number", range(1, len(frame) + 1))
     frame.insert(1, "post_row_id", [f"post_row_{idx}" for idx in range(1, len(frame) + 1)])
+
+    frame["source_platform"] = frame["platform"].astype("string")
+    frame["platform"] = frame["source_platform"].replace(PLATFORM_LABELS)
+    frame["source_region"] = frame["region"].astype("string")
+    if "country" not in frame.columns:
+        frame["country"] = frame["source_region"]
+    frame["country"] = frame["country"].astype("string").str.strip()
+    frame["region"] = frame["country"].map(COUNTRY_TO_REGION).fillna("Other")
+    frame["promotion_type"] = frame["content_type"].map(PROMOTION_LABELS).fillna(frame["content_type"])
 
     numeric_cols = [
         "longitude",
@@ -101,6 +137,8 @@ def main() -> None:
     frame["is_click_trackable"] = frame["clicks_available"] | frame["ctr_available"]
     frame["is_video_post"] = frame["video_views"].fillna(0).gt(0) | frame["post_type"].eq("Video")
     frame["is_live_stream_post"] = frame["live_stream_views"].fillna(0).gt(0) | frame["post_type"].eq("Live Stream")
+    frame["is_challenge_scope"] = frame["post_date"].between(CHALLENGE_START, CHALLENGE_END) & frame["platform"].isin(CHALLENGE_PLATFORMS)
+    frame["scope_segment"] = frame["is_challenge_scope"].map({True: "Challenge Scope", False: "Full Workbook Only"})
     frame["reach_efficiency"] = (frame["engagement"] / frame["impressions"]).where(frame["impressions"].gt(0))
     frame["click_efficiency"] = (frame["clicks"] / frame["impressions"]).where(frame["impressions"].gt(0))
     frame["view_efficiency"] = (frame["views"] / frame["impressions"]).where(frame["impressions"].gt(0))
@@ -109,6 +147,8 @@ def main() -> None:
     frame["content_key"] = (
         frame["content_type"].astype(str)
         + " | "
+        + frame["promotion_type"].astype(str)
+        + " | "
         + frame["content_category"].astype(str)
         + " | "
         + frame["post_type"].astype(str)
@@ -116,16 +156,17 @@ def main() -> None:
 
     dim_platform = pd.DataFrame({"platform": sorted(frame["platform"].dropna().astype(str).unique())})
     dim_platform["channel_group"] = dim_platform["platform"]
+    dim_platform["is_challenge_platform"] = dim_platform["platform"].isin(CHALLENGE_PLATFORMS)
     dim_region = (
-        frame.groupby("region", dropna=False)
+        frame.groupby(["region", "country"], dropna=False)
         .agg(longitude=("longitude", "median"), latitude=("latitude", "median"))
         .reset_index()
-        .sort_values("region")
+        .sort_values(["region", "country"])
     )
     dim_content = (
-        frame[["content_key", "content_type", "content_category", "post_type"]]
+        frame[["content_key", "content_type", "promotion_type", "content_category", "post_type"]]
         .drop_duplicates()
-        .sort_values(["content_type", "content_category", "post_type"])
+        .sort_values(["promotion_type", "content_category", "post_type"])
     )
     dim_hashtag = (
         frame[["main_hashtag"]]
@@ -139,7 +180,9 @@ def main() -> None:
             "post_row_id",
             "source_row_number",
             "post_id",
+            "source_platform",
             "platform",
+            "country",
             "region",
             "content_key",
             "main_hashtag",
@@ -152,6 +195,7 @@ def main() -> None:
             "published_hour_bucket",
             "engagement_level",
             "content_type",
+            "promotion_type",
             "content_category",
             "post_type",
             "engagement",
@@ -173,13 +217,15 @@ def main() -> None:
             "is_click_trackable",
             "is_video_post",
             "is_live_stream_post",
+            "is_challenge_scope",
+            "scope_segment",
             "longitude",
             "latitude",
         ]
     ].copy()
 
     mart_platform = (
-        fact_post.groupby(["platform", "post_type", "content_type"], dropna=False)
+        fact_post.groupby(["scope_segment", "is_challenge_scope", "platform", "post_type", "content_type", "promotion_type"], dropna=False)
         .agg(
             posts=("post_row_id", "count"),
             total_engagement=("engagement", "sum"),
@@ -192,7 +238,7 @@ def main() -> None:
         .reset_index()
     )
     mart_region_content = (
-        fact_post.groupby(["region", "content_category", "platform"], dropna=False)
+        fact_post.groupby(["scope_segment", "is_challenge_scope", "region", "country", "content_category", "platform"], dropna=False)
         .agg(
             posts=("post_row_id", "count"),
             total_engagement=("engagement", "sum"),
@@ -204,7 +250,7 @@ def main() -> None:
         .reset_index()
     )
     mart_posting_time = (
-        fact_post.groupby(["platform", "published_day_of_week", "published_day_sort", "post_hour"], dropna=False)
+        fact_post.groupby(["scope_segment", "is_challenge_scope", "platform", "published_day_of_week", "published_day_sort", "post_hour"], dropna=False)
         .agg(
             posts=("post_row_id", "count"),
             avg_engagement=("engagement", "mean"),
@@ -215,7 +261,7 @@ def main() -> None:
         .reset_index()
     )
     mart_hashtag = (
-        fact_post.groupby(["main_hashtag", "platform"], dropna=False)
+        fact_post.groupby(["scope_segment", "is_challenge_scope", "main_hashtag", "platform", "region", "country"], dropna=False)
         .agg(
             posts=("post_row_id", "count"),
             total_impressions=("impressions", "sum"),
@@ -226,7 +272,7 @@ def main() -> None:
         .reset_index()
     )
     mart_content_type = (
-        fact_post.groupby(["content_type", "platform"], dropna=False)
+        fact_post.groupby(["scope_segment", "is_challenge_scope", "promotion_type", "content_type", "platform"], dropna=False)
         .agg(
             posts=("post_row_id", "count"),
             total_impressions=("impressions", "sum"),
@@ -238,7 +284,7 @@ def main() -> None:
         .reset_index()
     )
     mart_video_live = (
-        fact_post.groupby(["region", "platform"], dropna=False)
+        fact_post.groupby(["scope_segment", "is_challenge_scope", "region", "country", "platform"], dropna=False)
         .agg(
             posts=("post_row_id", "count"),
             total_video_views=("video_views", "sum"),
@@ -248,6 +294,32 @@ def main() -> None:
         )
         .reset_index()
     )
+    mart_correlation_inputs = fact_post[
+        [
+            "post_row_id",
+            "scope_segment",
+            "is_challenge_scope",
+            "platform",
+            "region",
+            "country",
+            "promotion_type",
+            "content_category",
+            "post_type",
+            "published_day_of_week",
+            "post_hour",
+            "engagement",
+            "views",
+            "impressions",
+            "clicks",
+            "click_through_rate",
+            "engagement_rate",
+            "reach_efficiency",
+            "click_efficiency",
+            "view_efficiency",
+            "video_views",
+            "live_stream_views",
+        ]
+    ].copy()
 
     outputs = {
         "dim-platform.csv": dim_platform,
@@ -261,22 +333,30 @@ def main() -> None:
         "mart-hashtag-performance.csv": mart_hashtag,
         "mart-content-type-comparison.csv": mart_content_type,
         "mart-video-live-region-performance.csv": mart_video_live,
+        "mart-correlation-inputs.csv": mart_correlation_inputs,
     }
     for filename, data in outputs.items():
         data.to_csv(exports_dir / filename, index=False)
 
     summary = {
-        "source_file": source_path.relative_to(project_root).as_posix(),
+        "source_file": str(source_path),
         "rows": int(len(frame)),
         "duplicate_post_ids": int(frame["post_id"].duplicated().sum()),
+        "source_platforms": sorted(frame["source_platform"].dropna().astype(str).unique().tolist()),
         "platforms": sorted(frame["platform"].dropna().astype(str).unique().tolist()),
+        "countries": sorted(frame["country"].dropna().astype(str).unique().tolist()),
+        "source_regions": sorted(frame["source_region"].dropna().astype(str).unique().tolist()),
         "regions": sorted(frame["region"].dropna().astype(str).unique().tolist()),
         "content_types": sorted(frame["content_type"].dropna().astype(str).unique().tolist()),
+        "promotion_types": sorted(frame["promotion_type"].dropna().astype(str).unique().tolist()),
         "content_categories": sorted(frame["content_category"].dropna().astype(str).unique().tolist()),
         "post_types": sorted(frame["post_type"].dropna().astype(str).unique().tolist()),
         "hashtags": int(frame["main_hashtag"].dropna().nunique()),
         "date_min": str(frame["post_date"].min().date()),
         "date_max": str(frame["post_date"].max().date()),
+        "challenge_scope_rows": int(frame["is_challenge_scope"].sum()),
+        "full_workbook_only_rows": int((~frame["is_challenge_scope"]).sum()),
+        "country_source": "Country column" if "Country" in pd.read_excel(source_path, nrows=0).columns else "Derived from Region column",
         "missing_clicks": int(frame["clicks"].isna().sum()),
         "missing_ctr": int(frame["click_through_rate"].isna().sum()),
         "click_trackable_rows": int(frame["is_click_trackable"].sum()),

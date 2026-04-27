@@ -1,54 +1,54 @@
-content_key,content_type,content_category,post_type
-Organic | Customer Story | Article,Organic,Customer Story,Article
-Organic | Customer Story | Carousel,Organic,Customer Story,Carousel
-Organic | Customer Story | Image,Organic,Customer Story,Image
-Organic | Customer Story | Live Stream,Organic,Customer Story,Live Stream
-Organic | Customer Story | Text,Organic,Customer Story,Text
-Organic | Customer Story | Video,Organic,Customer Story,Video
-Organic | Educational | Article,Organic,Educational,Article
-Organic | Educational | Carousel,Organic,Educational,Carousel
-Organic | Educational | Image,Organic,Educational,Image
-Organic | Educational | Live Stream,Organic,Educational,Live Stream
-Organic | Educational | PDF,Organic,Educational,PDF
-Organic | Educational | Text,Organic,Educational,Text
-Organic | Educational | Video,Organic,Educational,Video
-Organic | Entertainment | Article,Organic,Entertainment,Article
-Organic | Entertainment | Carousel,Organic,Entertainment,Carousel
-Organic | Entertainment | Image,Organic,Entertainment,Image
-Organic | Entertainment | PDF,Organic,Entertainment,PDF
-Organic | Entertainment | Text,Organic,Entertainment,Text
-Organic | Entertainment | Video,Organic,Entertainment,Video
-Organic | Event / Webinar | Image,Organic,Event / Webinar,Image
-Organic | Event / Webinar | Live Stream,Organic,Event / Webinar,Live Stream
-Organic | Event / Webinar | PDF,Organic,Event / Webinar,PDF
-Organic | Event / Webinar | Text,Organic,Event / Webinar,Text
-Organic | Event / Webinar | Video,Organic,Event / Webinar,Video
-Organic | Product Promotion | Article,Organic,Product Promotion,Article
-Organic | Product Promotion | Carousel,Organic,Product Promotion,Carousel
-Organic | Product Promotion | Image,Organic,Product Promotion,Image
-Organic | Product Promotion | Live Stream,Organic,Product Promotion,Live Stream
-Organic | Product Promotion | PDF,Organic,Product Promotion,PDF
-Organic | Product Promotion | Text,Organic,Product Promotion,Text
-Organic | Product Promotion | Video,Organic,Product Promotion,Video
-Sponsored | Customer Story | Article,Sponsored,Customer Story,Article
-Sponsored | Customer Story | Carousel,Sponsored,Customer Story,Carousel
-Sponsored | Customer Story | Image,Sponsored,Customer Story,Image
-Sponsored | Customer Story | Text,Sponsored,Customer Story,Text
-Sponsored | Customer Story | Video,Sponsored,Customer Story,Video
-Sponsored | Educational | Article,Sponsored,Educational,Article
-Sponsored | Educational | Carousel,Sponsored,Educational,Carousel
-Sponsored | Educational | Image,Sponsored,Educational,Image
-Sponsored | Educational | PDF,Sponsored,Educational,PDF
-Sponsored | Educational | Text,Sponsored,Educational,Text
-Sponsored | Educational | Video,Sponsored,Educational,Video
-Sponsored | Entertainment | Article,Sponsored,Entertainment,Article
-Sponsored | Entertainment | Carousel,Sponsored,Entertainment,Carousel
-Sponsored | Entertainment | Image,Sponsored,Entertainment,Image
-Sponsored | Entertainment | Text,Sponsored,Entertainment,Text
-Sponsored | Entertainment | Video,Sponsored,Entertainment,Video
-Sponsored | Product Promotion | Article,Sponsored,Product Promotion,Article
-Sponsored | Product Promotion | Carousel,Sponsored,Product Promotion,Carousel
-Sponsored | Product Promotion | Image,Sponsored,Product Promotion,Image
-Sponsored | Product Promotion | Live Stream,Sponsored,Product Promotion,Live Stream
-Sponsored | Product Promotion | Text,Sponsored,Product Promotion,Text
-Sponsored | Product Promotion | Video,Sponsored,Product Promotion,Video
+content_key,content_type,promotion_type,content_category,post_type
+Organic | Organic | Customer Story | Article,Organic,Organic,Customer Story,Article
+Organic | Organic | Customer Story | Carousel,Organic,Organic,Customer Story,Carousel
+Organic | Organic | Customer Story | Image,Organic,Organic,Customer Story,Image
+Organic | Organic | Customer Story | Live Stream,Organic,Organic,Customer Story,Live Stream
+Organic | Organic | Customer Story | Text,Organic,Organic,Customer Story,Text
+Organic | Organic | Customer Story | Video,Organic,Organic,Customer Story,Video
+Organic | Organic | Educational | Article,Organic,Organic,Educational,Article
+Organic | Organic | Educational | Carousel,Organic,Organic,Educational,Carousel
+Organic | Organic | Educational | Image,Organic,Organic,Educational,Image
+Organic | Organic | Educational | Live Stream,Organic,Organic,Educational,Live Stream
+Organic | Organic | Educational | PDF,Organic,Organic,Educational,PDF
+Organic | Organic | Educational | Text,Organic,Organic,Educational,Text
+Organic | Organic | Educational | Video,Organic,Organic,Educational,Video
+Organic | Organic | Entertainment | Article,Organic,Organic,Entertainment,Article
+Organic | Organic | Entertainment | Carousel,Organic,Organic,Entertainment,Carousel
+Organic | Organic | Entertainment | Image,Organic,Organic,Entertainment,Image
+Organic | Organic | Entertainment | PDF,Organic,Organic,Entertainment,PDF
+Organic | Organic | Entertainment | Text,Organic,Organic,Entertainment,Text
+Organic | Organic | Entertainment | Video,Organic,Organic,Entertainment,Video
+Organic | Organic | Event / Webinar | Image,Organic,Organic,Event / Webinar,Image
+Organic | Organic | Event / Webinar | Live Stream,Organic,Organic,Event / Webinar,Live Stream
+Organic | Organic | Event / Webinar | PDF,Organic,Organic,Event / Webinar,PDF
+Organic | Organic | Event / Webinar | Text,Organic,Organic,Event / Webinar,Text
+Organic | Organic | Event / Webinar | Video,Organic,Organic,Event / Webinar,Video
+Organic | Organic | Product Promotion | Article,Organic,Organic,Product Promotion,Article
+Organic | Organic | Product Promotion | Carousel,Organic,Organic,Product Promotion,Carousel
+Organic | Organic | Product Promotion | Image,Organic,Organic,Product Promotion,Image
+Organic | Organic | Product Promotion | Live Stream,Organic,Organic,Product Promotion,Live Stream
+Organic | Organic | Product Promotion | PDF,Organic,Organic,Product Promotion,PDF
+Organic | Organic | Product Promotion | Text,Organic,Organic,Product Promotion,Text
+Organic | Organic | Product Promotion | Video,Organic,Organic,Product Promotion,Video
+Sponsored | Paid/Promoted | Customer Story | Article,Sponsored,Paid/Promoted,Customer Story,Article
+Sponsored | Paid/Promoted | Customer Story | Carousel,Sponsored,Paid/Promoted,Customer Story,Carousel
+Sponsored | Paid/Promoted | Customer Story | Image,Sponsored,Paid/Promoted,Customer Story,Image
+Sponsored | Paid/Promoted | Customer Story | Text,Sponsored,Paid/Promoted,Customer Story,Text
+Sponsored | Paid/Promoted | Customer Story | Video,Sponsored,Paid/Promoted,Customer Story,Video
+Sponsored | Paid/Promoted | Educational | Article,Sponsored,Paid/Promoted,Educational,Article
+Sponsored | Paid/Promoted | Educational | Carousel,Sponsored,Paid/Promoted,Educational,Carousel
+Sponsored | Paid/Promoted | Educational | Image,Sponsored,Paid/Promoted,Educational,Image
+Sponsored | Paid/Promoted | Educational | PDF,Sponsored,Paid/Promoted,Educational,PDF
+Sponsored | Paid/Promoted | Educational | Text,Sponsored,Paid/Promoted,Educational,Text
+Sponsored | Paid/Promoted | Educational | Video,Sponsored,Paid/Promoted,Educational,Video
+Sponsored | Paid/Promoted | Entertainment | Article,Sponsored,Paid/Promoted,Entertainment,Article
+Sponsored | Paid/Promoted | Entertainment | Carousel,Sponsored,Paid/Promoted,Entertainment,Carousel
+Sponsored | Paid/Promoted | Entertainment | Image,Sponsored,Paid/Promoted,Entertainment,Image
+Sponsored | Paid/Promoted | Entertainment | Text,Sponsored,Paid/Promoted,Entertainment,Text
+Sponsored | Paid/Promoted | Entertainment | Video,Sponsored,Paid/Promoted,Entertainment,Video
+Sponsored | Paid/Promoted | Product Promotion | Article,Sponsored,Paid/Promoted,Product Promotion,Article
+Sponsored | Paid/Promoted | Product Promotion | Carousel,Sponsored,Paid/Promoted,Product Promotion,Carousel
+Sponsored | Paid/Promoted | Product Promotion | Image,Sponsored,Paid/Promoted,Product Promotion,Image
+Sponsored | Paid/Promoted | Product Promotion | Live Stream,Sponsored,Paid/Promoted,Product Promotion,Live Stream
+Sponsored | Paid/Promoted | Product Promotion | Text,Sponsored,Paid/Promoted,Product Promotion,Text
+Sponsored | Paid/Promoted | Product Promotion | Video,Sponsored,Paid/Promoted,Product Promotion,Video

@@ -1,54 +1,482 @@
-main_hashtag,platform,posts,total_impressions,total_clicks,avg_ctr,avg_engagement_rate
-#BehindTheScenes,Facebook,4,1454062,30554.0,0.01985,0.14279741396557163
-#CaseStudy2025,TikTok,1,93049,1944.0,0.0209,0.269301865906646
-#CustomerStory,Facebook,49,36028903,744216.0,0.021616326530612243,0.19255702481345183
-#CustomerStory,Instagram,110,272458388,0.0,,0.1998298372538709
-#CustomerStory,LinkedIn,5,6323160,1404.0,0.0127,0.21188048460218786
-#CustomerStory,TikTok,110,259492813,4714661.0,0.01798909090909091,0.19951880776919179
-#CustomerStory,X.com,81,203221194,0.0,,0.1973562633984053
-#CustomerStory,YouTube,650,435181482,0.0,,0.1972006905131779
-#CustomerSuccess,LinkedIn,92,52396012,1033484.0,0.018729347826086956,0.19713146225791967
-#DidYouKnow,LinkedIn,124,113645700,1916929.0,0.019695652173913045,0.15235238344339566
-#EventRecap,Facebook,5,3708495,56040.0,0.019459999999999998,0.15321369279428892
-#EventRecap,Instagram,122,40618260,0.0,,0.13968598123045148
-#EventRecap,LinkedIn,1,483687,0.0,,0.1439037998576623
-#EventRecap,TikTok,115,36332920,632296.0,0.017695652173913046,0.14050094004284414
-#EventRecap,X.com,122,40161762,0.0,,0.13953323646194526
-#EventSummary,LinkedIn,38,18287863,359325.0,0.02011578947368421,0.1397710467633332
-#FeatureHighlight,Facebook,25,50745477,968588.0,0.019568,0.11599211105749507
-#FeatureHighlight,Instagram,53,17169113,0.0,,0.11085586090370364
-#FeatureHighlight,LinkedIn,39,22803214,0.0,,0.11592103673146364
-#FeatureHighlight,TikTok,117,50294888,888638.0,0.0175948717948718,0.11575705200339095
-#FeatureHighlight,X.com,120,57277451,0.0,,0.11438288109410787
-#FunContent,Facebook,19,19746305,361627.0,0.01877894736842105,0.07733229090653808
-#FunContent,LinkedIn,92,56470803,0.0,,0.0763285753799645
-#FunContent,TikTok,99,61875171,1105840.0,0.017625252525252523,0.07315255441714505
-#FunContent,X.com,89,53916364,0.0,,0.07759037487067814
-#JustForFun,Instagram,1,829727,0.0,,0.06679597300020748
-#MemeMonday,Facebook,15,26503652,649698.0,0.023726666666666667,0.07725209565284327
-#MemeMonday,X.com,1,304915,0.0,,0.05604501508590226
-#NewRelease,Facebook,25,37416817,839437.0,0.021400000000000002,0.11231321670221642
-#ProductDemo,Facebook,32,41035437,798745.0,0.019403125,0.12004077045626585
-#ProductDemo,Instagram,186,454611040,0.0,,0.11614458470649273
-#ProductDemo,LinkedIn,2,2245512,0.0,,0.11089827413804261
-#ProductDemo,TikTok,208,483476631,8315536.0,0.017251442307692308,0.11542145188648868
-#ProductDemo,X.com,187,443332524,0.0,,0.11586073301192194
-#ProductDemo,YouTube,312,539205393,0.0,,0.11648189881915212
-#SaaSLaunch,LinkedIn,72,112505317,2475775.0,0.0211625,0.11307539505577499
-#SuccessStory,Facebook,55,36278903,725138.0,0.01976,0.19699396464779878
-#SuccessStory,Instagram,418,134341770,0.0,,0.19931367623116544
-#SuccessStory,LinkedIn,39,13351005,29000.0,0.01846666666666667,0.19507253493005972
-#SuccessStory,TikTok,504,161020191,2802524.0,0.017490277777777775,0.2013227026510872
-#SuccessStory,X.com,507,169058682,0.0,,0.19883668004233904
-#Testimonial,Facebook,49,35753814,777166.0,0.020440816326530612,0.1995281770965294
-#TrendingNow,Facebook,12,21085539,461952.0,0.019808333333333334,0.06825641932253866
-#TrendingNow,Instagram,104,253740101,0.0,,0.07402375750901537
-#TrendingNow,LinkedIn,21,9924045,37112.0,0.018316666666666665,0.19858220418926206
-#TrendingNow,TikTok,94,233317399,4116005.0,0.017406382978723406,0.07369827342931409
-#TrendingNow,X.com,87,213095811,0.0,,0.07221064675698767
-#TrendingNow,YouTube,217,313474557,0.0,,0.07707362359660218
-#WebinarReplay,Facebook,9,8861134,172980.0,0.020788888888888888,0.14844543323489828
-#WebinarReplay,Instagram,4,8095562,0.0,,0.14761495922552578
-#WebinarReplay,TikTok,9,21793289,390562.0,0.017544444444444442,0.14208360842079573
-#WebinarReplay,X.com,7,17532502,0.0,,0.15759378162076268
-#WebinarReplay,YouTube,141,64177939,0.0,,0.1356613414369718
+scope_segment,is_challenge_scope,main_hashtag,platform,region,country,posts,total_impressions,total_clicks,avg_ctr,avg_engagement_rate
+Challenge Scope,True,#CustomerStory,Instagram,Europe,UK,4,9026418,0.0,,0.20772918799237178
+Challenge Scope,True,#CustomerStory,Instagram,Latin America,Brazil,1,3998498,0.0,,0.1614133336001702
+Challenge Scope,True,#CustomerStory,Instagram,North America,Canada,2,4718299,0.0,,0.2277057660236593
+Challenge Scope,True,#CustomerStory,LinkedIn,APAC,Japan,1,238235,0.0,,0.2014508421625779
+Challenge Scope,True,#CustomerStory,TikTok,APAC,Australia,1,2401906,37229.0,0.0155,0.2135568998956063
+Challenge Scope,True,#CustomerStory,TikTok,APAC,India,1,2115292,52036.0,0.0246,0.2319764592492975
+Challenge Scope,True,#CustomerStory,TikTok,APAC,Japan,1,2929432,49214.0,0.0168,0.2166876092185744
+Challenge Scope,True,#CustomerStory,TikTok,Europe,Germany,2,4086611,99009.0,0.024,0.2111184418955383
+Challenge Scope,True,#CustomerStory,TikTok,Europe,UK,1,2872688,31312.0,0.0109,0.1964853715284592
+Challenge Scope,True,#CustomerStory,TikTok,North America,USA,2,5667661,75873.0,0.014349999999999998,0.19398674465223337
+Challenge Scope,True,#CustomerStory,X (Twitter),APAC,Japan,2,4242757,0.0,,0.20485544551619667
+Challenge Scope,True,#CustomerStory,X (Twitter),Europe,UK,1,1619911,0.0,,0.1690463534258456
+Challenge Scope,True,#CustomerStory,X (Twitter),Latin America,Brazil,1,2041612,0.0,,0.1861185363956461
+Challenge Scope,True,#CustomerSuccess,LinkedIn,APAC,Australia,2,272820,3011.0,0.01105,0.18145624025160761
+Challenge Scope,True,#CustomerSuccess,LinkedIn,APAC,India,1,274606,6151.0,0.0224,0.2427412532706293
+Challenge Scope,True,#CustomerSuccess,LinkedIn,Europe,UK,3,2385571,59263.0,0.024066666666666667,0.1820876574786645
+Challenge Scope,True,#CustomerSuccess,LinkedIn,Latin America,Brazil,1,305098,6742.0,0.0221,0.2407305721681614
+Challenge Scope,True,#CustomerSuccess,LinkedIn,North America,USA,1,207168,5531.0,0.0267,0.2207439098225888
+Challenge Scope,True,#DidYouKnow,LinkedIn,APAC,Australia,2,570884,10699.0,0.0247,0.20741233958676955
+Challenge Scope,True,#DidYouKnow,LinkedIn,Europe,Germany,1,328622,0.0,,0.1923316026623839
+Challenge Scope,True,#DidYouKnow,LinkedIn,Europe,UK,1,1918379,55824.0,0.0291,0.06603342429537805
+Challenge Scope,True,#DidYouKnow,LinkedIn,Latin America,Brazil,1,670073,0.0,,0.1726892761647418
+Challenge Scope,True,#DidYouKnow,LinkedIn,North America,Canada,2,933236,17716.0,0.0255,0.1994683531340976
+Challenge Scope,True,#EventRecap,Instagram,APAC,Australia,1,238228,0.0,,0.1423545283767987
+Challenge Scope,True,#EventRecap,Instagram,APAC,Japan,1,510819,0.0,,0.1734422945702626
+Challenge Scope,True,#EventRecap,Instagram,Europe,Germany,1,351181,0.0,,0.1530849135923097
+Challenge Scope,True,#EventRecap,TikTok,APAC,Australia,1,282286,5786.0,0.0205,0.1652840562095291
+Challenge Scope,True,#EventRecap,TikTok,APAC,India,1,384077,7489.0,0.0195,0.1229313818858895
+Challenge Scope,True,#EventRecap,TikTok,APAC,Japan,1,599307,10487.0,0.0175,0.1624568849799787
+Challenge Scope,True,#EventRecap,TikTok,Europe,Germany,2,1022249,17501.0,0.0155,0.11781035309201371
+Challenge Scope,True,#EventRecap,TikTok,Europe,UK,2,714827,8935.0,0.0135,0.1425339960336665
+Challenge Scope,True,#EventRecap,TikTok,Latin America,Brazil,2,1244028,14312.0,0.01295,0.1335436683270838
+Challenge Scope,True,#EventRecap,X (Twitter),APAC,India,2,432532,0.0,,0.1442229498575146
+Challenge Scope,True,#EventRecap,X (Twitter),Latin America,Brazil,1,493047,0.0,,0.1158130603801154
+Challenge Scope,True,#EventRecap,X (Twitter),North America,Canada,1,1040539,0.0,,0.1598345400717205
+Challenge Scope,True,#EventSummary,LinkedIn,APAC,Australia,1,265372,4856.0,0.0183,0.1437128191589548
+Challenge Scope,True,#EventSummary,LinkedIn,Latin America,Brazil,1,203999,2957.0,0.0145,0.1631612300034534
+Challenge Scope,True,#EventSummary,LinkedIn,North America,Canada,1,299980,6809.0,0.0227,0.1291267149054613
+Challenge Scope,True,#FeatureHighlight,Instagram,Europe,Germany,2,594352,0.0,,0.10927360759308706
+Challenge Scope,True,#FeatureHighlight,Instagram,North America,Canada,1,344075,0.0,,0.1307233517159937
+Challenge Scope,True,#FeatureHighlight,LinkedIn,APAC,Japan,1,521862,0.0,,0.114742536865158
+Challenge Scope,True,#FeatureHighlight,LinkedIn,Latin America,Brazil,1,366988,0.0,,0.1213359785029059
+Challenge Scope,True,#FeatureHighlight,TikTok,APAC,Australia,2,938366,14971.0,0.0176,0.12091264161943069
+Challenge Scope,True,#FeatureHighlight,TikTok,APAC,India,1,603038,8020.0,0.0133,0.1393561681529059
+Challenge Scope,True,#FeatureHighlight,TikTok,Europe,Germany,1,595752,12034.0,0.0202,0.09232110849286283
+Challenge Scope,True,#FeatureHighlight,TikTok,Europe,UK,1,379535,7135.0,0.0188,0.09433193055693494
+Challenge Scope,True,#FeatureHighlight,TikTok,North America,Canada,1,576620,8533.0,0.0148,0.09106242512830846
+Challenge Scope,True,#FeatureHighlight,TikTok,North America,USA,1,335527,4798.0,0.0143,0.1294125258624108
+Challenge Scope,True,#FeatureHighlight,X (Twitter),APAC,India,2,1229754,0.0,,0.09685985162427319
+Challenge Scope,True,#FeatureHighlight,X (Twitter),APAC,Japan,1,281005,0.0,,0.09463460108104628
+Challenge Scope,True,#FeatureHighlight,X (Twitter),Europe,Germany,2,593775,0.0,,0.11437554373813827
+Challenge Scope,True,#FeatureHighlight,X (Twitter),Europe,UK,1,397410,0.0,,0.1428525218333069
+Challenge Scope,True,#FeatureHighlight,X (Twitter),North America,Canada,2,1078885,0.0,,0.1387947133616344
+Challenge Scope,True,#FeatureHighlight,X (Twitter),North America,USA,1,229651,0.0,,0.1002922556337511
+Challenge Scope,True,#FunContent,LinkedIn,APAC,India,1,777172,0.0,,0.0520470068914062
+Challenge Scope,True,#FunContent,LinkedIn,APAC,Japan,1,679871,0.0,,0.06450515212006037
+Challenge Scope,True,#FunContent,LinkedIn,Europe,Germany,2,888883,0.0,,0.0801189486178367
+Challenge Scope,True,#FunContent,LinkedIn,Europe,UK,1,781908,0.0,,0.06377110938259153
+Challenge Scope,True,#FunContent,LinkedIn,Latin America,Brazil,1,512925,0.0,,0.07384938178516098
+Challenge Scope,True,#FunContent,LinkedIn,North America,USA,1,565341,0.0,,0.06203398643209845
+Challenge Scope,True,#FunContent,TikTok,APAC,Australia,1,752848,14981.0,0.0199,0.08018008374024552
+Challenge Scope,True,#FunContent,TikTok,APAC,India,1,799142,9829.0,0.0123,0.05661701327113461
+Challenge Scope,True,#FunContent,TikTok,Europe,Germany,1,771432,12420.0,0.0161,0.09923824893778649
+Challenge Scope,True,#FunContent,TikTok,Latin America,Brazil,1,791296,8704.0,0.011,0.08787088223944951
+Challenge Scope,True,#FunContent,TikTok,North America,USA,1,805493,16512.0,0.0205,0.07428339613866605
+Challenge Scope,True,#FunContent,X (Twitter),Europe,UK,1,500317,0.0,,0.05016952205046906
+Challenge Scope,True,#FunContent,X (Twitter),North America,Canada,1,692349,0.0,,0.07863719529247774
+Challenge Scope,True,#ProductDemo,Instagram,APAC,India,4,10972601,0.0,,0.10406481014792918
+Challenge Scope,True,#ProductDemo,Instagram,APAC,Japan,2,3615572,0.0,,0.09421842614049172
+Challenge Scope,True,#ProductDemo,Instagram,Europe,UK,2,5162682,0.0,,0.09487312862310066
+Challenge Scope,True,#ProductDemo,Instagram,Latin America,Brazil,4,10751187,0.0,,0.09911415445797302
+Challenge Scope,True,#ProductDemo,Instagram,North America,Canada,3,5254127,0.0,,0.1296141289931281
+Challenge Scope,True,#ProductDemo,Instagram,North America,USA,3,9174362,0.0,,0.1055428745265451
+Challenge Scope,True,#ProductDemo,TikTok,APAC,Australia,1,3213306,43379.0,0.0135,0.1290313839830158
+Challenge Scope,True,#ProductDemo,TikTok,APAC,India,2,3096114,64260.0,0.02015,0.09193834511013635
+Challenge Scope,True,#ProductDemo,TikTok,APAC,Japan,1,1606360,18794.0,0.0117,0.08030620990160697
+Challenge Scope,True,#ProductDemo,TikTok,Europe,UK,1,1665449,24815.0,0.0149,0.1211245796331369
+Challenge Scope,True,#ProductDemo,TikTok,Latin America,Brazil,1,3096115,63779.0,0.0206,0.1123721537785096
+Challenge Scope,True,#ProductDemo,TikTok,North America,Canada,2,5668215,83732.0,0.015,0.13320938499982982
+Challenge Scope,True,#ProductDemo,TikTok,North America,USA,1,4184320,54396.0,0.013,0.1263780057099394
+Challenge Scope,True,#ProductDemo,X (Twitter),APAC,Australia,5,10329247,0.0,,0.11667783267802082
+Challenge Scope,True,#ProductDemo,X (Twitter),APAC,Japan,2,5923433,0.0,,0.1070976422062375
+Challenge Scope,True,#ProductDemo,X (Twitter),Europe,Germany,1,3243258,0.0,,0.1095428169475814
+Challenge Scope,True,#ProductDemo,X (Twitter),Europe,UK,1,790395,0.0,,0.1459817228922653
+Challenge Scope,True,#ProductDemo,X (Twitter),Latin America,Brazil,1,3037853,0.0,,0.1431555054837156
+Challenge Scope,True,#ProductDemo,X (Twitter),North America,Canada,2,3505251,0.0,,0.1215633906579178
+Challenge Scope,True,#ProductDemo,X (Twitter),North America,USA,4,10437660,0.0,,0.11178827395670589
+Challenge Scope,True,#SaaSLaunch,LinkedIn,Europe,UK,2,1061832,16094.0,0.0157,0.09874428995251577
+Challenge Scope,True,#SaaSLaunch,LinkedIn,Latin America,Brazil,1,3492054,95682.0,0.0274,0.1356235921976633
+Challenge Scope,True,#SaaSLaunch,LinkedIn,North America,USA,2,3759715,52632.0,0.01505,0.1048865892559266
+Challenge Scope,True,#SuccessStory,Instagram,APAC,Australia,4,1056406,0.0,,0.18951178043099154
+Challenge Scope,True,#SuccessStory,Instagram,APAC,India,1,332558,0.0,,0.1756961961150151
+Challenge Scope,True,#SuccessStory,Instagram,APAC,Japan,1,300158,0.0,,0.1629979055520371
+Challenge Scope,True,#SuccessStory,Instagram,Europe,Germany,4,1137120,0.0,,0.2215659632124701
+Challenge Scope,True,#SuccessStory,Instagram,Europe,UK,7,2141399,0.0,,0.20604051151255537
+Challenge Scope,True,#SuccessStory,Instagram,Latin America,Brazil,5,1474748,0.0,,0.20500215842193104
+Challenge Scope,True,#SuccessStory,Instagram,North America,Canada,5,2994728,0.0,,0.18752284488025805
+Challenge Scope,True,#SuccessStory,Instagram,North America,USA,4,1832915,0.0,,0.2108573483086634
+Challenge Scope,True,#SuccessStory,LinkedIn,Europe,Germany,1,300166,0.0,,0.1830707475287029
+Challenge Scope,True,#SuccessStory,LinkedIn,Latin America,Brazil,1,259555,3711.0,0.0143,0.231980998554915
+Challenge Scope,True,#SuccessStory,TikTok,APAC,Australia,1,446305,6382.0,0.0143,0.2027369114854419
+Challenge Scope,True,#SuccessStory,TikTok,APAC,India,6,1524201,26671.0,0.017816666666666665,0.2017802577305923
+Challenge Scope,True,#SuccessStory,TikTok,APAC,Japan,4,1134441,18966.0,0.017075,0.19596281555882034
+Challenge Scope,True,#SuccessStory,TikTok,Europe,Germany,1,290991,5703.0,0.0196,0.204405481736421
+Challenge Scope,True,#SuccessStory,TikTok,Europe,UK,6,1319406,27432.0,0.020716666666666668,0.19825764130053392
+Challenge Scope,True,#SuccessStory,TikTok,Latin America,Brazil,2,505378,8107.0,0.0165,0.21065801607973264
+Challenge Scope,True,#SuccessStory,TikTok,North America,Canada,4,1167861,22458.0,0.020825,0.17024037476561682
+Challenge Scope,True,#SuccessStory,TikTok,North America,USA,2,480781,5813.0,0.01235,0.2248150221127364
+Challenge Scope,True,#SuccessStory,X (Twitter),APAC,Australia,4,1211993,0.0,,0.20915115110535262
+Challenge Scope,True,#SuccessStory,X (Twitter),APAC,India,5,1148792,0.0,,0.1991247970292489
+Challenge Scope,True,#SuccessStory,X (Twitter),APAC,Japan,3,963748,0.0,,0.20885317512280477
+Challenge Scope,True,#SuccessStory,X (Twitter),Europe,Germany,2,401192,0.0,,0.17513369929938244
+Challenge Scope,True,#SuccessStory,X (Twitter),Europe,UK,7,2191627,0.0,,0.20513114067314872
+Challenge Scope,True,#SuccessStory,X (Twitter),Latin America,Brazil,5,1473363,0.0,,0.21590298774536065
+Challenge Scope,True,#SuccessStory,X (Twitter),North America,Canada,3,852658,0.0,,0.20442136130469124
+Challenge Scope,True,#SuccessStory,X (Twitter),North America,USA,1,718840,0.0,,0.1996156902484061
+Challenge Scope,True,#TrendingNow,Instagram,APAC,Australia,3,6078221,0.0,,0.06993177990322087
+Challenge Scope,True,#TrendingNow,Instagram,Latin America,Brazil,1,2711918,0.0,,0.06442645477466157
+Challenge Scope,True,#TrendingNow,Instagram,North America,Canada,1,2714171,0.0,,0.07231493892769625
+Challenge Scope,True,#TrendingNow,Instagram,North America,USA,1,2863981,0.0,,0.09105041112785937
+Challenge Scope,True,#TrendingNow,LinkedIn,North America,Canada,1,238460,3624.0,0.0152,0.1694776654324683
+Challenge Scope,True,#TrendingNow,TikTok,APAC,India,1,2148316,39314.0,0.0183,0.0895376605664929
+Challenge Scope,True,#TrendingNow,TikTok,North America,Canada,1,3492481,75437.0,0.0216,0.09784903847082468
+Challenge Scope,True,#TrendingNow,TikTok,North America,USA,1,3409166,84206.0,0.0247,0.06401732397826936
+Challenge Scope,True,#TrendingNow,X (Twitter),APAC,Australia,1,2278384,0.0,,0.06883808016199447
+Challenge Scope,True,#TrendingNow,X (Twitter),APAC,India,3,2750510,0.0,,0.07904389386968914
+Challenge Scope,True,#TrendingNow,X (Twitter),Latin America,Brazil,1,2600890,0.0,,0.06148674629060785
+Challenge Scope,True,#TrendingNow,X (Twitter),North America,Canada,4,9953437,0.0,,0.07231964098816823
+Challenge Scope,True,#TrendingNow,X (Twitter),North America,USA,1,3189651,0.0,,0.0795803916014189
+Full Workbook Only,False,#BehindTheScenes,Facebook,APAC,Japan,2,567385,10549.0,0.018,0.13313991587297666
+Full Workbook Only,False,#BehindTheScenes,Facebook,Europe,Germany,1,319959,5951.0,0.0186,0.1479813271508327
+Full Workbook Only,False,#BehindTheScenes,Facebook,North America,Canada,1,566718,14054.0,0.0248,0.1569284969655005
+Full Workbook Only,False,#CaseStudy2025,TikTok,Latin America,Brazil,1,93049,1944.0,0.0209,0.269301865906646
+Full Workbook Only,False,#CustomerStory,Facebook,APAC,Australia,7,7941725,175065.0,0.023685714285714286,0.19589369096220619
+Full Workbook Only,False,#CustomerStory,Facebook,APAC,India,7,5894406,125466.0,0.02145714285714286,0.20271365751906947
+Full Workbook Only,False,#CustomerStory,Facebook,APAC,Japan,6,5735804,118693.0,0.023883333333333336,0.1871314125452959
+Full Workbook Only,False,#CustomerStory,Facebook,Europe,Germany,2,2553447,63090.0,0.0216,0.182734335093686
+Full Workbook Only,False,#CustomerStory,Facebook,Europe,UK,9,5598461,122852.0,0.0222,0.18616836550976945
+Full Workbook Only,False,#CustomerStory,Facebook,Latin America,Brazil,5,4625312,63089.0,0.01684,0.19621334107737046
+Full Workbook Only,False,#CustomerStory,Facebook,North America,Canada,8,2070536,39370.0,0.0195375,0.19231705010585268
+Full Workbook Only,False,#CustomerStory,Facebook,North America,USA,5,1609212,36591.0,0.023280000000000002,0.19233344704189276
+Full Workbook Only,False,#CustomerStory,Instagram,APAC,Australia,8,22225908,0.0,,0.18079166076486003
+Full Workbook Only,False,#CustomerStory,Instagram,APAC,India,19,44923367,0.0,,0.20310956704149785
+Full Workbook Only,False,#CustomerStory,Instagram,APAC,Japan,13,34595724,0.0,,0.18876753928475554
+Full Workbook Only,False,#CustomerStory,Instagram,Europe,Germany,14,36881429,0.0,,0.19747218554671453
+Full Workbook Only,False,#CustomerStory,Instagram,Europe,UK,10,24444460,0.0,,0.20080362473913332
+Full Workbook Only,False,#CustomerStory,Instagram,Latin America,Brazil,19,46366886,0.0,,0.20598314309065388
+Full Workbook Only,False,#CustomerStory,Instagram,North America,Canada,11,26509999,0.0,,0.2122630860076957
+Full Workbook Only,False,#CustomerStory,Instagram,North America,USA,9,18767400,0.0,,0.19476965553858314
+Full Workbook Only,False,#CustomerStory,LinkedIn,APAC,Japan,1,4565194,0.0,,0.1717565750662622
+Full Workbook Only,False,#CustomerStory,LinkedIn,Europe,Germany,1,1132218,0.0,,0.2399879575163858
+Full Workbook Only,False,#CustomerStory,LinkedIn,Europe,UK,2,387513,1404.0,0.0127,0.22310352413285675
+Full Workbook Only,False,#CustomerStory,TikTok,APAC,Australia,13,23142398,400866.0,0.017469230769230768,0.1958056617122978
+Full Workbook Only,False,#CustomerStory,TikTok,APAC,India,8,22883497,421898.0,0.0181,0.19659925347876867
+Full Workbook Only,False,#CustomerStory,TikTok,APAC,Japan,16,35457081,620979.0,0.01718125,0.20110258366207226
+Full Workbook Only,False,#CustomerStory,TikTok,Europe,Germany,14,34514196,687152.0,0.019192857142857143,0.2047472311003471
+Full Workbook Only,False,#CustomerStory,TikTok,Europe,UK,12,29104555,452106.0,0.015700000000000002,0.204696917937953
+Full Workbook Only,False,#CustomerStory,TikTok,Latin America,Brazil,13,33114805,661051.0,0.018984615384615385,0.1991825545273868
+Full Workbook Only,False,#CustomerStory,TikTok,North America,Canada,12,26979549,539243.0,0.0197,0.1907168710312079
+Full Workbook Only,False,#CustomerStory,TikTok,North America,USA,14,34223142,586693.0,0.017657142857142857,0.19581737578925867
+Full Workbook Only,False,#CustomerStory,X (Twitter),APAC,Australia,11,31173585,0.0,,0.18963619239155569
+Full Workbook Only,False,#CustomerStory,X (Twitter),APAC,India,7,18841435,0.0,,0.2087121056604953
+Full Workbook Only,False,#CustomerStory,X (Twitter),APAC,Japan,5,11157551,0.0,,0.2064259044091752
+Full Workbook Only,False,#CustomerStory,X (Twitter),Europe,Germany,10,24551153,0.0,,0.20087179054188606
+Full Workbook Only,False,#CustomerStory,X (Twitter),Europe,UK,12,27431172,0.0,,0.20730661794130653
+Full Workbook Only,False,#CustomerStory,X (Twitter),Latin America,Brazil,9,24553741,0.0,,0.18985617117794817
+Full Workbook Only,False,#CustomerStory,X (Twitter),North America,Canada,9,23049770,0.0,,0.20854757237060106
+Full Workbook Only,False,#CustomerStory,X (Twitter),North America,USA,14,34558507,0.0,,0.18284558312778634
+Full Workbook Only,False,#CustomerStory,YouTube,APAC,Australia,74,53335744,0.0,,0.1961445472886802
+Full Workbook Only,False,#CustomerStory,YouTube,APAC,India,79,53687181,0.0,,0.19857168566145228
+Full Workbook Only,False,#CustomerStory,YouTube,APAC,Japan,71,61247166,0.0,,0.1940445217947736
+Full Workbook Only,False,#CustomerStory,YouTube,Europe,Germany,54,36746085,0.0,,0.19676645690967445
+Full Workbook Only,False,#CustomerStory,YouTube,Europe,UK,94,46812298,0.0,,0.1966524842534392
+Full Workbook Only,False,#CustomerStory,YouTube,Latin America,Brazil,94,59791594,0.0,,0.19770626057552632
+Full Workbook Only,False,#CustomerStory,YouTube,North America,Canada,94,67314501,0.0,,0.1957697002887665
+Full Workbook Only,False,#CustomerStory,YouTube,North America,USA,90,56246913,0.0,,0.20115517339256006
+Full Workbook Only,False,#CustomerSuccess,LinkedIn,APAC,Australia,13,8943539,205701.0,0.018007692307692308,0.1893276911557137
+Full Workbook Only,False,#CustomerSuccess,LinkedIn,APAC,India,11,6798524,120316.0,0.019536363636363636,0.19516911286684388
+Full Workbook Only,False,#CustomerSuccess,LinkedIn,APAC,Japan,9,3524319,56940.0,0.01648888888888889,0.19962903565139825
+Full Workbook Only,False,#CustomerSuccess,LinkedIn,Europe,Germany,9,3352047,73787.0,0.02281111111111111,0.20499438703135875
+Full Workbook Only,False,#CustomerSuccess,LinkedIn,Europe,UK,6,3489741,76386.0,0.018433333333333333,0.20378372085864074
+Full Workbook Only,False,#CustomerSuccess,LinkedIn,Latin America,Brazil,9,5316867,116881.0,0.01972222222222222,0.20611417069091678
+Full Workbook Only,False,#CustomerSuccess,LinkedIn,North America,Canada,12,8323601,138096.0,0.016966666666666668,0.18972514782424446
+Full Workbook Only,False,#CustomerSuccess,LinkedIn,North America,USA,15,9202111,164679.0,0.017546666666666665,0.1945693782375078
+Full Workbook Only,False,#DidYouKnow,LinkedIn,APAC,Australia,20,23247859,415831.0,0.020050000000000002,0.16422898343968612
+Full Workbook Only,False,#DidYouKnow,LinkedIn,APAC,India,15,16310343,290859.0,0.019954545454545454,0.1402009973140167
+Full Workbook Only,False,#DidYouKnow,LinkedIn,APAC,Japan,13,22730606,395215.0,0.018166666666666668,0.13787200141767977
+Full Workbook Only,False,#DidYouKnow,LinkedIn,Europe,Germany,10,3820279,55379.0,0.022316666666666665,0.13953657047256013
+Full Workbook Only,False,#DidYouKnow,LinkedIn,Europe,UK,17,9294162,152780.0,0.02186923076923077,0.15985697539748464
+Full Workbook Only,False,#DidYouKnow,LinkedIn,Latin America,Brazil,17,14384316,234341.0,0.018935714285714285,0.14071021877339834
+Full Workbook Only,False,#DidYouKnow,LinkedIn,North America,Canada,12,10000401,141123.0,0.016163636363636363,0.16637306268500085
+Full Workbook Only,False,#DidYouKnow,LinkedIn,North America,USA,13,9436540,147162.0,0.01935,0.15118957335633787
+Full Workbook Only,False,#EventRecap,Facebook,APAC,India,1,68284,1693.0,0.0248,0.1614740336647633
+Full Workbook Only,False,#EventRecap,Facebook,Europe,Germany,3,3376332,50416.0,0.0192,0.1464678946617821
+Full Workbook Only,False,#EventRecap,Facebook,North America,USA,1,263879,3931.0,0.0149,0.1651907463213352
+Full Workbook Only,False,#EventRecap,Instagram,APAC,Australia,10,3309832,0.0,,0.12848352020956713
+Full Workbook Only,False,#EventRecap,Instagram,APAC,India,12,2900239,0.0,,0.14550804920952662
+Full Workbook Only,False,#EventRecap,Instagram,APAC,Japan,15,5263070,0.0,,0.13793762609759527
+Full Workbook Only,False,#EventRecap,Instagram,Europe,Germany,13,4402845,0.0,,0.14655852580033168
+Full Workbook Only,False,#EventRecap,Instagram,Europe,UK,11,3601910,0.0,,0.1493384307255872
+Full Workbook Only,False,#EventRecap,Instagram,Latin America,Brazil,18,7168835,0.0,,0.14554749720598806
+Full Workbook Only,False,#EventRecap,Instagram,North America,Canada,24,7563676,0.0,,0.1366609574497785
+Full Workbook Only,False,#EventRecap,Instagram,North America,USA,16,5307625,0.0,,0.12656939297584674
+Full Workbook Only,False,#EventRecap,LinkedIn,APAC,Australia,1,483687,0.0,,0.1439037998576623
+Full Workbook Only,False,#EventRecap,TikTok,APAC,Australia,12,3564899,67818.0,0.019108333333333335,0.14212221897327912
+Full Workbook Only,False,#EventRecap,TikTok,APAC,India,9,3020022,53401.0,0.017822222222222222,0.14481366298271248
+Full Workbook Only,False,#EventRecap,TikTok,APAC,Japan,16,4120565,67231.0,0.01668125,0.14748135732875753
+Full Workbook Only,False,#EventRecap,TikTok,Europe,Germany,8,2326386,43198.0,0.0195625,0.12984861432383707
+Full Workbook Only,False,#EventRecap,TikTok,Europe,UK,22,6920709,118394.0,0.01699090909090909,0.13838883418067016
+Full Workbook Only,False,#EventRecap,TikTok,Latin America,Brazil,17,5081682,87409.0,0.01778235294117647,0.14825620279705637
+Full Workbook Only,False,#EventRecap,TikTok,North America,Canada,11,3540527,66638.0,0.01838181818181818,0.14037330277122703
+Full Workbook Only,False,#EventRecap,TikTok,North America,USA,11,3511356,63697.0,0.01838181818181818,0.12753303550576123
+Full Workbook Only,False,#EventRecap,X (Twitter),APAC,Australia,12,3799621,0.0,,0.14907547663543497
+Full Workbook Only,False,#EventRecap,X (Twitter),APAC,India,14,4790808,0.0,,0.1381504184775645
+Full Workbook Only,False,#EventRecap,X (Twitter),APAC,Japan,15,4776287,0.0,,0.14731709895878567
+Full Workbook Only,False,#EventRecap,X (Twitter),Europe,Germany,14,4124014,0.0,,0.1319157612308451
+Full Workbook Only,False,#EventRecap,X (Twitter),Europe,UK,13,3504894,0.0,,0.13311979154685652
+Full Workbook Only,False,#EventRecap,X (Twitter),Latin America,Brazil,14,4713559,0.0,,0.1416841531156798
+Full Workbook Only,False,#EventRecap,X (Twitter),North America,Canada,14,4756267,0.0,,0.14710828788079924
+Full Workbook Only,False,#EventRecap,X (Twitter),North America,USA,22,7730194,0.0,,0.13207823473663075
+Full Workbook Only,False,#EventSummary,LinkedIn,APAC,Australia,5,902244,23281.0,0.02466,0.12942504484940281
+Full Workbook Only,False,#EventSummary,LinkedIn,APAC,India,4,4425315,91324.0,0.0194,0.12205454896891696
+Full Workbook Only,False,#EventSummary,LinkedIn,APAC,Japan,6,3059991,58766.0,0.021516666666666667,0.14284374095645574
+Full Workbook Only,False,#EventSummary,LinkedIn,Europe,Germany,2,572326,6017.0,0.0106,0.15252623289915435
+Full Workbook Only,False,#EventSummary,LinkedIn,Europe,UK,3,1479992,19933.0,0.015333333333333332,0.1554254856953378
+Full Workbook Only,False,#EventSummary,LinkedIn,Latin America,Brazil,3,1142870,23317.0,0.020733333333333336,0.14557361718967868
+Full Workbook Only,False,#EventSummary,LinkedIn,North America,Canada,8,2776522,59126.0,0.0212,0.13336150036055314
+Full Workbook Only,False,#EventSummary,LinkedIn,North America,USA,4,3159252,62939.0,0.019975,0.15198784243489835
+Full Workbook Only,False,#FeatureHighlight,Facebook,APAC,Australia,5,10390496,190643.0,0.01952,0.1083483391820095
+Full Workbook Only,False,#FeatureHighlight,Facebook,APAC,India,3,2383314,51900.0,0.0189,0.11254650362027767
+Full Workbook Only,False,#FeatureHighlight,Facebook,APAC,Japan,2,5169776,59622.0,0.0116,0.12674249125336207
+Full Workbook Only,False,#FeatureHighlight,Facebook,Europe,Germany,6,6845810,148416.0,0.021516666666666667,0.11487078545316681
+Full Workbook Only,False,#FeatureHighlight,Facebook,Europe,UK,6,18031393,374035.0,0.021500000000000002,0.12759192666697003
+Full Workbook Only,False,#FeatureHighlight,Facebook,Latin America,Brazil,1,2236280,27282.0,0.0122,0.1163080974016392
+Full Workbook Only,False,#FeatureHighlight,Facebook,North America,USA,2,5688408,116690.0,0.0207,0.09792610851865605
+Full Workbook Only,False,#FeatureHighlight,Instagram,APAC,Australia,8,2951839,0.0,,0.11945790549085722
+Full Workbook Only,False,#FeatureHighlight,Instagram,APAC,India,6,2196217,0.0,,0.10584326353042321
+Full Workbook Only,False,#FeatureHighlight,Instagram,APAC,Japan,4,1140470,0.0,,0.0992962316005229
+Full Workbook Only,False,#FeatureHighlight,Instagram,Europe,Germany,7,2189724,0.0,,0.113718384964516
+Full Workbook Only,False,#FeatureHighlight,Instagram,Europe,UK,7,2357179,0.0,,0.11114300263383023
+Full Workbook Only,False,#FeatureHighlight,Instagram,Latin America,Brazil,8,2333244,0.0,,0.11561800814450528
+Full Workbook Only,False,#FeatureHighlight,Instagram,North America,Canada,4,1338418,0.0,,0.09607274052972599
+Full Workbook Only,False,#FeatureHighlight,Instagram,North America,USA,6,1723595,0.0,,0.10915292816987776
+Full Workbook Only,False,#FeatureHighlight,LinkedIn,APAC,Australia,2,909842,0.0,,0.12215720228285198
+Full Workbook Only,False,#FeatureHighlight,LinkedIn,APAC,India,4,2600364,0.0,,0.10315287583216814
+Full Workbook Only,False,#FeatureHighlight,LinkedIn,APAC,Japan,7,3609879,0.0,,0.11438628857520891
+Full Workbook Only,False,#FeatureHighlight,LinkedIn,Europe,Germany,7,5094940,0.0,,0.11599246926181224
+Full Workbook Only,False,#FeatureHighlight,LinkedIn,Europe,UK,2,619095,0.0,,0.10077188297262182
+Full Workbook Only,False,#FeatureHighlight,LinkedIn,Latin America,Brazil,5,3313539,0.0,,0.1098968136038816
+Full Workbook Only,False,#FeatureHighlight,LinkedIn,North America,Canada,5,2753348,0.0,,0.11601953247542654
+Full Workbook Only,False,#FeatureHighlight,LinkedIn,North America,USA,5,3013357,0.0,,0.1368278416127419
+Full Workbook Only,False,#FeatureHighlight,TikTok,APAC,Australia,9,2873134,46069.0,0.015722222222222224,0.1224004143122225
+Full Workbook Only,False,#FeatureHighlight,TikTok,APAC,India,16,5379547,87023.0,0.0166375,0.11707590909346341
+Full Workbook Only,False,#FeatureHighlight,TikTok,APAC,Japan,8,2362646,43894.0,0.017974999999999998,0.11663121461194453
+Full Workbook Only,False,#FeatureHighlight,TikTok,Europe,Germany,19,9597401,190113.0,0.019768421052631577,0.12017114606807647
+Full Workbook Only,False,#FeatureHighlight,TikTok,Europe,UK,16,7253828,136422.0,0.0185625,0.11231500148078558
+Full Workbook Only,False,#FeatureHighlight,TikTok,Latin America,Brazil,18,8733278,143623.0,0.015977777777777775,0.11254380166401647
+Full Workbook Only,False,#FeatureHighlight,TikTok,North America,Canada,11,5418073,101014.0,0.01927272727272727,0.10659787744573578
+Full Workbook Only,False,#FeatureHighlight,TikTok,North America,USA,13,5248143,84989.0,0.016792307692307693,0.12067236699400538
+Full Workbook Only,False,#FeatureHighlight,X (Twitter),APAC,Australia,10,3438107,0.0,,0.12343687626461808
+Full Workbook Only,False,#FeatureHighlight,X (Twitter),APAC,India,19,8255577,0.0,,0.11097055716410305
+Full Workbook Only,False,#FeatureHighlight,X (Twitter),APAC,Japan,13,6529561,0.0,,0.11548733923339446
+Full Workbook Only,False,#FeatureHighlight,X (Twitter),Europe,Germany,10,3901297,0.0,,0.110437171003037
+Full Workbook Only,False,#FeatureHighlight,X (Twitter),Europe,UK,11,5666464,0.0,,0.10919733419846578
+Full Workbook Only,False,#FeatureHighlight,X (Twitter),Latin America,Brazil,25,14541897,0.0,,0.11236502875852503
+Full Workbook Only,False,#FeatureHighlight,X (Twitter),North America,Canada,11,6782808,0.0,,0.11740910887558971
+Full Workbook Only,False,#FeatureHighlight,X (Twitter),North America,USA,12,4351260,0.0,,0.11981608947419786
+Full Workbook Only,False,#FunContent,Facebook,APAC,Australia,1,1919132,25716.0,0.0134,0.07967468108120931
+Full Workbook Only,False,#FunContent,Facebook,APAC,India,2,1243484,23742.0,0.01915,0.07314074224215236
+Full Workbook Only,False,#FunContent,Facebook,APAC,Japan,2,476401,12675.0,0.0266,0.08736829990742123
+Full Workbook Only,False,#FunContent,Facebook,Europe,Germany,4,3842511,66161.0,0.01755,0.07675237003300328
+Full Workbook Only,False,#FunContent,Facebook,Europe,UK,5,6670296,111007.0,0.0155,0.07744005497703976
+Full Workbook Only,False,#FunContent,Facebook,Latin America,Brazil,3,3198311,82320.0,0.0237,0.07614755220552588
+Full Workbook Only,False,#FunContent,Facebook,North America,Canada,2,2396170,40006.0,0.01655,0.0729841751050387
+Full Workbook Only,False,#FunContent,LinkedIn,APAC,Australia,7,3961738,0.0,,0.07538540577075135
+Full Workbook Only,False,#FunContent,LinkedIn,APAC,India,12,7658276,0.0,,0.07729329701476446
+Full Workbook Only,False,#FunContent,LinkedIn,APAC,Japan,12,7769488,0.0,,0.07360266172627458
+Full Workbook Only,False,#FunContent,LinkedIn,Europe,Germany,10,5869966,0.0,,0.07366971203228954
+Full Workbook Only,False,#FunContent,LinkedIn,Europe,UK,13,7947844,0.0,,0.07539949065267343
+Full Workbook Only,False,#FunContent,LinkedIn,Latin America,Brazil,11,5475198,0.0,,0.07595781511190136
+Full Workbook Only,False,#FunContent,LinkedIn,North America,Canada,13,9847986,0.0,,0.08285555651929458
+Full Workbook Only,False,#FunContent,LinkedIn,North America,USA,7,3734207,0.0,,0.08254090800466017
+Full Workbook Only,False,#FunContent,TikTok,APAC,Australia,15,8708862,149353.0,0.01782,0.07510226371959833
+Full Workbook Only,False,#FunContent,TikTok,APAC,India,10,5370908,102755.0,0.01929,0.07176022208232014
+Full Workbook Only,False,#FunContent,TikTok,APAC,Japan,11,7226985,152385.0,0.021154545454545454,0.0725922784326234
+Full Workbook Only,False,#FunContent,TikTok,Europe,Germany,13,8499928,165044.0,0.018415384615384615,0.07395227183802164
+Full Workbook Only,False,#FunContent,TikTok,Europe,UK,14,8454630,150029.0,0.016957142857142858,0.06823139777117364
+Full Workbook Only,False,#FunContent,TikTok,Latin America,Brazil,6,4377683,74505.0,0.016183333333333334,0.06430201963047184
+Full Workbook Only,False,#FunContent,TikTok,North America,Canada,15,8827511,139767.0,0.01562,0.07177582808732334
+Full Workbook Only,False,#FunContent,TikTok,North America,USA,10,6488453,109556.0,0.0164,0.08221933818106505
+Full Workbook Only,False,#FunContent,X (Twitter),APAC,Australia,11,6714027,0.0,,0.07300567701374526
+Full Workbook Only,False,#FunContent,X (Twitter),APAC,India,9,5429617,0.0,,0.0819739166685558
+Full Workbook Only,False,#FunContent,X (Twitter),APAC,Japan,7,3112500,0.0,,0.07163399082768354
+Full Workbook Only,False,#FunContent,X (Twitter),Europe,Germany,9,6220429,0.0,,0.07549236629268603
+Full Workbook Only,False,#FunContent,X (Twitter),Europe,UK,12,6529964,0.0,,0.07745634156849092
+Full Workbook Only,False,#FunContent,X (Twitter),Latin America,Brazil,15,9923024,0.0,,0.07989617329269572
+Full Workbook Only,False,#FunContent,X (Twitter),North America,Canada,10,6410243,0.0,,0.07529847938960091
+Full Workbook Only,False,#FunContent,X (Twitter),North America,USA,14,8383894,0.0,,0.08386687317449382
+Full Workbook Only,False,#JustForFun,Instagram,APAC,Australia,1,829727,0.0,,0.06679597300020748
+Full Workbook Only,False,#MemeMonday,Facebook,APAC,Australia,3,8789533,241180.0,0.027766666666666665,0.06526212378194816
+Full Workbook Only,False,#MemeMonday,Facebook,APAC,India,5,2111541,52743.0,0.022799999999999997,0.08384967387323077
+Full Workbook Only,False,#MemeMonday,Facebook,APAC,Japan,2,4962660,141965.0,0.0279,0.09215914583887798
+Full Workbook Only,False,#MemeMonday,Facebook,Europe,UK,2,4767569,94601.0,0.02065,0.0659553338362362
+Full Workbook Only,False,#MemeMonday,Facebook,Latin America,Brazil,2,3034753,48270.0,0.01825,0.08369594353029206
+Full Workbook Only,False,#MemeMonday,Facebook,North America,USA,1,2837596,70939.0,0.025,0.06012584766983839
+Full Workbook Only,False,#MemeMonday,X (Twitter),Latin America,Brazil,1,304915,0.0,,0.05604501508590226
+Full Workbook Only,False,#NewRelease,Facebook,APAC,Australia,2,6180734,138263.0,0.02165,0.08972814809876428
+Full Workbook Only,False,#NewRelease,Facebook,APAC,India,3,4122585,84985.0,0.019366666666666667,0.12302537795334471
+Full Workbook Only,False,#NewRelease,Facebook,APAC,Japan,3,4614692,91826.0,0.019566666666666666,0.11504661064247458
+Full Workbook Only,False,#NewRelease,Facebook,Europe,Germany,2,849165,15772.0,0.0184,0.11460805297597924
+Full Workbook Only,False,#NewRelease,Facebook,Europe,UK,2,1170621,23566.0,0.0232,0.10607658927446438
+Full Workbook Only,False,#NewRelease,Facebook,Latin America,Brazil,4,3920447,81641.0,0.022224999999999998,0.12141027942352903
+Full Workbook Only,False,#NewRelease,Facebook,North America,Canada,6,8979288,203806.0,0.0206,0.10767248888217519
+Full Workbook Only,False,#NewRelease,Facebook,North America,USA,3,7579285,199578.0,0.026399999999999996,0.11370427336078971
+Full Workbook Only,False,#ProductDemo,Facebook,APAC,Australia,2,4602166,65849.0,0.01435,0.09974608128711707
+Full Workbook Only,False,#ProductDemo,Facebook,APAC,India,3,1304496,21901.0,0.017233333333333333,0.1171959732828584
+Full Workbook Only,False,#ProductDemo,Facebook,APAC,Japan,4,3610598,88038.0,0.022025,0.1174002820743533
+Full Workbook Only,False,#ProductDemo,Facebook,Europe,Germany,6,6623464,141713.0,0.01871666666666667,0.12800542568055684
+Full Workbook Only,False,#ProductDemo,Facebook,Europe,UK,4,4001936,108777.0,0.023625,0.12033721220381091
+Full Workbook Only,False,#ProductDemo,Facebook,Latin America,Brazil,8,11156986,187048.0,0.0175125,0.12053396532229142
+Full Workbook Only,False,#ProductDemo,Facebook,North America,Canada,5,9735791,185419.0,0.0211,0.12139406368067371
+Full Workbook Only,False,#ProductDemo,Instagram,APAC,Australia,21,50493801,0.0,,0.11932543907880795
+Full Workbook Only,False,#ProductDemo,Instagram,APAC,India,25,58452759,0.0,,0.12101119204376655
+Full Workbook Only,False,#ProductDemo,Instagram,APAC,Japan,14,30274189,0.0,,0.12297384964425606
+Full Workbook Only,False,#ProductDemo,Instagram,Europe,Germany,20,46172043,0.0,,0.11382812345331206
+Full Workbook Only,False,#ProductDemo,Instagram,Europe,UK,18,45469563,0.0,,0.11482178123279814
+Full Workbook Only,False,#ProductDemo,Instagram,Latin America,Brazil,22,59936519,0.0,,0.11929191239188591
+Full Workbook Only,False,#ProductDemo,Instagram,North America,Canada,25,64939659,0.0,,0.11150915511904035
+Full Workbook Only,False,#ProductDemo,Instagram,North America,USA,23,53941976,0.0,,0.11731605992500063
+Full Workbook Only,False,#ProductDemo,LinkedIn,APAC,Australia,1,476510,0.0,,0.09521743835359783
+Full Workbook Only,False,#ProductDemo,LinkedIn,Latin America,Brazil,1,1769002,0.0,,0.1265791099224874
+Full Workbook Only,False,#ProductDemo,TikTok,APAC,Australia,29,67852286,1259446.0,0.01849310344827586,0.11079034098296586
+Full Workbook Only,False,#ProductDemo,TikTok,APAC,India,24,60548912,1088890.0,0.0178625,0.11351475805258604
+Full Workbook Only,False,#ProductDemo,TikTok,APAC,Japan,29,71815945,1183560.0,0.01644137931034483,0.1146780086962339
+Full Workbook Only,False,#ProductDemo,TikTok,Europe,Germany,26,51743534,895102.0,0.017773076923076923,0.11793345894248503
+Full Workbook Only,False,#ProductDemo,TikTok,Europe,UK,26,58051609,1013045.0,0.0175,0.11262750423169937
+Full Workbook Only,False,#ProductDemo,TikTok,Latin America,Brazil,17,39625950,654851.0,0.017705882352941175,0.11150168164362684
+Full Workbook Only,False,#ProductDemo,TikTok,North America,Canada,18,39831764,648417.0,0.016227777777777775,0.11922511064036437
+Full Workbook Only,False,#ProductDemo,TikTok,North America,USA,30,71476752,1219070.0,0.01641,0.12296840810692133
+Full Workbook Only,False,#ProductDemo,X (Twitter),APAC,Australia,24,56114149,0.0,,0.11861620346401464
+Full Workbook Only,False,#ProductDemo,X (Twitter),APAC,India,18,35899676,0.0,,0.1111807326838237
+Full Workbook Only,False,#ProductDemo,X (Twitter),APAC,Japan,20,53309345,0.0,,0.11881399060797271
+Full Workbook Only,False,#ProductDemo,X (Twitter),Europe,Germany,16,36578418,0.0,,0.1125428021526135
+Full Workbook Only,False,#ProductDemo,X (Twitter),Europe,UK,20,50029140,0.0,,0.11580131379606469
+Full Workbook Only,False,#ProductDemo,X (Twitter),Latin America,Brazil,25,59777925,0.0,,0.1161980457353784
+Full Workbook Only,False,#ProductDemo,X (Twitter),North America,Canada,19,41175330,0.0,,0.11252022561859394
+Full Workbook Only,False,#ProductDemo,X (Twitter),North America,USA,29,73181444,0.0,,0.11708773375362472
+Full Workbook Only,False,#ProductDemo,YouTube,APAC,Australia,36,67450254,0.0,,0.12087405704085866
+Full Workbook Only,False,#ProductDemo,YouTube,APAC,India,30,53315524,0.0,,0.1155854828629257
+Full Workbook Only,False,#ProductDemo,YouTube,APAC,Japan,34,62409050,0.0,,0.11486919595004641
+Full Workbook Only,False,#ProductDemo,YouTube,Europe,Germany,39,67793398,0.0,,0.11468114951408512
+Full Workbook Only,False,#ProductDemo,YouTube,Europe,UK,49,91916201,0.0,,0.11538971516852518
+Full Workbook Only,False,#ProductDemo,YouTube,Latin America,Brazil,36,55267163,0.0,,0.12056806663202331
+Full Workbook Only,False,#ProductDemo,YouTube,North America,Canada,39,52596604,0.0,,0.11680629974585983
+Full Workbook Only,False,#ProductDemo,YouTube,North America,USA,49,88457199,0.0,,0.11418800544421989
+Full Workbook Only,False,#SaaSLaunch,LinkedIn,APAC,Australia,8,15635516,321106.0,0.0215125,0.126894098328087
+Full Workbook Only,False,#SaaSLaunch,LinkedIn,APAC,India,7,4653064,116469.0,0.02417142857142857,0.11730891334124076
+Full Workbook Only,False,#SaaSLaunch,LinkedIn,APAC,Japan,13,26598171,599591.0,0.021638461538461537,0.10560940127340691
+Full Workbook Only,False,#SaaSLaunch,LinkedIn,Europe,Germany,6,7631363,159898.0,0.018,0.12890686557833253
+Full Workbook Only,False,#SaaSLaunch,LinkedIn,Europe,UK,10,20143278,441185.0,0.02142,0.10117962971356478
+Full Workbook Only,False,#SaaSLaunch,LinkedIn,Latin America,Brazil,10,6888072,155861.0,0.020999999999999998,0.11435513251391119
+Full Workbook Only,False,#SaaSLaunch,LinkedIn,North America,Canada,7,12357251,287564.0,0.020742857142857143,0.11012130275373025
+Full Workbook Only,False,#SaaSLaunch,LinkedIn,North America,USA,6,10285001,229693.0,0.022466666666666666,0.11494462696878545
+Full Workbook Only,False,#SuccessStory,Facebook,APAC,Australia,6,2100236,38309.0,0.01945,0.19705834391859478
+Full Workbook Only,False,#SuccessStory,Facebook,APAC,India,7,11373386,236167.0,0.02207142857142857,0.18368079062515477
+Full Workbook Only,False,#SuccessStory,Facebook,APAC,Japan,6,4430018,92038.0,0.019266666666666665,0.1731684863967391
+Full Workbook Only,False,#SuccessStory,Facebook,Europe,Germany,4,1159954,23912.0,0.021025000000000002,0.20223377084487748
+Full Workbook Only,False,#SuccessStory,Facebook,Europe,UK,10,6092978,114811.0,0.020130000000000002,0.21216687194642508
+Full Workbook Only,False,#SuccessStory,Facebook,Latin America,Brazil,5,3150464,46183.0,0.0195,0.20277085190033484
+Full Workbook Only,False,#SuccessStory,Facebook,North America,Canada,6,1601806,27951.0,0.017683333333333332,0.21432625297558797
+Full Workbook Only,False,#SuccessStory,Facebook,North America,USA,11,6370061,145767.0,0.019181818181818182,0.19064781446926213
+Full Workbook Only,False,#SuccessStory,Instagram,APAC,Australia,56,15625182,0.0,,0.19914451422121826
+Full Workbook Only,False,#SuccessStory,Instagram,APAC,India,43,12684869,0.0,,0.20689390609402125
+Full Workbook Only,False,#SuccessStory,Instagram,APAC,Japan,33,11869109,0.0,,0.2016194000821486
+Full Workbook Only,False,#SuccessStory,Instagram,Europe,Germany,57,17449682,0.0,,0.19718378073523826
+Full Workbook Only,False,#SuccessStory,Instagram,Europe,UK,47,16257952,0.0,,0.20219106866731343
+Full Workbook Only,False,#SuccessStory,Instagram,Latin America,Brazil,41,12812954,0.0,,0.1999723670855069
+Full Workbook Only,False,#SuccessStory,Instagram,North America,Canada,61,19408867,0.0,,0.19587503691345287
+Full Workbook Only,False,#SuccessStory,Instagram,North America,USA,49,16963123,0.0,,0.1936755633757553
+Full Workbook Only,False,#SuccessStory,LinkedIn,APAC,Australia,8,2626994,3875.0,0.0178,0.20081670695817322
+Full Workbook Only,False,#SuccessStory,LinkedIn,APAC,India,5,1676097,0.0,,0.1869937720376959
+Full Workbook Only,False,#SuccessStory,LinkedIn,APAC,Japan,3,1279538,0.0,,0.2283678699507388
+Full Workbook Only,False,#SuccessStory,LinkedIn,Europe,Germany,1,323600,0.0,,0.1754820269246116
+Full Workbook Only,False,#SuccessStory,LinkedIn,Europe,UK,6,1810036,0.0,,0.17730680626923812
+Full Workbook Only,False,#SuccessStory,LinkedIn,Latin America,Brazil,3,978050,0.0,,0.20255112353742358
+Full Workbook Only,False,#SuccessStory,LinkedIn,North America,Canada,4,1199282,0.0,,0.17861331606263814
+Full Workbook Only,False,#SuccessStory,LinkedIn,North America,USA,7,2897687,21414.0,0.0233,0.20067735586853797
+Full Workbook Only,False,#SuccessStory,TikTok,APAC,Australia,54,17866003,310605.0,0.01757777777777778,0.2105767939327667
+Full Workbook Only,False,#SuccessStory,TikTok,APAC,India,60,18635916,326347.0,0.0171,0.20307246885448105
+Full Workbook Only,False,#SuccessStory,TikTok,APAC,Japan,68,22719474,396106.0,0.01778529411764706,0.1986839583708841
+Full Workbook Only,False,#SuccessStory,TikTok,Europe,Germany,45,13828978,253918.0,0.018326666666666665,0.19062048628570136
+Full Workbook Only,False,#SuccessStory,TikTok,Europe,UK,62,18904861,317238.0,0.016743548387096775,0.20813764449679228
+Full Workbook Only,False,#SuccessStory,TikTok,Latin America,Brazil,64,20572863,357361.0,0.0173078125,0.20559115879142847
+Full Workbook Only,False,#SuccessStory,TikTok,North America,Canada,68,22179752,391392.0,0.017738235294117645,0.19844374408925214
+Full Workbook Only,False,#SuccessStory,TikTok,North America,USA,57,19442980,328025.0,0.01718245614035088,0.19514113571614058
+Full Workbook Only,False,#SuccessStory,X (Twitter),APAC,Australia,56,17885549,0.0,,0.20234040352447955
+Full Workbook Only,False,#SuccessStory,X (Twitter),APAC,India,75,26629483,0.0,,0.19561053840169046
+Full Workbook Only,False,#SuccessStory,X (Twitter),APAC,Japan,60,21098143,0.0,,0.19895631698264626
+Full Workbook Only,False,#SuccessStory,X (Twitter),Europe,Germany,39,14769410,0.0,,0.2005903627650127
+Full Workbook Only,False,#SuccessStory,X (Twitter),Europe,UK,59,18678151,0.0,,0.19555929094050764
+Full Workbook Only,False,#SuccessStory,X (Twitter),Latin America,Brazil,53,16149796,0.0,,0.20220630083533436
+Full Workbook Only,False,#SuccessStory,X (Twitter),North America,Canada,58,18976853,0.0,,0.19431804752465034
+Full Workbook Only,False,#SuccessStory,X (Twitter),North America,USA,77,25909084,0.0,,0.1998077085694211
+Full Workbook Only,False,#Testimonial,Facebook,APAC,Australia,6,2121633,44463.0,0.020766666666666666,0.19556634235142653
+Full Workbook Only,False,#Testimonial,Facebook,APAC,India,5,2738923,56643.0,0.01992,0.2055089910591336
+Full Workbook Only,False,#Testimonial,Facebook,APAC,Japan,5,5232103,104007.0,0.0185,0.21139816211699175
+Full Workbook Only,False,#Testimonial,Facebook,Europe,Germany,6,5409255,140671.0,0.024583333333333332,0.19414978197619936
+Full Workbook Only,False,#Testimonial,Facebook,Europe,UK,5,6516966,137718.0,0.01928,0.1855830451474704
+Full Workbook Only,False,#Testimonial,Facebook,Latin America,Brazil,8,4938292,90399.0,0.020425,0.20021595849146678
+Full Workbook Only,False,#Testimonial,Facebook,North America,Canada,6,5976604,143633.0,0.019633333333333332,0.18737309839045638
+Full Workbook Only,False,#Testimonial,Facebook,North America,USA,8,2820038,59632.0,0.019975,0.2125208352339666
+Full Workbook Only,False,#TrendingNow,Facebook,APAC,Australia,1,4256191,80867.0,0.019,0.05264745206712115
+Full Workbook Only,False,#TrendingNow,Facebook,APAC,India,2,6565764,191108.0,0.028999999999999998,0.061995294388991845
+Full Workbook Only,False,#TrendingNow,Facebook,APAC,Japan,1,1464900,28565.0,0.0195,0.07857556509237702
+Full Workbook Only,False,#TrendingNow,Facebook,Europe,Germany,4,3082489,41739.0,0.013625,0.07219437203812745
+Full Workbook Only,False,#TrendingNow,Facebook,Europe,UK,2,5022753,105810.0,0.022699999999999998,0.06741919635230054
+Full Workbook Only,False,#TrendingNow,Facebook,Latin America,Brazil,1,304915,7958.0,0.0261,0.08410779809122076
+Full Workbook Only,False,#TrendingNow,Facebook,North America,USA,1,388527,5905.0,0.0152,0.05613974698465038
+Full Workbook Only,False,#TrendingNow,Instagram,APAC,Australia,13,32570176,0.0,,0.0767347688767639
+Full Workbook Only,False,#TrendingNow,Instagram,APAC,India,15,32691089,0.0,,0.07959255340109476
+Full Workbook Only,False,#TrendingNow,Instagram,APAC,Japan,10,32832677,0.0,,0.06907801727225284
+Full Workbook Only,False,#TrendingNow,Instagram,Europe,Germany,10,23304608,0.0,,0.0664831294907863
+Full Workbook Only,False,#TrendingNow,Instagram,Europe,UK,12,30673210,0.0,,0.07912771777979981
+Full Workbook Only,False,#TrendingNow,Instagram,Latin America,Brazil,10,18973589,0.0,,0.07107643647901477
+Full Workbook Only,False,#TrendingNow,Instagram,North America,Canada,16,41213785,0.0,,0.07479516916095286
+Full Workbook Only,False,#TrendingNow,Instagram,North America,USA,12,27112676,0.0,,0.07140101563583194
+Full Workbook Only,False,#TrendingNow,LinkedIn,APAC,Australia,7,5220603,10051.0,0.01685,0.19140531386514345
+Full Workbook Only,False,#TrendingNow,LinkedIn,APAC,India,4,2207510,15059.0,0.0224,0.21309385473219175
+Full Workbook Only,False,#TrendingNow,LinkedIn,APAC,Japan,4,1041544,0.0,,0.19030917691348453
+Full Workbook Only,False,#TrendingNow,LinkedIn,Europe,UK,1,236709,5018.0,0.0212,0.2416847525611353
+Full Workbook Only,False,#TrendingNow,LinkedIn,North America,Canada,3,786091,0.0,,0.21022512626889034
+Full Workbook Only,False,#TrendingNow,LinkedIn,North America,USA,1,193128,3360.0,0.0174,0.1749391675355194
+Full Workbook Only,False,#TrendingNow,TikTok,APAC,Australia,5,13105294,275745.0,0.019520000000000003,0.07058262981149982
+Full Workbook Only,False,#TrendingNow,TikTok,APAC,India,5,9545844,147720.0,0.01566,0.0708345114702226
+Full Workbook Only,False,#TrendingNow,TikTok,APAC,Japan,18,42313995,694614.0,0.016305555555555556,0.07558721382010536
+Full Workbook Only,False,#TrendingNow,TikTok,Europe,Germany,11,28509653,533968.0,0.018500000000000003,0.06766879145030497
+Full Workbook Only,False,#TrendingNow,TikTok,Europe,UK,10,26593469,439517.0,0.01709,0.08035412144257895
+Full Workbook Only,False,#TrendingNow,TikTok,Latin America,Brazil,17,46947900,808924.0,0.017088235294117647,0.07454949248476649
+Full Workbook Only,False,#TrendingNow,TikTok,North America,Canada,16,34789620,612371.0,0.0176125,0.070798699089859
+Full Workbook Only,False,#TrendingNow,TikTok,North America,USA,9,22461661,404189.0,0.017277777777777777,0.07339551623461234
+Full Workbook Only,False,#TrendingNow,X (Twitter),APAC,Australia,9,21190885,0.0,,0.0690050205701849
+Full Workbook Only,False,#TrendingNow,X (Twitter),APAC,India,9,25022947,0.0,,0.07796177358195572
+Full Workbook Only,False,#TrendingNow,X (Twitter),APAC,Japan,13,32442419,0.0,,0.07349983551628277
+Full Workbook Only,False,#TrendingNow,X (Twitter),Europe,Germany,11,26594069,0.0,,0.075934778467237
+Full Workbook Only,False,#TrendingNow,X (Twitter),Europe,UK,7,16932743,0.0,,0.06412975642551914
+Full Workbook Only,False,#TrendingNow,X (Twitter),Latin America,Brazil,6,14187505,0.0,,0.06616138271169725
+Full Workbook Only,False,#TrendingNow,X (Twitter),North America,Canada,9,22431156,0.0,,0.06907350361283626
+Full Workbook Only,False,#TrendingNow,X (Twitter),North America,USA,13,33521215,0.0,,0.0742300852505595
+Full Workbook Only,False,#TrendingNow,YouTube,APAC,Australia,30,49585658,0.0,,0.08050439563742298
+Full Workbook Only,False,#TrendingNow,YouTube,APAC,India,30,44497989,0.0,,0.07325445957320659
+Full Workbook Only,False,#TrendingNow,YouTube,APAC,Japan,28,38629565,0.0,,0.07641783083793027
+Full Workbook Only,False,#TrendingNow,YouTube,Europe,Germany,33,44472199,0.0,,0.07479362636605158
+Full Workbook Only,False,#TrendingNow,YouTube,Europe,UK,22,31621816,0.0,,0.07671330311858113
+Full Workbook Only,False,#TrendingNow,YouTube,Latin America,Brazil,22,30385562,0.0,,0.07704835860200963
+Full Workbook Only,False,#TrendingNow,YouTube,North America,Canada,26,33796813,0.0,,0.08074128369862936
+Full Workbook Only,False,#TrendingNow,YouTube,North America,USA,26,40484955,0.0,,0.07778045371479524
+Full Workbook Only,False,#WebinarReplay,Facebook,APAC,India,1,287191,7323.0,0.0255,0.1523437835090046
+Full Workbook Only,False,#WebinarReplay,Facebook,APAC,Japan,1,163861,1851.0,0.0113,0.128575908985906
+Full Workbook Only,False,#WebinarReplay,Facebook,Latin America,Brazil,1,355351,6040.0,0.017,0.1503972459049948
+Full Workbook Only,False,#WebinarReplay,Facebook,North America,Canada,2,1425313,34800.0,0.0223,0.1298358798963026
+Full Workbook Only,False,#WebinarReplay,Facebook,North America,USA,4,6629418,122966.0,0.022175,0.16125505023039347
+Full Workbook Only,False,#WebinarReplay,Instagram,Europe,Germany,2,3112909,0.0,,0.14067985411142045
+Full Workbook Only,False,#WebinarReplay,Instagram,Europe,UK,1,2118451,0.0,,0.1789392101001682
+Full Workbook Only,False,#WebinarReplay,Instagram,North America,USA,1,2864202,0.0,,0.130160918579094
+Full Workbook Only,False,#WebinarReplay,TikTok,APAC,India,1,3679804,89419.0,0.0243,0.1539812740051296
+Full Workbook Only,False,#WebinarReplay,TikTok,APAC,Japan,2,5021411,82247.0,0.01645,0.13014799897684565
+Full Workbook Only,False,#WebinarReplay,TikTok,Europe,Germany,2,3882492,74799.0,0.01845,0.1551663015961688
+Full Workbook Only,False,#WebinarReplay,TikTok,Europe,UK,2,4623678,53062.0,0.0117,0.13902712345323295
+Full Workbook Only,False,#WebinarReplay,TikTok,Latin America,Brazil,1,2626193,46746.0,0.0178,0.1473108174785004
+Full Workbook Only,False,#WebinarReplay,TikTok,North America,USA,1,1959711,44289.0,0.0226,0.1287775362510367
+Full Workbook Only,False,#WebinarReplay,X (Twitter),Europe,Germany,1,1761637,0.0,,0.1605290246243946
+Full Workbook Only,False,#WebinarReplay,X (Twitter),North America,Canada,2,5967904,0.0,,0.15475231291864638
+Full Workbook Only,False,#WebinarReplay,X (Twitter),North America,USA,4,9802961,0.0,,0.1582807052209128
+Full Workbook Only,False,#WebinarReplay,YouTube,APAC,Australia,17,5542930,0.0,,0.13505792467884564
+Full Workbook Only,False,#WebinarReplay,YouTube,APAC,India,15,4851206,0.0,,0.14812423915067993
+Full Workbook Only,False,#WebinarReplay,YouTube,APAC,Japan,19,9795907,0.0,,0.13286039624431667
+Full Workbook Only,False,#WebinarReplay,YouTube,Europe,Germany,23,10700626,0.0,,0.1350490814383121
+Full Workbook Only,False,#WebinarReplay,YouTube,Europe,UK,16,11244045,0.0,,0.12211579489657862
+Full Workbook Only,False,#WebinarReplay,YouTube,Latin America,Brazil,16,5673957,0.0,,0.13685483306244273
+Full Workbook Only,False,#WebinarReplay,YouTube,North America,Canada,15,6708111,0.0,,0.1350843379654957
+Full Workbook Only,False,#WebinarReplay,YouTube,North America,USA,20,9661157,0.0,,0.14050646586312393

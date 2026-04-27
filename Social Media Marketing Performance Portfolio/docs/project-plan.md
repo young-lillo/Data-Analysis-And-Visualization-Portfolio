@@ -1,4 +1,4 @@
-# Social Media Marketing Performance Portfolio - Project Plan
+# Social Media Performance Analytics Challenge - Project Plan
 
 ## Confirmed Decisions
 
@@ -6,203 +6,243 @@
 - Goal Tier: `Advanced`
 - Visualization Tool: `Metabase`
 - Deploy Target: `VPS`
+- Database: `Supabase`
+- Dashboard Scope: full workbook by default; `scope_segment` remains in the data model but is not exposed as a dashboard filter
+- Geography Grain: include `country` and `region` in the model; dashboard filtering uses `country`
+- Paid Indicator: derive `promotion_type` from `Content_Type` where `Organic = organic` and `Sponsored = paid/promoted`
 
 ## User Context
 
-You want an English-language portfolio project built from the provided Onyx social media workbook.
+You are acting as a Data Analyst for a global IT company. The project uses the Onyx 2024 social media dataset to evaluate content campaign performance across social platforms, regions, formats, hashtags, and promotion types.
 
-Stack direction already chosen:
+Primary objective:
 
-- `Supabase` for storage, SQL modeling, and prepared analytical tables
-- `Metabase` on your existing VPS for stakeholder-facing dashboards
+Use evidence from engagement, views, impressions, clicks, CTR, timing, geography, and paid status to refine content strategy and regional marketing decisions.
 
-Primary business intent:
+Portfolio angle:
 
-Identify what makes content successful across platforms, explain regional engagement behavior, and support better content and channel strategy decisions.
+This should read as an advanced stakeholder analytics case, not only a metric dashboard. The final story should explain what works, where it works, when it works, and what the marketing team should change next.
 
-## Dataset Surface
+## Dataset Description
 
-Source file:
+Briefed dataset surface:
 
-- User-provided workbook: `Social_Media_Content_Performance_Dataset.xlsx`
+- Platforms: `TikTok`, `Instagram`, `LinkedIn`, `X (Twitter)`
+- Post formats: `Video`, `Carousel`, `Text`
+- Content categories: `Product Promotion`, `Educational`, `Entertainment`
+- Metadata: timestamp, hashtags, country, region
+- Performance metrics: engagement, views, impressions, clicks, CTR
+- Promotion lens: organic versus promoted or paid content
 
-Observed workbook structure:
+Resolved field interpretation:
 
-- 1 worksheet
-- 5,600 rows
-- 24 columns
-- Date span: `2024-01-01` to `2025-05-01`
+- Include `country` and `region` in the model.
+- Expose `country` as the dashboard geography filter per stakeholder feedback.
+- Keep `region` for analytical views and regional charts, but do not expose it in the dashboard filter bar.
+- Derive `promotion_type` from `Content_Type`.
+- Treat `Content_Type = Organic` as organic content.
+- Treat `Content_Type = Sponsored` as paid or promoted content.
 
-Observed columns:
+Current project asset:
 
-- `Post_ID`
-- `Platform`
-- `Content_Type`
-- `Content_Category`
-- `Post_Type`
-- `Region`
-- `Longitude`
-- `Latitude`
-- `Engagement`
-- `Views`
-- `Likes`
-- `Shares`
-- `Comments`
-- `Engagement_Rate`
-- `Impressions`
-- `Video_Views`
-- `Live_Stream_Views`
-- `Clicks`
-- `Click_Through_Rate`
-- `Main_Hashtag`
-- `Post_Published_At`
-- `Post_Date`
-- `Post_Hour`
-- `Engagement_Level`
+- Source workbook: `docs/assets/user-files/social-media-content-performance-dataset.xlsx`
+- Existing prepared exports: `docs/assets/exports/`
+- Existing analytical stack: Supabase-compatible PostgreSQL model plus Metabase dashboard builder
 
-Observed analytical surface:
+Known observed surface from the existing preparation pass:
 
-- Platforms present in the file: `Facebook`, `Instagram`, `LinkedIn`, `TikTok`, `X.com`, `YouTube`
-- Content types: `Organic`, `Sponsored`
-- Content categories: `Customer Story`, `Educational`, `Entertainment`, `Event / Webinar`, `Product Promotion`
-- Post types: `Article`, `Carousel`, `Image`, `Live Stream`, `PDF`, `Text`, `Video`
-- Regions: 8
-- Main hashtags: 18
-- Rows with non-zero `Video_Views`: 2,948
-- Rows with non-zero `Live_Stream_Views`: 924
-- Missing `Clicks`: 3,740 rows
-- Missing `Click_Through_Rate`: 3,740 rows
+- Rows: `5,600`
+- Date range: `2024-01-01` to `2025-05-01`
+- Platforms observed: `Facebook`, `Instagram`, `LinkedIn`, `TikTok`, `X.com`, `YouTube`
+- Regions observed: `8`
+- Main hashtags observed: `18`
+- Missing click and CTR fields: `3,740` rows
+- Duplicate source `post_id`: `600`
 
 Important interpretation:
 
-Your brief mentions four platforms, but the actual file contains six. The project should use the real dataset surface and explicitly note that platform coverage extends beyond the original summary.
+The new brief frames the project as a June 2024 Onyx challenge with four platforms. The current workbook and prepared outputs appear broader. Use this resolved scope rule:
+
+- Keep the full workbook as the primary dashboard dataset.
+- Retain `is_challenge_scope` and `scope_segment` for reconciliation, QA, and optional SQL exploration.
+- Do not expose `Scope` in the Metabase filter bar because the current dashboard is intended to answer the full workbook by default.
+- Document any material difference between full-dataset findings and challenge-scope findings when recommendations depend on scope.
+
+Dashboard default: full workbook. Challenge scope remains available in the data model, not as a prominent dashboard filter.
 
 ## Problem Interpretation
 
-This is not only a dashboard about vanity metrics. The stronger portfolio angle is content performance intelligence across platform, format, timing, region, and promotion type.
+The business does not only need to know which platform has the largest numbers. It needs an operating guide for future content planning.
 
-Core business question:
+Primary business question:
 
-How should a marketing team decide what content to publish, where to publish it, when to publish it, and whether to promote it, based on cross-platform evidence from engagement, reach, views, and CTR?
+Which combination of platform, post format, content category, posting time, region, hashtag, and promotion type creates the strongest engagement, visibility, and click outcomes?
 
-Decision areas the project should support:
+Decision areas:
 
 1. Platform allocation
-2. Content mix selection
-3. Posting-time optimization
-4. Regional strategy adaptation
-5. Hashtag usage strategy
-6. Organic versus sponsored investment decisions
+2. Content format mix
+3. Regional content localization
+4. Posting calendar optimization
+5. Hashtag strategy
+6. Video and live-stream investment
+7. Paid versus organic budget decisions
 
-## Chosen Goal Ladder
+## Goal Ladder
 
-- Basic: descriptive KPI dashboard by platform, content type, and region
-- Pro: driver analysis by post format, category, hashtag, region, and posting hour
-- Advanced: strategic recommendation layer with timing patterns, regional segmentation, organic versus sponsored tradeoffs, and portfolio-style decision guidance
+Basic:
+
+- Profile data quality and summarize KPIs by platform, format, and region.
+- Produce descriptive dashboard views.
+
+Pro:
+
+- Compare drivers across platform, format, category, hashtag, timing, region, and promotion type.
+- Segment results by business decision area.
+
+Advanced:
+
+- Add scope reconciliation, statistical correlation checks, regional comparison, timing optimization, paid-versus-organic tradeoff analysis, and executive recommendations.
+- Explain caveats around missing CTR, platform comparability, and non-causal interpretation.
 
 Chosen level: `Advanced`
 
-Implication:
-
-The final output should go beyond descriptive charts. It should include explainable strategic takeaways, reusable KPI definitions, and a clear decision story for marketers.
-
-## Framework Recommendation
+## CRISP-DM Framework
 
 Chosen framework: `CRISP-DM`
 
-Why it fits:
+Why this fits:
 
-- The project is insight-first, not pipeline-first
-- The portfolio value comes from converting marketing questions into analytical evidence and recommendations
-- Supabase and Metabase provide the technical layer, but the center of gravity is still business understanding and evaluation
+- The work is insight-first and stakeholder-facing.
+- The main value is translating social performance data into marketing strategy.
+- Supabase and Metabase are delivery tools, but the project should be judged by clarity of business understanding, analytical evidence, and recommendations.
 
-Planned CRISP-DM flow:
+CRISP-DM flow:
 
 1. Business understanding
-   Define success metrics, business questions, and strategic decisions.
+   Define marketing decisions, KPI definitions, audience needs, and scope.
 2. Data understanding
-   Validate platform coverage, regional coverage, time range, and KPI sparsity.
+   Profile platform coverage, date scope, geography, post types, hashtags, and metric availability.
 3. Data preparation
-   Clean types, normalize metrics, derive time features, and prepare dashboard-ready tables in Supabase.
-4. Modeling
-   Build analytical marts for content, platform, region, timing, hashtag, and paid-versus-organic comparisons.
+   Clean timestamps, normalize categories, derive time features, handle missing CTR, and build Supabase-ready tables.
+4. Modeling and analysis
+   Build aggregations, scope views, correlation checks, and segment comparisons.
 5. Evaluation
-   Confirm the outputs answer the stated questions without overstating causal claims.
+   Validate whether findings answer the nine analytical questions without overstating causality.
 6. Deployment
-   Publish an interactive Metabase dashboard on the existing VPS-backed environment.
+   Publish Metabase dashboards on the existing VPS, connected to Supabase.
 
-## Recommended Visualization Path
+## Analytical Objectives
 
-Chosen tool: `Metabase`
+### Performance: Platform And Format
 
-Why it fits:
+Question:
 
-- You already have a Metabase host
-- The dataset is relational and metric-heavy, which fits SQL-first BI well
-- The project needs stakeholder-friendly dashboards, filterable exploration, and reusable questions
-- Supabase can serve as the clean analytical backend for Metabase with low operational friction
+Which platforms and post types generate the highest engagement or views?
 
-Role of Supabase in this project:
+Required analysis:
 
-- land the raw Excel dataset
-- store cleaned analytical tables
-- expose SQL views or materialized tables for Metabase
-- keep transformation logic reproducible and shareable
+- Rank platforms by engagement, views, impressions, and efficiency metrics.
+- Compare post formats within each platform.
+- Separate volume leadership from efficiency leadership.
 
-## Recommended Data Model
+### Strategy: Content Categories By Region
 
-Use a layered model in Supabase.
+Question:
 
-### Raw Layer
+Which content categories perform best in specific geographical regions?
 
-- `raw_social_media_posts`
-  Close copy of the Excel file with typed ingest metadata
+Required analysis:
 
-### Clean Layer
+- Region by content category matrix.
+- Region by platform by category drill-down.
+- Identify categories that consistently overperform in each region.
 
-- `stg_social_media_posts`
-  Standardized names, typed metrics, parsed timestamps, cleaned nulls, normalized text categories
+### Metrics: Optimization
 
-### Mart Layer
+Question:
 
-- `dim_platform`
-  Platform name and grouped channel metadata
-- `dim_region`
-  Region, longitude, latitude
-- `dim_content`
-  Content category, post type, content type
-- `dim_hashtag`
-  Main hashtag
-- `fct_social_post_performance`
-  One post per row with all cleaned KPIs
-- `mart_platform_performance`
-  Aggregated platform and post-type metrics
-- `mart_region_content_performance`
-  Region by category and format performance
-- `mart_posting_time_performance`
-  Day, hour, platform, and category timing summaries
-- `mart_hashtag_performance`
-  Hashtag effectiveness by impressions, clicks, CTR, and engagement
-- `mart_content_type_comparison`
-  Organic versus sponsored performance summaries
+How do performance metrics fluctuate based on platform, format, or hashtag usage?
 
-Recommended derived fields:
+Required analysis:
 
-- `published_day_of_week`
-- `published_month`
-- `published_hour_bucket`
-- `engagement_per_impression`
-- `clicks_per_1k_impressions`
-- `views_per_post`
-- `video_view_share`
-- `live_stream_view_share`
-- `is_click_trackable`
-- `is_video_post`
-- `is_live_stream_post`
+- Platform, format, and hashtag performance distribution.
+- Engagement, impressions, clicks, CTR, and view-efficiency comparison.
+- Flag metric volatility and outliers.
+
+### Timing: Engagement
+
+Question:
+
+What are the optimal days and times for posting to maximize interaction?
+
+Required analysis:
+
+- Day-of-week and hour-of-day heatmaps.
+- Platform-specific timing comparison.
+- Time bucket recommendations with caveats about timezone.
+
+### Regional: Conversion
+
+Question:
+
+Is there a significant regional difference in engagement and CTR?
+
+Required analysis:
+
+- Region-level engagement rate and CTR comparison.
+- Trackable-row-only CTR analysis.
+- Statistical significance check or practical-difference ranking.
+
+### Growth: Visibility
+
+Question:
+
+Which hashtags are most effective for increasing impressions and clicks?
+
+Required analysis:
+
+- Hashtag leaderboard by impressions, clicks, CTR, and engagement.
+- Minimum post threshold to avoid overrating tiny samples.
+- Region and platform slices for top hashtags.
+
+### Content: Media Trends
+
+Question:
+
+Which regions consistently show high video views or interest in live streams?
+
+Required analysis:
+
+- Video views by region and platform.
+- Live-stream views by region where present.
+- Compare video and non-video engagement patterns.
+
+### Correlation: Drivers
+
+Question:
+
+Is there a correlation between engagement levels and content categories or posting times?
+
+Required analysis:
+
+- Correlation among engagement, impressions, views, clicks, CTR, posting hour, and derived features.
+- Categorical driver comparison using grouped averages, medians, and indexed lift.
+- Avoid causal language unless the dataset supports it.
+
+### Comparison: Organic Versus Paid
+
+Question:
+
+How do organic reach and performance compare to promoted or paid content?
+
+Required analysis:
+
+- Organic versus paid or sponsored reach, engagement, clicks, CTR, and efficiency.
+- Platform-level paid versus organic comparison.
+- Recommendation on when promotion seems to improve reach versus when organic content performs efficiently.
 
 ## KPI Contract
-
-Use explicit KPI definitions in the project so Metabase questions remain consistent.
 
 Primary KPIs:
 
@@ -215,141 +255,279 @@ Primary KPIs:
 - Reach Efficiency = `engagement / impressions`
 - Click Efficiency = `clicks / impressions`
 - View Efficiency = `views / impressions`
+- Clicks Per 1K Impressions = `clicks / impressions * 1000`
+- Engagement Lift = segment engagement rate versus overall baseline
 
 Guardrails:
 
-- Only calculate CTR-based comparisons where click tracking exists
-- Treat missing `Clicks` and `Click_Through_Rate` as unavailable, not zero, unless a source rule proves otherwise
-- Separate volume metrics from efficiency metrics so large platforms do not dominate every chart
+- Treat missing clicks and CTR as unavailable, not zero.
+- Run CTR analysis only on click-trackable rows.
+- Use both absolute volume and normalized efficiency.
+- Require minimum sample sizes for hashtag and region claims.
+- Do not compare platform-native engagement rates as exact apples-to-apples unless source definitions are confirmed.
 
-## Analytical Deliverables
+## Supabase Data Model
 
-The dashboard should answer these questions:
+Recommended layers:
 
-1. Which platforms and post types generate the highest engagement, views, and impressions?
-2. Which content categories perform best by region?
-3. How do engagement, reach, and CTR vary by platform, post format, and hashtag?
-4. What days and hours are most effective for posting?
-5. Are there meaningful regional differences in engagement rate and CTR?
-6. Which hashtags consistently improve impressions or clicks?
-7. Which regions show strong video consumption or stronger live-stream interest?
-8. What relationships appear between engagement and content category or posting time?
-9. How do organic and sponsored posts differ in reach, efficiency, and click performance?
+### Raw Layer
+
+- `raw_social_media_posts`
+  Close copy of the workbook or source extract, preserving original fields.
+
+### Staging Layer
+
+- `stg_social_media_posts`
+  Standardized field names, typed metrics, parsed timestamps, normalized platform names, normalized categories, and row-level validation flags.
+
+### Scope Layer
+
+- `vw_challenge_scope_posts`
+  Filterable portfolio scope for June 2024 and the four briefed platforms.
+
+- `vw_full_dataset_posts`
+  Default full workbook scope for broader exploration and validation.
+
+### Mart Layer
+
+- `dim_platform`
+- `dim_region`
+- `dim_content`
+- `dim_hashtag`
+- `fct_social_post_performance`
+- `mart_platform_format_performance`
+- `mart_region_content_performance`
+- `mart_posting_time_performance`
+- `mart_hashtag_performance`
+- `mart_video_live_region_performance`
+- `mart_organic_paid_comparison`
+- `mart_correlation_inputs`
+
+Recommended derived fields:
+
+- `published_date`
+- `published_day_of_week`
+- `published_hour`
+- `published_hour_bucket`
+- `published_month`
+- `is_challenge_scope`
+- `country`
+- `is_click_trackable`
+- `is_video_post`
+- `is_live_stream_post`
+- `promotion_type`, derived from `Content_Type`
+- `reach_efficiency`
+- `click_efficiency`
+- `view_efficiency`
+- `engagement_lift_index`
+
+## Metabase Dashboard Plan
+
+Chosen tool: `Metabase`
+
+Why it fits:
+
+- You already have Metabase deployed on a VPS.
+- Supabase can serve clean SQL tables and views.
+- Stakeholders can use filters, saved questions, drill-downs, and public sharing.
 
 Recommended dashboard sections:
 
-- Executive Overview
-- Platform and Format Performance
-- Content Category and Regional Insights
-- Posting Time Optimization
-- Hashtag Effectiveness
-- Video and Live Stream Performance
-- Organic vs Sponsored Comparison
-- Strategic Recommendations
+1. Executive Overview
+   Six scalar KPI cards for posts, engagement, views, impressions, average engagement rate, and average CTR, plus top findings and caveats.
+2. Platform And Format Performance
+   Platform leaderboard, post type comparison, and views-versus-engagement chart.
+3. Regional Content Strategy
+   Region and country category performance charts with lift-versus-baseline interpretation.
+4. Metric Optimization
+   Platform, format, and hashtag metric fluctuation charts with outlier callouts.
+5. Posting Time Optimization
+   Day and hour engagement views with platform and other global filters.
+6. Hashtag Growth Analysis
+   Impressions, clicks, CTR, and engagement by hashtag.
+7. Video And Live-Stream Trends
+   Regional video and live-stream interest.
+8. Correlation And Driver View
+   Scatterplots, correlation summary table, grouped driver lift table, and a plain-English explanation card under `Correlation Summary`.
+9. Organic Versus Paid
+   Reach, engagement, click, and efficiency comparison by promotion type.
+10. Strategic Recommendations
+   Actionable content calendar and regional strategy guidance.
+
+Core filters:
+
+- Date range
+- Platform
+- Country
+- Content category
+- Post type
+- Promotion type
+- Hashtag
+
+Chart-selection rule:
+
+- Use the provided `chart.md` guide for visual forms.
+- Use scalar cards for executive KPIs.
+- Use bar charts for ranked category, platform, hashtag, regional, and paid-versus-organic comparisons.
+- Use scatter charts for two-metric relationships such as CTR versus engagement or impressions versus clicks.
+- Use line charts for ordered time patterns where the x-axis has a natural sequence.
+- Keep `Correlation Summary` as a compact table because it is diagnostic; add explanatory text underneath so viewers understand score direction, strength, row count, and non-causal interpretation.
 
 ## Expected SQL And Python Depth
 
-SQL depth: `medium`
+SQL depth: `medium to high`
 
-- ingestion validation
-- typed staging transformations
-- reusable views for KPI logic
-- aggregation by platform, region, category, hashtag, and posting time
+- Typed staging views
+- Scope-specific views
+- Reusable KPI definitions
+- Segment marts
+- Correlation input marts
+- Metabase-facing saved questions or SQL cards
 
-Python depth: `low to medium`
+Python depth: `medium`
 
-- Excel ingestion
-- optional profiling and validation
-- optional export helpers if you want repeatable load scripts
+- Workbook ingestion and profiling
+- Timestamp and category validation
+- Optional correlation calculations
+- Optional statistical comparison outputs
+- Export generation for reproducibility
 
-This project does not require advanced ML to deliver strong value. The analytical weight should stay on reliable BI modeling and careful metric interpretation.
+Advanced analysis does not require a heavy ML model. The right emphasis is rigorous segmentation, trustworthy KPIs, light statistics, and clear recommendations.
 
-## Metabase Delivery Direction
+## Data Cleaning Plan
 
-Recommended build sequence in Metabase:
+Required checks:
 
-1. Create a clean Supabase connection dedicated to this project
-2. Expose staging tables only for internal validation
-3. Build dashboard-facing questions from mart tables or curated SQL models
-4. Add global filters for platform, region, content category, content type, post type, date range, and hashtag
-5. Add one executive dashboard plus one drill-down dashboard for regional and timing analysis
+- Timestamp parse success and timezone assumptions
+- Date filter for June 2024 challenge scope
+- Platform normalization, especially `X`, `X.com`, and `Twitter`
+- Post type normalization against `Video`, `Carousel`, and `Text`
+- Content category normalization against brief categories
+- Hashtag casing, missing values, and single versus multiple hashtag representation
+- Country and region completeness
+- Duplicate post identifiers
+- Missing clicks and CTR
+- Engagement consistency with likes, comments, and shares if those fields exist
+- Organic versus paid or sponsored normalization from `Content_Type`
 
-Recommended core Metabase questions:
+Cleaning outputs:
 
-1. Platform leaderboard by engagement and views
-2. Post-type performance by platform
-3. Regional category heatmap
-4. Posting-hour performance matrix
-5. Top hashtags by impressions, clicks, and CTR
-6. Organic versus sponsored comparison
-7. Video versus live-stream regional demand
-8. Correlation-ready scatter comparing impressions, engagement, and clicks
+- Data quality summary
+- Field dictionary
+- Scope reconciliation note
+- KPI null-handling rules
 
-## Data Quality And Validation Focus
+## EDA Plan
 
-Validate these items early in `$dv-data-preparation`:
+Produce aggregate analysis for:
 
-- true platform list versus stakeholder summary
-- timestamp parsing consistency between `Post_Published_At`, `Post_Date`, and `Post_Hour`
-- duplicate `Post_ID` rows
-- null handling for `Clicks` and `Click_Through_Rate`
-- whether `Engagement` aligns with `Likes + Shares + Comments` or is independently sourced
-- whether `Views`, `Video_Views`, and `Live_Stream_Views` overlap or should be interpreted separately
-- region naming consistency
-- hashtag formatting consistency such as casing and punctuation
+- Platform and post format performance
+- Regional engagement and CTR differences
+- Content category performance by region
+- Hashtag visibility and click effectiveness
+- Posting day and posting hour patterns
+- Video and live-stream regional trends
+- Organic versus paid performance differences
 
-Critical caveats:
+Recommended chart patterns:
 
-- The dataset appears post-level, not campaign-level, so attribution claims should stay modest
-- CTR coverage is incomplete, so regional or platform CTR findings may be sample-biased
-- Latitude and longitude likely represent region centroids, not exact audience locations
+- Leaderboards for platform, hashtag, and category performance
+- Heatmaps for region by category and day by hour
+- Scatterplots for engagement, impressions, clicks, and CTR
+- Small multiples by platform for timing or format effects
+- Boxplots or distribution summaries if Metabase charting supports them cleanly
 
-## Risks
+## Correlation And Driver Analysis
 
-- The business brief names four platforms, but the live data contains six, which can create expectation mismatch
-- Missing click metrics on many rows can distort paid-versus-organic or hashtag conclusions if not handled carefully
-- Engagement rate may not be directly comparable across all platforms if the source calculation logic differs
-- Time optimization findings can drift if timezone assumptions are not documented
-- Hashtag analysis may be limited because only one `Main_Hashtag` field is present, not a full hashtag list
+Use correlation carefully:
 
-## Assumptions
+- Numeric correlations: engagement, views, impressions, clicks, CTR, posting hour, video views.
+- Categorical drivers: compare medians, means, lift indexes, and sample sizes by platform, category, format, region, and promotion type.
+- Timing drivers: compare engagement lift by day and hour bucket.
 
-- Each row represents one published post
-- `Content_Type` is the organic versus sponsored flag
-- `Main_Hashtag` is the dominant hashtag intended for analysis
-- `Post_Hour` reflects the posting hour in the source system's business timezone
-- Metabase will consume prepared Supabase tables, not the raw Excel directly
+Expected outputs:
 
-## Success Criteria
+- Correlation-ready mart or export
+- Driver summary table
+- Top positive and negative lift segments
+- Plain-English caveat that correlation does not prove causation
 
-- The Excel file is reproducibly loaded into Supabase
-- Cleaned tables and marts exist for platform, region, timing, hashtag, and paid-versus-organic analysis
-- KPI definitions are documented and consistently implemented
-- The final Metabase dashboard answers all nine core business questions
-- The dashboard produces actionable English-language recommendations, not only charts
-- The project is portfolio-ready for demo or stakeholder walkthrough
+## Strategic Insight Plan
+
+The final recommendations should answer:
+
+- Which platforms deserve more publishing effort?
+- Which formats deserve more production investment?
+- Which content categories should be localized by region?
+- Which days and times should be prioritized?
+- Which hashtags should be reused, retired, or tested further?
+- Where should video or live-stream content be emphasized?
+- When does paid promotion appear worthwhile?
+- Which findings require more data before acting?
+
+Recommendation format:
+
+- Finding
+- Evidence
+- Business implication
+- Recommended action
+- Risk or caveat
+
+## Validation Criteria
+
+The revised project is successful when:
+
+- The plan records all confirmed decisions at the top.
+- The brief and plan reflect the new Onyx June 2024 challenge.
+- The project explicitly reconciles brief scope versus observed workbook scope.
+- Supabase remains the database target.
+- Metabase on VPS remains the dashboard target.
+- All nine analytical questions map to concrete tables, charts, or analysis steps.
+- Missing CTR and click coverage are handled safely.
+- Final recommendations are actionable and caveated.
 
 ## Suggested Next Workflows
 
-1. `$dv-data-preparation`
-   Build the Supabase ingest path, typed staging layer, KPI logic, and mart tables.
-2. `$dv-data-visualize`
-   Build Metabase questions, filters, dashboard layout, and narrative flow.
-3. `$dv-publish`
-   Prepare handoff notes, deployment checklist, and sharing setup for the VPS-hosted dashboard.
+1. `$dv-data-visualize`
+   Use for future dashboard refinements, card additions, or visual QA after stakeholder feedback.
+2. `$dv-publish`
+   Update the hosted Metabase and Supabase handoff notes after final validation or when moving from local to VPS.
+3. `$dv-document-management`
+   Keep `project-plan.md`, `data-preparation.md`, `visualization.md`, and publish notes synchronized when dashboard behavior changes.
 
-## Implementation Direction For The Next Step
+## Immediate Next Step
 
-The next owner workflow should produce:
+Current implementation status:
 
-- a reproducible Excel-to-Supabase load path
-- a field dictionary for all staging and mart tables
-- a KPI definition sheet with null-handling rules
-- SQL models for the final Metabase questions
-- a shortlist of the final dashboard cards and filters
+- Data preparation has already added `country`, derived macro `region`, `is_challenge_scope`, `scope_segment`, and `promotion_type`.
+- Metabase currently uses 7 global filters: date range, platform, country, content category, post type, promotion type, and hashtag.
+- `Scope` and `Region` are intentionally not exposed in the dashboard filter bar.
+- The dashboard has been rebuilt as a 28-card workbook with scalar KPI cards, chart-based analytical sections, a correlation explanation card, and strategic recommendations.
+
+Next practical step:
+
+- Validate the hosted VPS dashboard after any reseed or credential-based refresh, then update `publish.md` with the final public access notes.
+
+## Risks
+
+- The current workbook appears broader than the four-platform June 2024 brief.
+- CTR and click data are incomplete, so conversion analysis may be sample-biased.
+- Country-level segmentation depends on the country field being present and populated in the source.
+- Paid versus organic assumes `Content_Type` values map cleanly to `Organic` and `Sponsored`.
+- Hashtag analysis may be limited if only one main hashtag is available per post.
+- Posting-time analysis needs a documented timezone assumption.
+
+## Assumptions
+
+- Each row represents one published post or aggregated post record.
+- Supabase will be the hosted analytical database.
+- Metabase is already deployed on the user's VPS.
+- The dashboard should be English-language and portfolio-ready.
+- The final report should include recommendations, not only charts.
+- Full workbook is the default dashboard scope.
+- Challenge scope remains available through `scope_segment` and `is_challenge_scope` in the data model, but is not a dashboard filter.
+- `Content_Type` is the paid-status source field.
 
 ## Unresolved Questions
 
-- Should the portfolio story focus on one brand or remain platform-agnostic as a benchmark analysis?
-- Do you want recommendation text written directly into the dashboard, or only in project docs?
-- Do you want the final output to include a public case-study page in addition to the Metabase dashboard?
+- None.

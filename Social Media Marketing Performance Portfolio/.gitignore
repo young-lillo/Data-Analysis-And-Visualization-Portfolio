@@ -1,9 +1,5 @@
-.env
-.env.*
-.venv/
-__pycache__/
-*.pyc
-node_modules/
-postgres-data/
-metabase-data/
+docs/assets/exports/
+docs/assets/screenshots/
+docs/assets/user-files/
 docs/assets/tmp/
+postgres-data/

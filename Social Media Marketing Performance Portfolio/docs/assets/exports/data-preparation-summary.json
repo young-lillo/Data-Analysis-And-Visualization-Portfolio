@@ -1,8 +1,8 @@
 {
-  "source_file": "docs/assets/user-files/social-media-content-performance-dataset.xlsx",
+  "source_file": "D:\\VScode\\Test\\data-visualization-skills\\projects\\social-media-marketing-performance-portfolio\\docs\\assets\\user-files\\social-media-content-performance-dataset.xlsx",
   "rows": 5600,
   "duplicate_post_ids": 600,
-  "platforms": [
+  "source_platforms": [
     "Facebook",
     "Instagram",
     "LinkedIn",
@@ -10,7 +10,15 @@
     "X.com",
     "YouTube"
   ],
-  "regions": [
+  "platforms": [
+    "Facebook",
+    "Instagram",
+    "LinkedIn",
+    "TikTok",
+    "X (Twitter)",
+    "YouTube"
+  ],
+  "countries": [
     "Australia",
     "Brazil",
     "Canada",
@@ -20,9 +28,29 @@
     "UK",
     "USA"
   ],
+  "source_regions": [
+    "Australia",
+    "Brazil",
+    "Canada",
+    "Germany",
+    "India",
+    "Japan",
+    "UK",
+    "USA"
+  ],
+  "regions": [
+    "APAC",
+    "Europe",
+    "Latin America",
+    "North America"
+  ],
   "content_types": [
     "Organic",
     "Sponsored"
+  ],
+  "promotion_types": [
+    "Organic",
+    "Paid/Promoted"
   ],
   "content_categories": [
     "Customer Story",
@@ -43,6 +71,9 @@
   "hashtags": 18,
   "date_min": "2024-01-01",
   "date_max": "2025-05-01",
+  "challenge_scope_rows": 246,
+  "full_workbook_only_rows": 5354,
+  "country_source": "Derived from Region column",
   "missing_clicks": 3740,
   "missing_ctr": 3740,
   "click_trackable_rows": 1860,
