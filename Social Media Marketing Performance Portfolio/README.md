@@ -2,11 +2,7 @@
 
 This project turns social media content performance data into a marketing analytics dashboard for platform comparison, content strategy, posting-time optimization, hashtag effectiveness, video/live-stream interest, and organic-versus-sponsored performance.
 
-Live dashboard: `https://data.youngllilo.works/dashboard/11-social-media-marketing-performance`
-
-Local dashboard: `http://localhost:3001/dashboard/2`
-
-Local public dashboard: `http://localhost:3001/public/dashboard/b9f811ac-fd0a-49c3-b4b6-d4597cc04d13`
+Live dashboard: [Social Media Marketing Performance](https://data.youngllilo.works/public/dashboard/7781e3d8-f806-413b-8d57-75b014d5b734)
 
 ## Project Context
 
@@ -127,12 +123,7 @@ More detail: [`docs/publish.md`](docs/publish.md)
 
 Live dashboard:
 
-- `https://data.youngllilo.works/dashboard/11-social-media-marketing-performance`
-
-Local dashboard:
-
-- `http://localhost:3001/dashboard/2`
-- `http://localhost:3001/public/dashboard/b9f811ac-fd0a-49c3-b4b6-d4597cc04d13`
+Live dashboard: [Social Media Marketing Performance](https://data.youngllilo.works/public/dashboard/7781e3d8-f806-413b-8d57-75b014d5b734)
 
 ## Insights / Learning
 

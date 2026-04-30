@@ -2,7 +2,7 @@
 
 This project turns FVSD literacy assessment data into an intervention-planning dashboard for school leaders.
 
-Live dashboard: [Public dashboard](https://data.youngllilo.works/public/dashboard/3115be47-ce51-4585-b045-d350a25a9b0d)
+Live dashboard: [FVSD Literacy Intervention Dashboard](https://data.youngllilo.works/public/dashboard/3115be47-ce51-4585-b045-d350a25a9b0d)
 
 ## Project Context
 
