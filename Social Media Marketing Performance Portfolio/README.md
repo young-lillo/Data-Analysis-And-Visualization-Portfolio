@@ -2,7 +2,7 @@
 
 This project turns social media content performance data into a marketing analytics dashboard for platform comparison, content strategy, posting-time optimization, hashtag effectiveness, video/live-stream interest, and organic-versus-sponsored performance.
 
-Live dashboard: [Social Media Marketing Performance](https://data.youngllilo.works/public/dashboard/7781e3d8-f806-413b-8d57-75b014d5b734)
+Live dashboard: [Social Media Marketing Performance](https://data.khanh-pham.work/public/dashboard/7781e3d8-f806-413b-8d57-75b014d5b734)
 
 ## Project Context
 
@@ -77,7 +77,7 @@ Dashboard sections:
 - key insights and suggested actions
 - trackable post detail
 
-The hosted dashboard is published in Metabase at `https://data.youngllilo.works/dashboard/11-social-media-marketing-performance`. The hosted Supabase schema is `social_media_marketing_v2`.
+The hosted dashboard is published in Metabase at `https://data.khanh-pham.work/public/dashboard/7781e3d8-f806-413b-8d57-75b014d5b734`. The hosted Supabase schema is `social_media_marketing_v2`.
 
 ## How to Clone the Project
 
@@ -123,7 +123,7 @@ More detail: [`docs/publish.md`](docs/publish.md)
 
 Live dashboard:
 
-Live dashboard: [Social Media Marketing Performance](https://data.youngllilo.works/public/dashboard/7781e3d8-f806-413b-8d57-75b014d5b734)
+Live dashboard: [Social Media Marketing Performance](https://data.khanh-pham.work/public/dashboard/7781e3d8-f806-413b-8d57-75b014d5b734)
 
 ## Insights / Learning
 
