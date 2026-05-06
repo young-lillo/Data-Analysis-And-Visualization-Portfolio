@@ -15,7 +15,7 @@ Included materials:
 - Dashboard screenshots and a Metabase dashboard specification
 - Documentation for project goals, data preparation, visualization design, publishing, and deployment
 
-Live dashboard: [Airbnb Global Listings Reviews Analytics](https://data.youngllilo.works/public/dashboard/99008e31-dc72-4fc5-8fe0-bb70326eb19b)
+Live dashboard: [Airbnb Global Listings Reviews Analytics](https://data.khanh-pham.work/public/dashboard/99008e31-dc72-4fc5-8fe0-bb70326eb19b)
 
 ### [FVSD Literacy Intervention Portfolio](FVSD%20Literacy%20Intervention%20Portfolio)
 
@@ -28,7 +28,7 @@ Included materials:
 - Local Docker setup for PostgreSQL and Metabase
 - Dashboard automation script, screenshot path, and documentation for preparation, visualization, and deployment
 
-Live dashboard: [FVSD Literacy Intervention Dashboard](https://data.youngllilo.works/public/dashboard/3115be47-ce51-4585-b045-d350a25a9b0d)
+Live dashboard: [FVSD Literacy Intervention Dashboard](https://data.khanh-pham.work/public/dashboard/3115be47-ce51-4585-b045-d350a25a9b0d)
 
 ### [Social Media Marketing Performance Portfolio](Social%20Media%20Marketing%20Performance%20Portfolio)
 
@@ -41,7 +41,7 @@ Included materials:
 - Local Docker setup for PostgreSQL and Metabase
 - Dashboard automation script and documentation for preparation, visualization, and publish handoff
 
-Live dashboard: [Social Media Marketing Performance](https://data.youngllilo.works/public/dashboard/7781e3d8-f806-413b-8d57-75b014d5b734)
+Live dashboard: [Social Media Marketing Performance](https://data.khanh-pham.work/public/dashboard/7781e3d8-f806-413b-8d57-75b014d5b734)
 
 ## Skills Demonstrated
 
