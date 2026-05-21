@@ -81,18 +81,9 @@ The hosted dashboard is published in Metabase at `https://data.khanh-pham.work/p
 
 ## How to Clone the Project
 
-Current upstream source:
-
 ```bash
-git clone https://github.com/young-lillo/data-visualization-skills.git
-cd data-visualization-skills/projects/social-media-marketing-performance-portfolio
-```
-
-If this folder is published as its own repository later, the clone flow becomes:
-
-```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone <portfolio-repository-url>
+cd "<portfolio-repository-folder>/Social Media Marketing Performance Portfolio"
 ```
 
 ## How to Deploy Locally

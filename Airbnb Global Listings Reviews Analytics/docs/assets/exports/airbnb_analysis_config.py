@@ -1,15 +1,10 @@
-"""Shared config for the Airbnb cook analysis."""
+"""Shared config for the Airbnb analysis exports."""
 
 from pathlib import Path
 import os
 
-DATASET_DIR = Path(
-    os.environ.get(
-        "AIRBNB_DATASET_DIR",
-        "D:/VScode/Test/Data set/B\u00e0i 16_ Travel & Hospitality",
-    )
-)
 OUTPUT_DIR = Path(__file__).resolve().parent
+DATASET_DIR = Path(os.environ.get("AIRBNB_DATASET_DIR", OUTPUT_DIR / "source-data"))
 LISTINGS = DATASET_DIR / "Listings.csv"
 REVIEWS = DATASET_DIR / "Reviews.csv"
 

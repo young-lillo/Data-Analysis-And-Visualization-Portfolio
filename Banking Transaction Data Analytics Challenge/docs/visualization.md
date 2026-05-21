@@ -2,7 +2,7 @@
 
 ## Status
 
-Power BI report build contract prepared and published dashboard available.
+Power BI report documentation and published dashboard available.
 
 ## Public Dashboard
 
@@ -67,9 +67,6 @@ Relationship rules:
 
 - `docs/power-query-transformations.md`
 - `docs/dax-measures.md`
-- `docs/power-bi-report-build-guide.md`
-- `docs/power-bi-page-by-page-build-script.md`
-- `docs/power-bi-star-schema-upgrade-guide.md`
 - `docs/assets/exports/analysis-summary.md`
 
 ## Unresolved Questions

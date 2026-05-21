@@ -1,4 +1,4 @@
--- DuckDB-style starter SQL for the cooked Power BI CSV outputs.
+-- DuckDB-style starter SQL for the prepared Power BI CSV outputs.
 -- Update file paths if running outside the project folder.
 
 create or replace view fact_banking_transactions as

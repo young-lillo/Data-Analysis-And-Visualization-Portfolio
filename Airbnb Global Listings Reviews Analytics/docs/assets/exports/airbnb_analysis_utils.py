@@ -1,4 +1,4 @@
-"""Utility functions for the Airbnb cook analysis."""
+"""Utility functions for the Airbnb analysis exports."""
 
 import csv
 import math

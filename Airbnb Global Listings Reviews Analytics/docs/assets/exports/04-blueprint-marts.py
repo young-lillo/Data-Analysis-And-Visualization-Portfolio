@@ -1,4 +1,4 @@
-"""Extra marts required by the project-plan Metabase blueprint."""
+"""Extra marts required by the Metabase dashboard specification."""
 
 from __future__ import annotations
 

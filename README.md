@@ -12,8 +12,8 @@ Included materials:
 
 - USD-normalized prepared transaction data and historical EUR/USD rate audit table
 - Power BI star schema with fact and dimension CSVs
-- DAX measure definitions, Power Query notes, and dashboard build guide
-- Power BI `.pbix` files, PDF export, and dashboard screenshots
+- DAX measure definitions, Power Query notes, and reproducible setup notes
+- Power BI `.pbix` files and dashboard screenshots
 
 Live dashboard: [Banking Transaction Data Analytics Challenge](https://app.powerbi.com/view?r=eyJrIjoiNjgyMTFlMGUtZGI1YS00NGMyLTk0ZmEtODUxODRlMzE2NWYzIiwidCI6IjM3MGZiM2I4LTMzMDYtNDg5MC05MDYzLWNjMDhiZTc4ODI1NyIsImMiOjEwfQ%3D%3D)
 
@@ -91,3 +91,12 @@ Live dashboard: [Social Media Marketing Performance](https://data.khanh-pham.wor
 ```
 
 Start with the README inside each project folder for project-specific setup, data preparation, dashboard, and deployment details.
+
+## Duplicate From GitHub
+
+```bash
+git clone <portfolio-repository-url>
+cd <portfolio-repository-folder>
+```
+
+Then open the project folder you want to reproduce and follow its README.

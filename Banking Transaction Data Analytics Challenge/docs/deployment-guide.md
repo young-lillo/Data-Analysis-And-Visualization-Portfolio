@@ -68,7 +68,6 @@ Keep filter direction single from dimension to fact.
 - Power BI files are under `powerbi/`.
 - Prepared data and star-schema tables are under `docs/assets/exports/`.
 - Dashboard screenshots are under `docs/assets/screenshots/`.
-- PDF export is under `docs/assets/reports/`.
 - `.env`, `.venv`, cache folders, and build artifacts are ignored.
 - No credentials, private API keys, gateway secrets, refresh tokens, or private workspace settings are included.
 

@@ -75,18 +75,9 @@ How the dashboard was set up to solve the goals:
 
 ## How to Clone the Project
 
-Current upstream source:
-
 ```bash
-git clone https://github.com/young-lillo/data-visualization-skills.git
-cd data-visualization-skills/projects/fvsd-literacy-intervention-portfolio/docs/assets/github-ready/bundle
-```
-
-If you publish this bundle as its own repository later, the clone flow becomes:
-
-```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone <portfolio-repository-url>
+cd "<portfolio-repository-folder>/FVSD Literacy Intervention Portfolio"
 ```
 
 ## Screenshot Dashboard

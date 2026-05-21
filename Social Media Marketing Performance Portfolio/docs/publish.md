@@ -5,9 +5,8 @@
 - Tool path: `Metabase`
 - Target: `VPS`
 - Database target: `Supabase`
-- Live dashboard URL: `https://data.youngllilo.works/dashboard/11-social-media-marketing-performance`
+- Live dashboard URL: use your published Metabase dashboard URL
 - Local validation URL: `http://localhost:3001`
-- Local public dashboard URL: `http://localhost:3001/public/dashboard/b9f811ac-fd0a-49c3-b4b6-d4597cc04d13`
 
 ## Deployment Assets
 
@@ -19,8 +18,6 @@
 
 ## Publish Checklist
 
-- `project-brief.md` exists and reflects the Onyx June 2024 challenge.
-- `project-plan.md` exists and records CRISP-DM, Advanced, Metabase, VPS, and Supabase.
 - `data-preparation.md` exists and reflects the refreshed prepared-data contract.
 - `visualization.md` exists and reflects the updated Metabase dashboard direction.
 - `publish.md` exists.
@@ -28,7 +25,6 @@
 - `mart-correlation-inputs.csv` exists for driver analysis.
 - PostgreSQL schema and analytics views load successfully.
 - Local Metabase stack runs at `http://localhost:3001`.
-- Public dashboard URL responds with HTTP `200`.
 - `.gitignore` excludes local runtime artifacts and sensitive files.
 
 ## Supabase Handoff
@@ -66,41 +62,22 @@ Hosted Metabase command, when the Supabase database is already registered in Met
 
 ```powershell
 .\tools\create-metabase-dashboard.ps1 `
-  -BaseUrl "https://data.youngllilo.works" `
+  -BaseUrl "https://YOUR_METABASE_HOST" `
   -Username "YOUR_METABASE_EMAIL" `
   -Password "YOUR_METABASE_PASSWORD" `
-  -DatabaseId 2 `
-  -CollectionId 8 `
+  -DatabaseId YOUR_DATABASE_ID `
+  -CollectionId YOUR_COLLECTION_ID `
   -SqlSchema "social_media_marketing_v2" `
   -NoDashboardFilters
 ```
 
-Current hosted Metabase target:
+## Validation Checklist
 
-- Base URL: `https://data.youngllilo.works`
-- Database ID: `2`
-- Collection ID: `8`
-- Supabase schema: `social_media_marketing_v2`
-- Dashboard filter mode: `-NoDashboardFilters` until Metabase field metadata sync is reliable.
-
-## Current Publish State
-
-- Data preparation: complete
-- SQL refresh: complete
-- Local Metabase app: running
-- Public dashboard route: reachable
-- Dashboard builder refresh: complete in code
-- Hosted Supabase upload: complete under `social_media_marketing_v2`
-- Hosted Metabase collection upload: complete under Collection ID `8`
-- Dashboard API reseed: complete with `-NoDashboardFilters`
-- Live dashboard: `https://data.youngllilo.works/dashboard/11-social-media-marketing-performance`
-
-## Remaining Publish Risks
-
-- Hosted Supabase credentials are not stored in this workspace.
-- Hosted Metabase admin credentials are not stored in this workspace.
-- Local dashboard card reseeding needs a valid Metabase admin login.
-- Public sharing and embedding decisions still need to be confirmed in hosted Metabase settings.
+- Prepared exports regenerate successfully.
+- PostgreSQL schema and analytics views load successfully.
+- Metabase can query the selected schema.
+- Dashboard cards execute without SQL errors.
+- Public sharing is enabled only after credentials and admin settings are hidden.
 
 ## Unresolved Questions
 

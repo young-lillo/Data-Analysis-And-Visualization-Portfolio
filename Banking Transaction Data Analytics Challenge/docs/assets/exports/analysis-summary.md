@@ -60,4 +60,4 @@
 
 ## Unresolved Questions
 
-- Should the `.pbix` be built from cooked CSVs first, then later moved to Power BI Service refresh?
+- None.

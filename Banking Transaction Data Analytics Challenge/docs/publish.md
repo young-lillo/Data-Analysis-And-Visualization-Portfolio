@@ -14,7 +14,6 @@ Published Power BI portfolio handoff ready.
 - Visualization tool: Power BI.
 - Deploy target: Power BI Service public report plus local Power BI Desktop handoff.
 - Prepared data contract: `docs/assets/exports/fact-banking-transactions-star.csv`.
-- Report build guide: `docs/power-bi-report-build-guide.md`.
 - Validation report: `docs/validation-report.md`.
 - Deployment guide: `docs/deployment-guide.md`.
 
@@ -22,7 +21,7 @@ Published Power BI portfolio handoff ready.
 
 - Public viewers should use the published Power BI URL above.
 - Local reviewers can open the `.pbix` report in Power BI Desktop from `powerbi/`.
-- Keep Power Query notes, DAX measure definitions, screenshots, and exported report assets in `docs/assets/`.
+- Keep Power Query notes, DAX measure definitions, and screenshots in `docs/`.
 - Treat service refresh settings, gateway configuration, workspace IDs, credentials, and tokens as private operational configuration outside source control.
 
 ## Checklist
@@ -30,7 +29,7 @@ Published Power BI portfolio handoff ready.
 1. Validate docs completeness.
 2. Confirm project workspace is commit-ready.
 3. Include Power BI `.pbix` files under `powerbi/`.
-4. Include screenshots and PDF export under `docs/assets/`.
+4. Include screenshots under `docs/assets/screenshots/`.
 5. Verify no credentials, gateway secrets, refresh tokens, or private workspace settings are in source files.
 6. Confirm daily historical FX rates and `FXRateDate` are visible in the audit/drillthrough layer.
 7. Run `python tools/build-banking-star-schema.py` and confirm validation totals.

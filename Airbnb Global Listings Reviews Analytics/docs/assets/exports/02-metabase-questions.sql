@@ -1,4 +1,4 @@
--- Metabase question pack aligned to project-plan.md dashboard blueprint.
+-- Metabase question pack aligned to the dashboard specification.
 -- Use these native SQL questions after loading the airbnb marts.
 -- Dashboard filters:
 -- - {{city}} is a Metabase Field Filter dropdown/multi-select mapped to each mart's city field.

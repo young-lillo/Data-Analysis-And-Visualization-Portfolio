@@ -77,8 +77,8 @@ The dashboard includes multi-select dropdown filters for `City` and `Room Type`.
 ## How to Clone the Project
 
 ```bash
-git clone https://github.com/khanh-pham87/airbnb-global-listings-reviews-analytics.git
-cd airbnb-global-listings-reviews-analytics
+git clone <portfolio-repository-url>
+cd "<portfolio-repository-folder>/Airbnb Global Listings Reviews Analytics"
 ```
 
 ## How to Deploy

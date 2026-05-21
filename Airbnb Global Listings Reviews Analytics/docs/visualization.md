@@ -2,12 +2,8 @@
 
 ## Status
 
-- Workflow: `$dv-data-visualize` correction after `$dv-cook`
 - Tool: Metabase
-- Status: rebuilt to follow the `project-plan.md` Metabase Dashboard Blueprint
-- Local dashboard URL: `http://localhost:3001/dashboard/2-airbnb-global-listings-reviews-analytics`
-- Local dashboard Metabase container: `metabase-airbnb-dashboard`
-- Local mart Postgres container: `airbnb-postgres-local`
+- Status: dashboard assets and screenshots are included for GitHub review and local reproduction
 
 ## Prepared Dashboard Assets
 
@@ -18,7 +14,7 @@
 - `docs/assets/exports/04-blueprint-marts.py`
 - Prepared CSV marts in `docs/assets/exports/`
 
-## Dashboard Blueprint Implementation
+## Dashboard Implementation
 
 ### Page 1: Global Market Overview
 

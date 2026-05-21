@@ -2,7 +2,7 @@
 
 ## Status
 
-Passed for cooked project artifacts.
+Passed for prepared project artifacts.
 
 ## Checks
 
@@ -13,7 +13,6 @@ Passed for cooked project artifacts.
 - Summary CSVs exist.
 - DAX measure documentation exists.
 - Power Query documentation exists.
-- Power BI report build guide exists.
 - Star-schema fact and dimension CSVs exist.
 
 ## Data Checks
@@ -28,7 +27,7 @@ Passed for cooked project artifacts.
 - FX method: daily historical EUR/USD from Frankfurter API v2 with `provider=ECB`; previous available published rate used for non-publication dates; native USD = 1.00
 - EUR/USD rate range used: 1.0198 to 1.1476
 
-## Cooked KPI Snapshot
+## Prepared KPI Snapshot
 
 - Total amount USD: $107,954,758.28
 - Total fee revenue USD: $681,084.03
@@ -51,10 +50,10 @@ Passed for cooked project artifacts.
 
 Customer profile changes are expected in this synthetic dataset. Use `DimCustomerProfile` for segment, score-band, and income-band filtering, and use `DimCustomer` for customer identity and customer-level tables.
 
-## Tool-Aware Deploy Check
+## Power BI Local Validation
 
-Power BI does not expose a kit-managed local web server like Evidence, Metabase, or Grafana. Local validation is therefore file-based: open the cooked CSVs and docs in Power BI Desktop, then build or refresh the `.pbix` report.
+Power BI local validation is file-based: open the prepared CSVs and docs in Power BI Desktop, then refresh the `.pbix` report.
 
 ## Unresolved Questions
 
-- Should the `.pbix` later be moved to Power BI Service refresh after the desktop report is built?
+- None.

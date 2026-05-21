@@ -46,10 +46,10 @@ Trusted views for dashboard work:
 
 ## Implemented Visualization Assets
 
-- Local stack file: [docker-compose.yml](D:\VScode\Test\data-visualization-skills\projects\social-media-marketing-performance-portfolio\docker-compose.yml)
-- Postgres seed SQL: [01-schema-and-load.sql](D:\VScode\Test\data-visualization-skills\projects\social-media-marketing-performance-portfolio\postgres\sql\01-schema-and-load.sql)
-- Analytics views: [02-analytics-views.sql](D:\VScode\Test\data-visualization-skills\projects\social-media-marketing-performance-portfolio\postgres\sql\02-analytics-views.sql)
-- Dashboard builder script: [create-metabase-dashboard.ps1](D:\VScode\Test\data-visualization-skills\projects\social-media-marketing-performance-portfolio\tools\create-metabase-dashboard.ps1)
+- Local stack file: [docker-compose.yml](../docker-compose.yml)
+- Postgres seed SQL: [01-schema-and-load.sql](../postgres/sql/01-schema-and-load.sql)
+- Analytics views: [02-analytics-views.sql](../postgres/sql/02-analytics-views.sql)
+- Dashboard builder script: [create-metabase-dashboard.ps1](../tools/create-metabase-dashboard.ps1)
 
 ## Dashboard Scope
 
@@ -96,7 +96,7 @@ Implemented dashboard sections:
 - Added `vw_sm_regional_ctr_comparison` for regional conversion analysis.
 - Added `vw_sm_correlation_driver_inputs` for correlation and driver analysis.
 - Added advanced analytical views for executive KPIs, platform-format efficiency, regional lift, metric outliers, posting-time heatmap, hashtag growth, video vs non-video performance, numeric correlations, driver lift, and organic vs paid performance.
-- Rebuilt the Metabase dashboard into a 28-card analytical workbook aligned to the 10 recommended dashboard sections in `project-plan.md`.
+- Rebuilt the Metabase dashboard into a 28-card analytical workbook aligned to the 10 dashboard sections documented here.
 - Added date range, post type, and hashtag filters alongside platform, country, category, and promotion filters.
 - Added evidence-linked recommendations that connect findings to business implication, action, and caveat.
 - Removed `Scope` and `Region` from the dashboard filter bar per stakeholder feedback.
@@ -138,7 +138,7 @@ Implemented dashboard sections:
 
 ```powershell
 # 1. Regenerate prepared exports
-& "C:\Users\khanh\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" tools\build-social-media-prepared-exports.py
+python tools\build-social-media-prepared-exports.py
 
 # 2. Start the local stack
 docker compose up -d

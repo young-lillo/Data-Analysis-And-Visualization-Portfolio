@@ -2,11 +2,10 @@
 
 ## Status
 
-- Workflow: `$dv-cook` data-preparation stage
 - Status: complete
-- Source dataset: `D:\VScode\Test\Data set\Bai 16_ Travel & Hospitality` (display-normalized; source folder name includes Vietnamese accent)
+- Source dataset: provide a local folder containing `Listings.csv` and `Reviews.csv`
 - Runtime: standard-library Python, no pandas/numpy dependency
-- Credential handling: Supabase credentials were not read, written, or embedded
+- Credential handling: keep Supabase credentials outside the repository
 
 ## Prepared Contract
 
@@ -46,6 +45,15 @@
 - `docs/assets/exports/mart-amenity-price-premium.csv`
 - `docs/assets/exports/mart-value-for-money-city.csv`
 - `docs/assets/exports/analysis-summary.md`
+
+## Rebuild From a Clone
+
+Set `AIRBNB_DATASET_DIR` to the folder that contains the raw CSV files, then run:
+
+```bash
+python docs/assets/exports/01-analysis.py
+python docs/assets/exports/04-blueprint-marts.py
+```
 
 ## Key Findings
 

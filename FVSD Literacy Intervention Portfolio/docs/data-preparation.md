@@ -8,7 +8,6 @@ Prepare a trusted analytics surface for the FVSD portfolio and make it directly 
 
 - Source workbook: `docs/Education_Management_Dataset.xlsx`
 - Source sheets: `School`, `Students`, `Test Details`, `Grading Groups`, `Tests`
-- Project contract: `docs/project-plan.md`
 
 ## Executed Steps
 

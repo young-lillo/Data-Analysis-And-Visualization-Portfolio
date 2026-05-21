@@ -41,7 +41,7 @@ This project turns 20,000 synthetic banking transactions into a Power BI portfol
 
 ## Project Overview
 
-This project packages a stakeholder-facing banking analytics case as a GitHub-ready portfolio deliverable. It includes prepared transaction data, USD-normalized monetary fields, a Power BI star schema, reusable DAX definitions, Power Query notes, dashboard screenshots, exported report assets, and the published Power BI dashboard URL.
+This project packages a stakeholder-facing banking analytics case as a GitHub-ready portfolio deliverable. It includes prepared transaction data, USD-normalized monetary fields, a Power BI star schema, reusable DAX definitions, Power Query notes, dashboard screenshots, and the published Power BI dashboard URL.
 
 The analysis answers practical banking questions:
 
@@ -79,8 +79,8 @@ The analysis answers practical banking questions:
 | FX auditability | Uses daily historical EUR/USD rates from the Frankfurter API with ECB rates; weekends and non-publication dates use the previous available published rate. |
 | Feature engineering | Adds fee totals, friction flags, late-payment exposure, score bands, income bands, value bands, and high-fee-burden candidates. |
 | BI-ready data model | Exports a fact table plus dimensions for date, customer, profile, product, branch, channel, transaction type, offer, currency, FX rate, and value band. |
-| Power BI delivery | Includes `.pbix` files, DAX measure definitions, Power Query notes, screenshots, PDF export, and a published Power BI report. |
-| Portfolio packaging | Keeps setup, validation, deployment, and build notes in `docs/` so reviewers can inspect the work without rebuilding everything. |
+| Power BI delivery | Includes `.pbix` files, DAX measure definitions, Power Query notes, screenshots, and a published Power BI report. |
+| Portfolio packaging | Keeps setup, validation, and deployment notes in `docs/` so reviewers can inspect or reproduce the work from a clone. |
 
 ## Repository Structure
 
@@ -89,14 +89,9 @@ Banking Transaction Data Analytics Challenge/
 |-- docs/
 |   |-- assets/
 |   |   |-- exports/
-|   |   |-- reports/
 |   |   `-- screenshots/
 |   |-- dax-measures.md
-|   |-- data-preparation.md
 |   |-- deployment-guide.md
-|   |-- power-bi-page-by-page-build-script.md
-|   |-- power-bi-report-build-guide.md
-|   |-- power-bi-star-schema-upgrade-guide.md
 |   |-- power-query-transformations.md
 |   |-- publish.md
 |   |-- validation-report.md
@@ -164,7 +159,6 @@ The dataset simulates internal banking transaction records across checking accou
 | --- | --- |
 | `powerbi/banking-transaction-analytics.pbix` | Original Power BI report file. |
 | `powerbi/banking-transaction-analytics-star-schema.pbix` | Power BI report built around the star-schema outputs. |
-| `docs/assets/reports/banking-transaction-analytics.pdf` | Exported PDF snapshot of the report. |
 | `docs/assets/screenshots/power-bi-page-1.png` | Executive Overview screenshot. |
 | `docs/assets/screenshots/power-bi-page-2.png` to `power-bi-page-6.png` | Additional report page screenshots. |
 
@@ -317,13 +311,11 @@ Modeling rules:
 - Use `DimCustomerProfile` for segment, score-band, and income-band visuals.
 - Use `DimCustomer` for customer identity and customer-level tables.
 
-Detailed build docs:
+Supporting reference docs:
 
-- `docs/power-bi-report-build-guide.md`
-- `docs/power-bi-page-by-page-build-script.md`
-- `docs/power-bi-star-schema-upgrade-guide.md`
 - `docs/dax-measures.md`
 - `docs/power-query-transformations.md`
+- `docs/deployment-guide.md`
 
 ## Power BI Dashboard
 
@@ -356,10 +348,6 @@ Additional screenshots:
 - `docs/assets/screenshots/power-bi-page-4.png`
 - `docs/assets/screenshots/power-bi-page-5.png`
 - `docs/assets/screenshots/power-bi-page-6.png`
-
-PDF export:
-
-- `docs/assets/reports/banking-transaction-analytics.pdf`
 
 ## Key Findings
 

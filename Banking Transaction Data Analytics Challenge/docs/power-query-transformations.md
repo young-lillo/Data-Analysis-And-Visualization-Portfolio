@@ -2,7 +2,7 @@
 
 ## Recommended Import
 
-For the fastest Power BI build, import the cooked CSV outputs:
+For the fastest Power BI refresh, import the prepared CSV outputs:
 
 - `docs/assets/exports/banking-transactions-prepared-usd.csv`
 - `docs/assets/exports/dim-calendar.csv`
@@ -158,8 +158,8 @@ Use this setup after importing `fact-banking-transactions-star.csv`.
 - Mark `DimDate[Date]` as the date table.
 - Hide fact foreign keys after relationships are created.
 
-For step-by-step migration from the current report, use `docs/power-bi-star-schema-upgrade-guide.md`.
+For local refresh, point Power BI to the cloned repo's `docs/assets/exports` folder and verify the model relationships listed in `README.md`.
 
 ## Refresh Note
 
-The `.pbix` is the first delivery target. The cooked CSV path is stable for local Power BI Desktop work. If this project later moves to Power BI Service, place files in OneDrive, SharePoint, or a gateway-accessible folder and update `File.Contents` paths.
+The `.pbix` is the first delivery target. The prepared CSV path is stable for local Power BI Desktop work. If this project later moves to Power BI Service, place files in OneDrive, SharePoint, or a gateway-accessible folder and update `File.Contents` paths.

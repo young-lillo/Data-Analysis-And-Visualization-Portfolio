@@ -8,12 +8,11 @@ Prepare a trusted analytics surface for the Social Media Performance Analytics C
 
 - Source workbook: `docs/assets/user-files/social-media-content-performance-dataset.xlsx`
 - Source sheet count: `1`
-- Project contract: `docs/project-plan.md`
 - Confirmed dashboard scope: full workbook by default; challenge scope remains available in the data model, not as a dashboard filter
 
 ## Executed Steps
 
-1. Rebuilt prepared exports with [build-social-media-prepared-exports.py](D:\VScode\Test\data-visualization-skills\projects\social-media-marketing-performance-portfolio\tools\build-social-media-prepared-exports.py).
+1. Rebuilt prepared exports with [build-social-media-prepared-exports.py](../tools/build-social-media-prepared-exports.py).
 2. Standardized source columns into a SQL-friendly shape.
 3. Added stable `post_row_id` because `post_id` is not unique.
 4. Normalized `X.com`, `X`, and `Twitter` to `X (Twitter)`.
