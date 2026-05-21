@@ -1,8 +1,21 @@
 # Data Analysis and Visualization Portfolio
 
-This repository collects three end-to-end analytics portfolio projects. Each folder contains the project README, documentation, data-preparation logic, dashboard assets, and deployment notes needed to understand or reproduce the work.
+This repository collects four end-to-end analytics portfolio projects. Each folder contains the project README, documentation, data-preparation logic, dashboard assets, and deployment notes needed to understand or reproduce the work.
 
 ## Portfolio Projects
+
+### [Banking Transaction Data Analytics Challenge](Banking%20Transaction%20Data%20Analytics%20Challenge)
+
+Banking analytics project turning 20,000 synthetic transaction records into a Power BI dashboard for customer segmentation, fee revenue, channel behavior, branch geography, risk-proxy signals, and offer alignment.
+
+Included materials:
+
+- USD-normalized prepared transaction data and historical EUR/USD rate audit table
+- Power BI star schema with fact and dimension CSVs
+- DAX measure definitions, Power Query notes, and dashboard build guide
+- Power BI `.pbix` files, PDF export, and dashboard screenshots
+
+Live dashboard: [Banking Transaction Data Analytics Challenge](https://app.powerbi.com/view?r=eyJrIjoiNjgyMTFlMGUtZGI1YS00NGMyLTk0ZmEtODUxODRlMzE2NWYzIiwidCI6IjM3MGZiM2I4LTMzMDYtNDg5MC05MDYzLWNjMDhiZTc4ODI1NyIsImMiOjEwfQ%3D%3D)
 
 ### [Airbnb Global Listings Reviews Analytics](Airbnb%20Global%20Listings%20Reviews%20Analytics)
 
@@ -47,7 +60,7 @@ Live dashboard: [Social Media Marketing Performance](https://data.khanh-pham.wor
 
 - Data cleaning and preparation with Python
 - Analytical modeling with SQL and PostgreSQL
-- Dashboard design and automation with Metabase
+- Dashboard design with Power BI and Metabase
 - CRISP-DM project framing
 - Stakeholder-focused reporting and documentation
 - Reproducible project packaging for portfolio review
@@ -56,6 +69,11 @@ Live dashboard: [Social Media Marketing Performance](https://data.khanh-pham.wor
 
 ```text
 .
+|-- Banking Transaction Data Analytics Challenge/
+|   |-- README.md
+|   |-- docs/
+|   |-- powerbi/
+|   `-- tools/
 |-- Airbnb Global Listings Reviews Analytics/
 |   |-- README.md
 |   |-- docs/
