@@ -1,0 +1,21 @@
+CustomerProfileKey,CustomerSegment,CreditScoreBand,MonthlyIncomeBand,CreditScoreBandOrder,MonthlyIncomeBandOrder,CustomerProfileLabel
+CP001,High Income Segment,Poor,6k-10k,1,3,High Income Segment | Poor | 6k-10k
+CP002,High Income Segment,Fair,6k-10k,2,3,High Income Segment | Fair | 6k-10k
+CP003,High Income Segment,Good,6k-10k,3,3,High Income Segment | Good | 6k-10k
+CP004,High Income Segment,Very Good,6k-10k,4,3,High Income Segment | Very Good | 6k-10k
+CP005,High Income Segment,Exceptional,6k-10k,5,3,High Income Segment | Exceptional | 6k-10k
+CP006,Low Income Segment,Poor,Under 3k,1,1,Low Income Segment | Poor | Under 3k
+CP007,Low Income Segment,Fair,Under 3k,2,1,Low Income Segment | Fair | Under 3k
+CP008,Low Income Segment,Good,Under 3k,3,1,Low Income Segment | Good | Under 3k
+CP009,Low Income Segment,Very Good,Under 3k,4,1,Low Income Segment | Very Good | Under 3k
+CP010,Low Income Segment,Exceptional,Under 3k,5,1,Low Income Segment | Exceptional | Under 3k
+CP011,Middle Income Segment,Poor,3k-6k,1,2,Middle Income Segment | Poor | 3k-6k
+CP012,Middle Income Segment,Poor,6k-10k,1,3,Middle Income Segment | Poor | 6k-10k
+CP013,Middle Income Segment,Fair,3k-6k,2,2,Middle Income Segment | Fair | 3k-6k
+CP014,Middle Income Segment,Fair,6k-10k,2,3,Middle Income Segment | Fair | 6k-10k
+CP015,Middle Income Segment,Good,3k-6k,3,2,Middle Income Segment | Good | 3k-6k
+CP016,Middle Income Segment,Good,6k-10k,3,3,Middle Income Segment | Good | 6k-10k
+CP017,Middle Income Segment,Very Good,3k-6k,4,2,Middle Income Segment | Very Good | 3k-6k
+CP018,Middle Income Segment,Very Good,6k-10k,4,3,Middle Income Segment | Very Good | 6k-10k
+CP019,Middle Income Segment,Exceptional,3k-6k,5,2,Middle Income Segment | Exceptional | 3k-6k
+CP020,Middle Income Segment,Exceptional,6k-10k,5,3,Middle Income Segment | Exceptional | 6k-10k

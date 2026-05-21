@@ -1,0 +1,7 @@
+TransactionTypeKey,TransactionType
+TT001,Card Payment
+TT002,Deposit
+TT003,Fee
+TT004,Loan Payment
+TT005,Transfer
+TT006,Withdrawal

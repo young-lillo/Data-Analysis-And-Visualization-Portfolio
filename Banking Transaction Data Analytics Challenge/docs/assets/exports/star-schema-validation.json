@@ -1,0 +1,24 @@
+{
+  "fact_rows":20000,
+  "source_rows":20000,
+  "duplicate_transaction_ids":0,
+  "missing_foreign_keys":{
+    "DateKey":0,
+    "ProductKey":0,
+    "BranchKey":0,
+    "ChannelKey":0,
+    "TransactionTypeKey":0,
+    "OfferKey":0,
+    "CurrencyKey":0,
+    "CurrencyRateKey":0,
+    "CustomerProfileKey":0,
+    "TransactionValueBandKey":0
+  },
+  "distinct_customers":8025,
+  "dim_customer_rows":8025,
+  "dim_customer_profile_rows":20,
+  "customers_with_profile_changes":5848,
+  "total_amount_usd":107954758.2800000012,
+  "total_fees_usd":681084.03,
+  "high_fee_burden_candidates":1371
+}

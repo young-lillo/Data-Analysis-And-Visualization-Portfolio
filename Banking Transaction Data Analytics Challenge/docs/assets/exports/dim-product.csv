@@ -1,0 +1,26 @@
+ProductKey,ProductCategory,ProductSubcategory
+P001,Checking Account,Business
+P002,Checking Account,Gold
+P003,Checking Account,Platinum
+P004,Checking Account,Standard
+P005,Checking Account,Student
+P006,Credit Card,Business
+P007,Credit Card,Gold
+P008,Credit Card,Platinum
+P009,Credit Card,Standard
+P010,Credit Card,Student
+P011,Loan,Business
+P012,Loan,Gold
+P013,Loan,Platinum
+P014,Loan,Standard
+P015,Loan,Student
+P016,Mortgage,Business
+P017,Mortgage,Gold
+P018,Mortgage,Platinum
+P019,Mortgage,Standard
+P020,Mortgage,Student
+P021,Savings Account,Business
+P022,Savings Account,Gold
+P023,Savings Account,Platinum
+P024,Savings Account,Standard
+P025,Savings Account,Student

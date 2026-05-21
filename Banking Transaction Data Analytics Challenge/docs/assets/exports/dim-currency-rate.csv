@@ -1,0 +1,1480 @@
+CurrencyRateKey,Date,Currency,RateToUSD,FXRateDate,RateSource
+20221230-EUR,2023-01-01,EUR,1.0666,2022-12-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230101-USD,2023-01-01,USD,1.0,2023-01-01,Native USD; no conversion applied
+20230102-EUR,2023-01-02,EUR,1.0683,2023-01-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230102-USD,2023-01-02,USD,1.0,2023-01-02,Native USD; no conversion applied
+20230103-EUR,2023-01-03,EUR,1.0545,2023-01-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230103-USD,2023-01-03,USD,1.0,2023-01-03,Native USD; no conversion applied
+20230104-EUR,2023-01-04,EUR,1.0599,2023-01-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230104-USD,2023-01-04,USD,1.0,2023-01-04,Native USD; no conversion applied
+20230105-EUR,2023-01-05,EUR,1.0601,2023-01-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230105-USD,2023-01-05,USD,1.0,2023-01-05,Native USD; no conversion applied
+20230106-EUR,2023-01-06,EUR,1.05,2023-01-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230106-USD,2023-01-06,USD,1.0,2023-01-06,Native USD; no conversion applied
+20230107-USD,2023-01-07,USD,1.0,2023-01-07,Native USD; no conversion applied
+20230108-USD,2023-01-08,USD,1.0,2023-01-08,Native USD; no conversion applied
+20230109-EUR,2023-01-09,EUR,1.0696,2023-01-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230109-USD,2023-01-09,USD,1.0,2023-01-09,Native USD; no conversion applied
+20230110-EUR,2023-01-10,EUR,1.0723,2023-01-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230110-USD,2023-01-10,USD,1.0,2023-01-10,Native USD; no conversion applied
+20230111-EUR,2023-01-11,EUR,1.0747,2023-01-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230111-USD,2023-01-11,USD,1.0,2023-01-11,Native USD; no conversion applied
+20230112-EUR,2023-01-12,EUR,1.0772,2023-01-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230112-USD,2023-01-12,USD,1.0,2023-01-12,Native USD; no conversion applied
+20230113-EUR,2023-01-13,EUR,1.0814,2023-01-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230113-USD,2023-01-13,USD,1.0,2023-01-13,Native USD; no conversion applied
+20230114-USD,2023-01-14,USD,1.0,2023-01-14,Native USD; no conversion applied
+20230115-USD,2023-01-15,USD,1.0,2023-01-15,Native USD; no conversion applied
+20230116-EUR,2023-01-16,EUR,1.0812,2023-01-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230116-USD,2023-01-16,USD,1.0,2023-01-16,Native USD; no conversion applied
+20230117-EUR,2023-01-17,EUR,1.0843,2023-01-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230117-USD,2023-01-17,USD,1.0,2023-01-17,Native USD; no conversion applied
+20230118-EUR,2023-01-18,EUR,1.0839,2023-01-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230118-USD,2023-01-18,USD,1.0,2023-01-18,Native USD; no conversion applied
+20230119-EUR,2023-01-19,EUR,1.0815,2023-01-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230119-USD,2023-01-19,USD,1.0,2023-01-19,Native USD; no conversion applied
+20230120-EUR,2023-01-20,EUR,1.0826,2023-01-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230120-USD,2023-01-20,USD,1.0,2023-01-20,Native USD; no conversion applied
+20230121-USD,2023-01-21,USD,1.0,2023-01-21,Native USD; no conversion applied
+20230122-USD,2023-01-22,USD,1.0,2023-01-22,Native USD; no conversion applied
+20230123-EUR,2023-01-23,EUR,1.0871,2023-01-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230123-USD,2023-01-23,USD,1.0,2023-01-23,Native USD; no conversion applied
+20230124-EUR,2023-01-24,EUR,1.0858,2023-01-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230124-USD,2023-01-24,USD,1.0,2023-01-24,Native USD; no conversion applied
+20230125-EUR,2023-01-25,EUR,1.0878,2023-01-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230125-USD,2023-01-25,USD,1.0,2023-01-25,Native USD; no conversion applied
+20230126-EUR,2023-01-26,EUR,1.0895,2023-01-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230126-USD,2023-01-26,USD,1.0,2023-01-26,Native USD; no conversion applied
+20230127-EUR,2023-01-27,EUR,1.0865,2023-01-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230127-USD,2023-01-27,USD,1.0,2023-01-27,Native USD; no conversion applied
+20230128-USD,2023-01-28,USD,1.0,2023-01-28,Native USD; no conversion applied
+20230129-USD,2023-01-29,USD,1.0,2023-01-29,Native USD; no conversion applied
+20230130-EUR,2023-01-30,EUR,1.0903,2023-01-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230130-USD,2023-01-30,USD,1.0,2023-01-30,Native USD; no conversion applied
+20230131-EUR,2023-01-31,EUR,1.0833,2023-01-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230131-USD,2023-01-31,USD,1.0,2023-01-31,Native USD; no conversion applied
+20230201-EUR,2023-02-01,EUR,1.0894,2023-02-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230201-USD,2023-02-01,USD,1.0,2023-02-01,Native USD; no conversion applied
+20230202-EUR,2023-02-02,EUR,1.0988,2023-02-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230202-USD,2023-02-02,USD,1.0,2023-02-02,Native USD; no conversion applied
+20230203-EUR,2023-02-03,EUR,1.0937,2023-02-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230203-USD,2023-02-03,USD,1.0,2023-02-03,Native USD; no conversion applied
+20230204-USD,2023-02-04,USD,1.0,2023-02-04,Native USD; no conversion applied
+20230205-USD,2023-02-05,USD,1.0,2023-02-05,Native USD; no conversion applied
+20230206-EUR,2023-02-06,EUR,1.0776,2023-02-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230206-USD,2023-02-06,USD,1.0,2023-02-06,Native USD; no conversion applied
+20230207-EUR,2023-02-07,EUR,1.07,2023-02-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230207-USD,2023-02-07,USD,1.0,2023-02-07,Native USD; no conversion applied
+20230208-EUR,2023-02-08,EUR,1.0735,2023-02-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230208-USD,2023-02-08,USD,1.0,2023-02-08,Native USD; no conversion applied
+20230209-EUR,2023-02-09,EUR,1.0771,2023-02-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230209-USD,2023-02-09,USD,1.0,2023-02-09,Native USD; no conversion applied
+20230210-EUR,2023-02-10,EUR,1.069,2023-02-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230210-USD,2023-02-10,USD,1.0,2023-02-10,Native USD; no conversion applied
+20230211-USD,2023-02-11,USD,1.0,2023-02-11,Native USD; no conversion applied
+20230212-USD,2023-02-12,USD,1.0,2023-02-12,Native USD; no conversion applied
+20230213-EUR,2023-02-13,EUR,1.0686,2023-02-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230213-USD,2023-02-13,USD,1.0,2023-02-13,Native USD; no conversion applied
+20230214-EUR,2023-02-14,EUR,1.0759,2023-02-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230214-USD,2023-02-14,USD,1.0,2023-02-14,Native USD; no conversion applied
+20230215-EUR,2023-02-15,EUR,1.07,2023-02-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230215-USD,2023-02-15,USD,1.0,2023-02-15,Native USD; no conversion applied
+20230216-EUR,2023-02-16,EUR,1.07,2023-02-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230216-USD,2023-02-16,USD,1.0,2023-02-16,Native USD; no conversion applied
+20230217-EUR,2023-02-17,EUR,1.0625,2023-02-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230217-USD,2023-02-17,USD,1.0,2023-02-17,Native USD; no conversion applied
+20230218-USD,2023-02-18,USD,1.0,2023-02-18,Native USD; no conversion applied
+20230219-USD,2023-02-19,USD,1.0,2023-02-19,Native USD; no conversion applied
+20230220-EUR,2023-02-20,EUR,1.0674,2023-02-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230220-USD,2023-02-20,USD,1.0,2023-02-20,Native USD; no conversion applied
+20230221-EUR,2023-02-21,EUR,1.0664,2023-02-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230221-USD,2023-02-21,USD,1.0,2023-02-21,Native USD; no conversion applied
+20230222-EUR,2023-02-22,EUR,1.0644,2023-02-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230222-USD,2023-02-22,USD,1.0,2023-02-22,Native USD; no conversion applied
+20230223-EUR,2023-02-23,EUR,1.0616,2023-02-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230223-USD,2023-02-23,USD,1.0,2023-02-23,Native USD; no conversion applied
+20230224-EUR,2023-02-24,EUR,1.057,2023-02-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230224-USD,2023-02-24,USD,1.0,2023-02-24,Native USD; no conversion applied
+20230225-USD,2023-02-25,USD,1.0,2023-02-25,Native USD; no conversion applied
+20230226-USD,2023-02-26,USD,1.0,2023-02-26,Native USD; no conversion applied
+20230227-EUR,2023-02-27,EUR,1.0554,2023-02-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230227-USD,2023-02-27,USD,1.0,2023-02-27,Native USD; no conversion applied
+20230228-EUR,2023-02-28,EUR,1.0619,2023-02-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230228-USD,2023-02-28,USD,1.0,2023-02-28,Native USD; no conversion applied
+20230301-EUR,2023-03-01,EUR,1.0684,2023-03-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230301-USD,2023-03-01,USD,1.0,2023-03-01,Native USD; no conversion applied
+20230302-EUR,2023-03-02,EUR,1.0605,2023-03-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230302-USD,2023-03-02,USD,1.0,2023-03-02,Native USD; no conversion applied
+20230303-EUR,2023-03-03,EUR,1.0615,2023-03-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230303-USD,2023-03-03,USD,1.0,2023-03-03,Native USD; no conversion applied
+20230304-USD,2023-03-04,USD,1.0,2023-03-04,Native USD; no conversion applied
+20230305-USD,2023-03-05,USD,1.0,2023-03-05,Native USD; no conversion applied
+20230306-EUR,2023-03-06,EUR,1.0646,2023-03-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230306-USD,2023-03-06,USD,1.0,2023-03-06,Native USD; no conversion applied
+20230307-EUR,2023-03-07,EUR,1.0665,2023-03-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230307-USD,2023-03-07,USD,1.0,2023-03-07,Native USD; no conversion applied
+20230308-EUR,2023-03-08,EUR,1.0545,2023-03-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230308-USD,2023-03-08,USD,1.0,2023-03-08,Native USD; no conversion applied
+20230309-EUR,2023-03-09,EUR,1.0554,2023-03-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230309-USD,2023-03-09,USD,1.0,2023-03-09,Native USD; no conversion applied
+20230310-EUR,2023-03-10,EUR,1.0586,2023-03-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230310-USD,2023-03-10,USD,1.0,2023-03-10,Native USD; no conversion applied
+20230311-USD,2023-03-11,USD,1.0,2023-03-11,Native USD; no conversion applied
+20230312-USD,2023-03-12,USD,1.0,2023-03-12,Native USD; no conversion applied
+20230313-EUR,2023-03-13,EUR,1.0706,2023-03-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230313-USD,2023-03-13,USD,1.0,2023-03-13,Native USD; no conversion applied
+20230314-EUR,2023-03-14,EUR,1.0737,2023-03-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230314-USD,2023-03-14,USD,1.0,2023-03-14,Native USD; no conversion applied
+20230315-EUR,2023-03-15,EUR,1.0549,2023-03-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230315-USD,2023-03-15,USD,1.0,2023-03-15,Native USD; no conversion applied
+20230316-EUR,2023-03-16,EUR,1.0595,2023-03-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230316-USD,2023-03-16,USD,1.0,2023-03-16,Native USD; no conversion applied
+20230317-EUR,2023-03-17,EUR,1.0623,2023-03-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230317-USD,2023-03-17,USD,1.0,2023-03-17,Native USD; no conversion applied
+20230318-USD,2023-03-18,USD,1.0,2023-03-18,Native USD; no conversion applied
+20230319-USD,2023-03-19,USD,1.0,2023-03-19,Native USD; no conversion applied
+20230320-EUR,2023-03-20,EUR,1.0717,2023-03-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230320-USD,2023-03-20,USD,1.0,2023-03-20,Native USD; no conversion applied
+20230321-EUR,2023-03-21,EUR,1.0776,2023-03-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230321-USD,2023-03-21,USD,1.0,2023-03-21,Native USD; no conversion applied
+20230322-EUR,2023-03-22,EUR,1.0785,2023-03-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230322-USD,2023-03-22,USD,1.0,2023-03-22,Native USD; no conversion applied
+20230323-EUR,2023-03-23,EUR,1.0879,2023-03-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230323-USD,2023-03-23,USD,1.0,2023-03-23,Native USD; no conversion applied
+20230324-EUR,2023-03-24,EUR,1.0745,2023-03-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230324-USD,2023-03-24,USD,1.0,2023-03-24,Native USD; no conversion applied
+20230325-USD,2023-03-25,USD,1.0,2023-03-25,Native USD; no conversion applied
+20230326-USD,2023-03-26,USD,1.0,2023-03-26,Native USD; no conversion applied
+20230327-EUR,2023-03-27,EUR,1.0773,2023-03-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230327-USD,2023-03-27,USD,1.0,2023-03-27,Native USD; no conversion applied
+20230328-EUR,2023-03-28,EUR,1.0841,2023-03-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230328-USD,2023-03-28,USD,1.0,2023-03-28,Native USD; no conversion applied
+20230329-EUR,2023-03-29,EUR,1.0847,2023-03-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230329-USD,2023-03-29,USD,1.0,2023-03-29,Native USD; no conversion applied
+20230330-EUR,2023-03-30,EUR,1.0886,2023-03-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230330-USD,2023-03-30,USD,1.0,2023-03-30,Native USD; no conversion applied
+20230331-EUR,2023-03-31,EUR,1.0875,2023-03-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230331-USD,2023-03-31,USD,1.0,2023-03-31,Native USD; no conversion applied
+20230401-USD,2023-04-01,USD,1.0,2023-04-01,Native USD; no conversion applied
+20230402-USD,2023-04-02,USD,1.0,2023-04-02,Native USD; no conversion applied
+20230403-EUR,2023-04-03,EUR,1.087,2023-04-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230403-USD,2023-04-03,USD,1.0,2023-04-03,Native USD; no conversion applied
+20230404-EUR,2023-04-04,EUR,1.0901,2023-04-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230404-USD,2023-04-04,USD,1.0,2023-04-04,Native USD; no conversion applied
+20230405-EUR,2023-04-05,EUR,1.094,2023-04-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230405-USD,2023-04-05,USD,1.0,2023-04-05,Native USD; no conversion applied
+20230406-EUR,2023-04-06,EUR,1.0915,2023-04-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230406-USD,2023-04-06,USD,1.0,2023-04-06,Native USD; no conversion applied
+20230407-USD,2023-04-07,USD,1.0,2023-04-07,Native USD; no conversion applied
+20230408-USD,2023-04-08,USD,1.0,2023-04-08,Native USD; no conversion applied
+20230409-USD,2023-04-09,USD,1.0,2023-04-09,Native USD; no conversion applied
+20230410-USD,2023-04-10,USD,1.0,2023-04-10,Native USD; no conversion applied
+20230411-EUR,2023-04-11,EUR,1.0905,2023-04-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230411-USD,2023-04-11,USD,1.0,2023-04-11,Native USD; no conversion applied
+20230412-EUR,2023-04-12,EUR,1.0922,2023-04-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230412-USD,2023-04-12,USD,1.0,2023-04-12,Native USD; no conversion applied
+20230413-EUR,2023-04-13,EUR,1.1015,2023-04-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230413-USD,2023-04-13,USD,1.0,2023-04-13,Native USD; no conversion applied
+20230414-EUR,2023-04-14,EUR,1.1057,2023-04-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230414-USD,2023-04-14,USD,1.0,2023-04-14,Native USD; no conversion applied
+20230415-USD,2023-04-15,USD,1.0,2023-04-15,Native USD; no conversion applied
+20230416-USD,2023-04-16,USD,1.0,2023-04-16,Native USD; no conversion applied
+20230417-EUR,2023-04-17,EUR,1.0981,2023-04-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230417-USD,2023-04-17,USD,1.0,2023-04-17,Native USD; no conversion applied
+20230418-EUR,2023-04-18,EUR,1.0972,2023-04-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230418-USD,2023-04-18,USD,1.0,2023-04-18,Native USD; no conversion applied
+20230419-EUR,2023-04-19,EUR,1.0933,2023-04-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230419-USD,2023-04-19,USD,1.0,2023-04-19,Native USD; no conversion applied
+20230420-EUR,2023-04-20,EUR,1.0944,2023-04-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230420-USD,2023-04-20,USD,1.0,2023-04-20,Native USD; no conversion applied
+20230421-EUR,2023-04-21,EUR,1.0978,2023-04-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230421-USD,2023-04-21,USD,1.0,2023-04-21,Native USD; no conversion applied
+20230422-USD,2023-04-22,USD,1.0,2023-04-22,Native USD; no conversion applied
+20230423-USD,2023-04-23,USD,1.0,2023-04-23,Native USD; no conversion applied
+20230424-EUR,2023-04-24,EUR,1.1002,2023-04-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230424-USD,2023-04-24,USD,1.0,2023-04-24,Native USD; no conversion applied
+20230425-EUR,2023-04-25,EUR,1.1022,2023-04-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230425-USD,2023-04-25,USD,1.0,2023-04-25,Native USD; no conversion applied
+20230426-EUR,2023-04-26,EUR,1.1039,2023-04-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230426-USD,2023-04-26,USD,1.0,2023-04-26,Native USD; no conversion applied
+20230427-EUR,2023-04-27,EUR,1.1042,2023-04-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230427-USD,2023-04-27,USD,1.0,2023-04-27,Native USD; no conversion applied
+20230428-EUR,2023-04-28,EUR,1.0981,2023-04-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230428-USD,2023-04-28,USD,1.0,2023-04-28,Native USD; no conversion applied
+20230429-USD,2023-04-29,USD,1.0,2023-04-29,Native USD; no conversion applied
+20230430-USD,2023-04-30,USD,1.0,2023-04-30,Native USD; no conversion applied
+20230501-USD,2023-05-01,USD,1.0,2023-05-01,Native USD; no conversion applied
+20230502-EUR,2023-05-02,EUR,1.0965,2023-05-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230502-USD,2023-05-02,USD,1.0,2023-05-02,Native USD; no conversion applied
+20230503-EUR,2023-05-03,EUR,1.1043,2023-05-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230503-USD,2023-05-03,USD,1.0,2023-05-03,Native USD; no conversion applied
+20230504-EUR,2023-05-04,EUR,1.1074,2023-05-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230504-USD,2023-05-04,USD,1.0,2023-05-04,Native USD; no conversion applied
+20230505-EUR,2023-05-05,EUR,1.1014,2023-05-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230505-USD,2023-05-05,USD,1.0,2023-05-05,Native USD; no conversion applied
+20230506-USD,2023-05-06,USD,1.0,2023-05-06,Native USD; no conversion applied
+20230507-USD,2023-05-07,USD,1.0,2023-05-07,Native USD; no conversion applied
+20230508-EUR,2023-05-08,EUR,1.1037,2023-05-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230508-USD,2023-05-08,USD,1.0,2023-05-08,Native USD; no conversion applied
+20230509-EUR,2023-05-09,EUR,1.0959,2023-05-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230509-USD,2023-05-09,USD,1.0,2023-05-09,Native USD; no conversion applied
+20230510-EUR,2023-05-10,EUR,1.095,2023-05-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230510-USD,2023-05-10,USD,1.0,2023-05-10,Native USD; no conversion applied
+20230511-EUR,2023-05-11,EUR,1.093,2023-05-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230511-USD,2023-05-11,USD,1.0,2023-05-11,Native USD; no conversion applied
+20230512-EUR,2023-05-12,EUR,1.0892,2023-05-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230512-USD,2023-05-12,USD,1.0,2023-05-12,Native USD; no conversion applied
+20230513-USD,2023-05-13,USD,1.0,2023-05-13,Native USD; no conversion applied
+20230514-USD,2023-05-14,USD,1.0,2023-05-14,Native USD; no conversion applied
+20230515-EUR,2023-05-15,EUR,1.0876,2023-05-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230515-USD,2023-05-15,USD,1.0,2023-05-15,Native USD; no conversion applied
+20230516-EUR,2023-05-16,EUR,1.0881,2023-05-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230516-USD,2023-05-16,USD,1.0,2023-05-16,Native USD; no conversion applied
+20230517-EUR,2023-05-17,EUR,1.0829,2023-05-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230517-USD,2023-05-17,USD,1.0,2023-05-17,Native USD; no conversion applied
+20230518-EUR,2023-05-18,EUR,1.0813,2023-05-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230518-USD,2023-05-18,USD,1.0,2023-05-18,Native USD; no conversion applied
+20230519-EUR,2023-05-19,EUR,1.0808,2023-05-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230519-USD,2023-05-19,USD,1.0,2023-05-19,Native USD; no conversion applied
+20230520-USD,2023-05-20,USD,1.0,2023-05-20,Native USD; no conversion applied
+20230521-USD,2023-05-21,USD,1.0,2023-05-21,Native USD; no conversion applied
+20230522-EUR,2023-05-22,EUR,1.0822,2023-05-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230522-USD,2023-05-22,USD,1.0,2023-05-22,Native USD; no conversion applied
+20230523-EUR,2023-05-23,EUR,1.0779,2023-05-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230523-USD,2023-05-23,USD,1.0,2023-05-23,Native USD; no conversion applied
+20230524-EUR,2023-05-24,EUR,1.0785,2023-05-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230524-USD,2023-05-24,USD,1.0,2023-05-24,Native USD; no conversion applied
+20230525-EUR,2023-05-25,EUR,1.0735,2023-05-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230525-USD,2023-05-25,USD,1.0,2023-05-25,Native USD; no conversion applied
+20230526-EUR,2023-05-26,EUR,1.0751,2023-05-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230526-USD,2023-05-26,USD,1.0,2023-05-26,Native USD; no conversion applied
+20230527-USD,2023-05-27,USD,1.0,2023-05-27,Native USD; no conversion applied
+20230528-USD,2023-05-28,USD,1.0,2023-05-28,Native USD; no conversion applied
+20230529-EUR,2023-05-29,EUR,1.0715,2023-05-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230529-USD,2023-05-29,USD,1.0,2023-05-29,Native USD; no conversion applied
+20230530-EUR,2023-05-30,EUR,1.0744,2023-05-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230530-USD,2023-05-30,USD,1.0,2023-05-30,Native USD; no conversion applied
+20230531-EUR,2023-05-31,EUR,1.0683,2023-05-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230531-USD,2023-05-31,USD,1.0,2023-05-31,Native USD; no conversion applied
+20230601-EUR,2023-06-01,EUR,1.0697,2023-06-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230601-USD,2023-06-01,USD,1.0,2023-06-01,Native USD; no conversion applied
+20230602-EUR,2023-06-02,EUR,1.0763,2023-06-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230602-USD,2023-06-02,USD,1.0,2023-06-02,Native USD; no conversion applied
+20230603-USD,2023-06-03,USD,1.0,2023-06-03,Native USD; no conversion applied
+20230604-USD,2023-06-04,USD,1.0,2023-06-04,Native USD; no conversion applied
+20230605-EUR,2023-06-05,EUR,1.069,2023-06-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230605-USD,2023-06-05,USD,1.0,2023-06-05,Native USD; no conversion applied
+20230606-EUR,2023-06-06,EUR,1.0683,2023-06-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230606-USD,2023-06-06,USD,1.0,2023-06-06,Native USD; no conversion applied
+20230607-EUR,2023-06-07,EUR,1.0717,2023-06-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230607-USD,2023-06-07,USD,1.0,2023-06-07,Native USD; no conversion applied
+20230608-EUR,2023-06-08,EUR,1.0737,2023-06-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230608-USD,2023-06-08,USD,1.0,2023-06-08,Native USD; no conversion applied
+20230609-EUR,2023-06-09,EUR,1.078,2023-06-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230609-USD,2023-06-09,USD,1.0,2023-06-09,Native USD; no conversion applied
+20230610-USD,2023-06-10,USD,1.0,2023-06-10,Native USD; no conversion applied
+20230611-USD,2023-06-11,USD,1.0,2023-06-11,Native USD; no conversion applied
+20230612-EUR,2023-06-12,EUR,1.0765,2023-06-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230612-USD,2023-06-12,USD,1.0,2023-06-12,Native USD; no conversion applied
+20230613-EUR,2023-06-13,EUR,1.0793,2023-06-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230613-USD,2023-06-13,USD,1.0,2023-06-13,Native USD; no conversion applied
+20230614-EUR,2023-06-14,EUR,1.0809,2023-06-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230614-USD,2023-06-14,USD,1.0,2023-06-14,Native USD; no conversion applied
+20230615-EUR,2023-06-15,EUR,1.0819,2023-06-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230615-USD,2023-06-15,USD,1.0,2023-06-15,Native USD; no conversion applied
+20230616-EUR,2023-06-16,EUR,1.0966,2023-06-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230616-USD,2023-06-16,USD,1.0,2023-06-16,Native USD; no conversion applied
+20230617-USD,2023-06-17,USD,1.0,2023-06-17,Native USD; no conversion applied
+20230618-USD,2023-06-18,USD,1.0,2023-06-18,Native USD; no conversion applied
+20230619-EUR,2023-06-19,EUR,1.0922,2023-06-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230619-USD,2023-06-19,USD,1.0,2023-06-19,Native USD; no conversion applied
+20230620-EUR,2023-06-20,EUR,1.0933,2023-06-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230620-USD,2023-06-20,USD,1.0,2023-06-20,Native USD; no conversion applied
+20230621-EUR,2023-06-21,EUR,1.0923,2023-06-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230621-USD,2023-06-21,USD,1.0,2023-06-21,Native USD; no conversion applied
+20230622-EUR,2023-06-22,EUR,1.0985,2023-06-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230622-USD,2023-06-22,USD,1.0,2023-06-22,Native USD; no conversion applied
+20230623-EUR,2023-06-23,EUR,1.0884,2023-06-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230623-USD,2023-06-23,USD,1.0,2023-06-23,Native USD; no conversion applied
+20230624-USD,2023-06-24,USD,1.0,2023-06-24,Native USD; no conversion applied
+20230625-USD,2023-06-25,USD,1.0,2023-06-25,Native USD; no conversion applied
+20230626-EUR,2023-06-26,EUR,1.0918,2023-06-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230626-USD,2023-06-26,USD,1.0,2023-06-26,Native USD; no conversion applied
+20230627-EUR,2023-06-27,EUR,1.0951,2023-06-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230627-USD,2023-06-27,USD,1.0,2023-06-27,Native USD; no conversion applied
+20230628-EUR,2023-06-28,EUR,1.0938,2023-06-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230628-USD,2023-06-28,USD,1.0,2023-06-28,Native USD; no conversion applied
+20230629-EUR,2023-06-29,EUR,1.0938,2023-06-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230629-USD,2023-06-29,USD,1.0,2023-06-29,Native USD; no conversion applied
+20230630-EUR,2023-06-30,EUR,1.0866,2023-06-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230630-USD,2023-06-30,USD,1.0,2023-06-30,Native USD; no conversion applied
+20230701-USD,2023-07-01,USD,1.0,2023-07-01,Native USD; no conversion applied
+20230702-USD,2023-07-02,USD,1.0,2023-07-02,Native USD; no conversion applied
+20230703-EUR,2023-07-03,EUR,1.0899,2023-07-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230703-USD,2023-07-03,USD,1.0,2023-07-03,Native USD; no conversion applied
+20230704-EUR,2023-07-04,EUR,1.0895,2023-07-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230704-USD,2023-07-04,USD,1.0,2023-07-04,Native USD; no conversion applied
+20230705-EUR,2023-07-05,EUR,1.0879,2023-07-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230705-USD,2023-07-05,USD,1.0,2023-07-05,Native USD; no conversion applied
+20230706-EUR,2023-07-06,EUR,1.0899,2023-07-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230706-USD,2023-07-06,USD,1.0,2023-07-06,Native USD; no conversion applied
+20230707-EUR,2023-07-07,EUR,1.0888,2023-07-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230707-USD,2023-07-07,USD,1.0,2023-07-07,Native USD; no conversion applied
+20230708-USD,2023-07-08,USD,1.0,2023-07-08,Native USD; no conversion applied
+20230709-USD,2023-07-09,USD,1.0,2023-07-09,Native USD; no conversion applied
+20230710-EUR,2023-07-10,EUR,1.0956,2023-07-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230710-USD,2023-07-10,USD,1.0,2023-07-10,Native USD; no conversion applied
+20230711-EUR,2023-07-11,EUR,1.0989,2023-07-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230711-USD,2023-07-11,USD,1.0,2023-07-11,Native USD; no conversion applied
+20230712-EUR,2023-07-12,EUR,1.1022,2023-07-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230712-USD,2023-07-12,USD,1.0,2023-07-12,Native USD; no conversion applied
+20230713-EUR,2023-07-13,EUR,1.1182,2023-07-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230713-USD,2023-07-13,USD,1.0,2023-07-13,Native USD; no conversion applied
+20230714-EUR,2023-07-14,EUR,1.1221,2023-07-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230714-USD,2023-07-14,USD,1.0,2023-07-14,Native USD; no conversion applied
+20230715-USD,2023-07-15,USD,1.0,2023-07-15,Native USD; no conversion applied
+20230716-USD,2023-07-16,USD,1.0,2023-07-16,Native USD; no conversion applied
+20230717-EUR,2023-07-17,EUR,1.123,2023-07-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230717-USD,2023-07-17,USD,1.0,2023-07-17,Native USD; no conversion applied
+20230718-EUR,2023-07-18,EUR,1.1255,2023-07-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230718-USD,2023-07-18,USD,1.0,2023-07-18,Native USD; no conversion applied
+20230719-EUR,2023-07-19,EUR,1.1222,2023-07-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230719-USD,2023-07-19,USD,1.0,2023-07-19,Native USD; no conversion applied
+20230720-EUR,2023-07-20,EUR,1.1197,2023-07-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230720-USD,2023-07-20,USD,1.0,2023-07-20,Native USD; no conversion applied
+20230721-EUR,2023-07-21,EUR,1.1123,2023-07-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230721-USD,2023-07-21,USD,1.0,2023-07-21,Native USD; no conversion applied
+20230722-USD,2023-07-22,USD,1.0,2023-07-22,Native USD; no conversion applied
+20230723-USD,2023-07-23,USD,1.0,2023-07-23,Native USD; no conversion applied
+20230724-EUR,2023-07-24,EUR,1.1096,2023-07-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230724-USD,2023-07-24,USD,1.0,2023-07-24,Native USD; no conversion applied
+20230725-EUR,2023-07-25,EUR,1.1051,2023-07-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230725-USD,2023-07-25,USD,1.0,2023-07-25,Native USD; no conversion applied
+20230726-EUR,2023-07-26,EUR,1.1059,2023-07-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230726-USD,2023-07-26,USD,1.0,2023-07-26,Native USD; no conversion applied
+20230727-EUR,2023-07-27,EUR,1.1125,2023-07-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230727-USD,2023-07-27,USD,1.0,2023-07-27,Native USD; no conversion applied
+20230728-EUR,2023-07-28,EUR,1.101,2023-07-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230728-USD,2023-07-28,USD,1.0,2023-07-28,Native USD; no conversion applied
+20230729-USD,2023-07-29,USD,1.0,2023-07-29,Native USD; no conversion applied
+20230730-USD,2023-07-30,USD,1.0,2023-07-30,Native USD; no conversion applied
+20230731-EUR,2023-07-31,EUR,1.1023,2023-07-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230731-USD,2023-07-31,USD,1.0,2023-07-31,Native USD; no conversion applied
+20230801-EUR,2023-08-01,EUR,1.097,2023-08-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230801-USD,2023-08-01,USD,1.0,2023-08-01,Native USD; no conversion applied
+20230802-EUR,2023-08-02,EUR,1.0985,2023-08-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230802-USD,2023-08-02,USD,1.0,2023-08-02,Native USD; no conversion applied
+20230803-EUR,2023-08-03,EUR,1.0932,2023-08-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230803-USD,2023-08-03,USD,1.0,2023-08-03,Native USD; no conversion applied
+20230804-EUR,2023-08-04,EUR,1.0946,2023-08-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230804-USD,2023-08-04,USD,1.0,2023-08-04,Native USD; no conversion applied
+20230805-USD,2023-08-05,USD,1.0,2023-08-05,Native USD; no conversion applied
+20230806-USD,2023-08-06,USD,1.0,2023-08-06,Native USD; no conversion applied
+20230807-EUR,2023-08-07,EUR,1.0984,2023-08-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230807-USD,2023-08-07,USD,1.0,2023-08-07,Native USD; no conversion applied
+20230808-EUR,2023-08-08,EUR,1.0944,2023-08-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230808-USD,2023-08-08,USD,1.0,2023-08-08,Native USD; no conversion applied
+20230809-EUR,2023-08-09,EUR,1.0968,2023-08-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230809-USD,2023-08-09,USD,1.0,2023-08-09,Native USD; no conversion applied
+20230810-EUR,2023-08-10,EUR,1.1019,2023-08-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230810-USD,2023-08-10,USD,1.0,2023-08-10,Native USD; no conversion applied
+20230811-EUR,2023-08-11,EUR,1.1004,2023-08-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230811-USD,2023-08-11,USD,1.0,2023-08-11,Native USD; no conversion applied
+20230812-USD,2023-08-12,USD,1.0,2023-08-12,Native USD; no conversion applied
+20230813-USD,2023-08-13,USD,1.0,2023-08-13,Native USD; no conversion applied
+20230814-EUR,2023-08-14,EUR,1.093,2023-08-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230814-USD,2023-08-14,USD,1.0,2023-08-14,Native USD; no conversion applied
+20230815-EUR,2023-08-15,EUR,1.0926,2023-08-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230815-USD,2023-08-15,USD,1.0,2023-08-15,Native USD; no conversion applied
+20230816-EUR,2023-08-16,EUR,1.0916,2023-08-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230816-USD,2023-08-16,USD,1.0,2023-08-16,Native USD; no conversion applied
+20230817-EUR,2023-08-17,EUR,1.09,2023-08-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230817-USD,2023-08-17,USD,1.0,2023-08-17,Native USD; no conversion applied
+20230818-EUR,2023-08-18,EUR,1.0867,2023-08-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230818-USD,2023-08-18,USD,1.0,2023-08-18,Native USD; no conversion applied
+20230819-USD,2023-08-19,USD,1.0,2023-08-19,Native USD; no conversion applied
+20230820-USD,2023-08-20,USD,1.0,2023-08-20,Native USD; no conversion applied
+20230821-EUR,2023-08-21,EUR,1.0908,2023-08-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230821-USD,2023-08-21,USD,1.0,2023-08-21,Native USD; no conversion applied
+20230822-EUR,2023-08-22,EUR,1.0887,2023-08-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230822-USD,2023-08-22,USD,1.0,2023-08-22,Native USD; no conversion applied
+20230823-EUR,2023-08-23,EUR,1.0805,2023-08-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230823-USD,2023-08-23,USD,1.0,2023-08-23,Native USD; no conversion applied
+20230824-EUR,2023-08-24,EUR,1.084,2023-08-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230824-USD,2023-08-24,USD,1.0,2023-08-24,Native USD; no conversion applied
+20230825-EUR,2023-08-25,EUR,1.0808,2023-08-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230825-USD,2023-08-25,USD,1.0,2023-08-25,Native USD; no conversion applied
+20230826-USD,2023-08-26,USD,1.0,2023-08-26,Native USD; no conversion applied
+20230827-USD,2023-08-27,USD,1.0,2023-08-27,Native USD; no conversion applied
+20230828-EUR,2023-08-28,EUR,1.0808,2023-08-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230828-USD,2023-08-28,USD,1.0,2023-08-28,Native USD; no conversion applied
+20230829-EUR,2023-08-29,EUR,1.0803,2023-08-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230829-USD,2023-08-29,USD,1.0,2023-08-29,Native USD; no conversion applied
+20230830-EUR,2023-08-30,EUR,1.0886,2023-08-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230830-USD,2023-08-30,USD,1.0,2023-08-30,Native USD; no conversion applied
+20230831-EUR,2023-08-31,EUR,1.0868,2023-08-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230831-USD,2023-08-31,USD,1.0,2023-08-31,Native USD; no conversion applied
+20230901-EUR,2023-09-01,EUR,1.0844,2023-09-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230901-USD,2023-09-01,USD,1.0,2023-09-01,Native USD; no conversion applied
+20230902-USD,2023-09-02,USD,1.0,2023-09-02,Native USD; no conversion applied
+20230903-USD,2023-09-03,USD,1.0,2023-09-03,Native USD; no conversion applied
+20230904-EUR,2023-09-04,EUR,1.0801,2023-09-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230904-USD,2023-09-04,USD,1.0,2023-09-04,Native USD; no conversion applied
+20230905-EUR,2023-09-05,EUR,1.0731,2023-09-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230905-USD,2023-09-05,USD,1.0,2023-09-05,Native USD; no conversion applied
+20230906-EUR,2023-09-06,EUR,1.0745,2023-09-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230906-USD,2023-09-06,USD,1.0,2023-09-06,Native USD; no conversion applied
+20230907-EUR,2023-09-07,EUR,1.071,2023-09-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230907-USD,2023-09-07,USD,1.0,2023-09-07,Native USD; no conversion applied
+20230908-EUR,2023-09-08,EUR,1.0704,2023-09-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230908-USD,2023-09-08,USD,1.0,2023-09-08,Native USD; no conversion applied
+20230909-USD,2023-09-09,USD,1.0,2023-09-09,Native USD; no conversion applied
+20230910-USD,2023-09-10,USD,1.0,2023-09-10,Native USD; no conversion applied
+20230911-EUR,2023-09-11,EUR,1.0724,2023-09-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230911-USD,2023-09-11,USD,1.0,2023-09-11,Native USD; no conversion applied
+20230912-EUR,2023-09-12,EUR,1.0713,2023-09-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230912-USD,2023-09-12,USD,1.0,2023-09-12,Native USD; no conversion applied
+20230913-EUR,2023-09-13,EUR,1.0733,2023-09-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230913-USD,2023-09-13,USD,1.0,2023-09-13,Native USD; no conversion applied
+20230914-EUR,2023-09-14,EUR,1.073,2023-09-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230914-USD,2023-09-14,USD,1.0,2023-09-14,Native USD; no conversion applied
+20230915-EUR,2023-09-15,EUR,1.0658,2023-09-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230915-USD,2023-09-15,USD,1.0,2023-09-15,Native USD; no conversion applied
+20230916-USD,2023-09-16,USD,1.0,2023-09-16,Native USD; no conversion applied
+20230917-USD,2023-09-17,USD,1.0,2023-09-17,Native USD; no conversion applied
+20230918-EUR,2023-09-18,EUR,1.0663,2023-09-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230918-USD,2023-09-18,USD,1.0,2023-09-18,Native USD; no conversion applied
+20230919-EUR,2023-09-19,EUR,1.0713,2023-09-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230919-USD,2023-09-19,USD,1.0,2023-09-19,Native USD; no conversion applied
+20230920-EUR,2023-09-20,EUR,1.0702,2023-09-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230920-USD,2023-09-20,USD,1.0,2023-09-20,Native USD; no conversion applied
+20230921-EUR,2023-09-21,EUR,1.0635,2023-09-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230921-USD,2023-09-21,USD,1.0,2023-09-21,Native USD; no conversion applied
+20230922-EUR,2023-09-22,EUR,1.0647,2023-09-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230922-USD,2023-09-22,USD,1.0,2023-09-22,Native USD; no conversion applied
+20230923-USD,2023-09-23,USD,1.0,2023-09-23,Native USD; no conversion applied
+20230924-USD,2023-09-24,USD,1.0,2023-09-24,Native USD; no conversion applied
+20230925-EUR,2023-09-25,EUR,1.0633,2023-09-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230925-USD,2023-09-25,USD,1.0,2023-09-25,Native USD; no conversion applied
+20230926-EUR,2023-09-26,EUR,1.0605,2023-09-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230926-USD,2023-09-26,USD,1.0,2023-09-26,Native USD; no conversion applied
+20230927-EUR,2023-09-27,EUR,1.0536,2023-09-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230927-USD,2023-09-27,USD,1.0,2023-09-27,Native USD; no conversion applied
+20230928-EUR,2023-09-28,EUR,1.0539,2023-09-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230928-USD,2023-09-28,USD,1.0,2023-09-28,Native USD; no conversion applied
+20230929-EUR,2023-09-29,EUR,1.0594,2023-09-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20230929-USD,2023-09-29,USD,1.0,2023-09-29,Native USD; no conversion applied
+20230930-USD,2023-09-30,USD,1.0,2023-09-30,Native USD; no conversion applied
+20231001-USD,2023-10-01,USD,1.0,2023-10-01,Native USD; no conversion applied
+20231002-EUR,2023-10-02,EUR,1.053,2023-10-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231002-USD,2023-10-02,USD,1.0,2023-10-02,Native USD; no conversion applied
+20231003-EUR,2023-10-03,EUR,1.0469,2023-10-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231003-USD,2023-10-03,USD,1.0,2023-10-03,Native USD; no conversion applied
+20231004-EUR,2023-10-04,EUR,1.0497,2023-10-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231004-USD,2023-10-04,USD,1.0,2023-10-04,Native USD; no conversion applied
+20231005-EUR,2023-10-05,EUR,1.0526,2023-10-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231005-USD,2023-10-05,USD,1.0,2023-10-05,Native USD; no conversion applied
+20231006-EUR,2023-10-06,EUR,1.0563,2023-10-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231006-USD,2023-10-06,USD,1.0,2023-10-06,Native USD; no conversion applied
+20231007-USD,2023-10-07,USD,1.0,2023-10-07,Native USD; no conversion applied
+20231008-USD,2023-10-08,USD,1.0,2023-10-08,Native USD; no conversion applied
+20231009-EUR,2023-10-09,EUR,1.0531,2023-10-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231009-USD,2023-10-09,USD,1.0,2023-10-09,Native USD; no conversion applied
+20231010-EUR,2023-10-10,EUR,1.0582,2023-10-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231010-USD,2023-10-10,USD,1.0,2023-10-10,Native USD; no conversion applied
+20231011-EUR,2023-10-11,EUR,1.0604,2023-10-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231011-USD,2023-10-11,USD,1.0,2023-10-11,Native USD; no conversion applied
+20231012-EUR,2023-10-12,EUR,1.0619,2023-10-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231012-USD,2023-10-12,USD,1.0,2023-10-12,Native USD; no conversion applied
+20231013-EUR,2023-10-13,EUR,1.0524,2023-10-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231013-USD,2023-10-13,USD,1.0,2023-10-13,Native USD; no conversion applied
+20231014-USD,2023-10-14,USD,1.0,2023-10-14,Native USD; no conversion applied
+20231015-USD,2023-10-15,USD,1.0,2023-10-15,Native USD; no conversion applied
+20231016-EUR,2023-10-16,EUR,1.0538,2023-10-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231016-USD,2023-10-16,USD,1.0,2023-10-16,Native USD; no conversion applied
+20231017-EUR,2023-10-17,EUR,1.0569,2023-10-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231017-USD,2023-10-17,USD,1.0,2023-10-17,Native USD; no conversion applied
+20231018-EUR,2023-10-18,EUR,1.0565,2023-10-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231018-USD,2023-10-18,USD,1.0,2023-10-18,Native USD; no conversion applied
+20231019-EUR,2023-10-19,EUR,1.0558,2023-10-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231019-USD,2023-10-19,USD,1.0,2023-10-19,Native USD; no conversion applied
+20231020-EUR,2023-10-20,EUR,1.0591,2023-10-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231020-USD,2023-10-20,USD,1.0,2023-10-20,Native USD; no conversion applied
+20231021-USD,2023-10-21,USD,1.0,2023-10-21,Native USD; no conversion applied
+20231022-USD,2023-10-22,USD,1.0,2023-10-22,Native USD; no conversion applied
+20231023-EUR,2023-10-23,EUR,1.0597,2023-10-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231023-USD,2023-10-23,USD,1.0,2023-10-23,Native USD; no conversion applied
+20231024-EUR,2023-10-24,EUR,1.0632,2023-10-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231024-USD,2023-10-24,USD,1.0,2023-10-24,Native USD; no conversion applied
+20231025-EUR,2023-10-25,EUR,1.0576,2023-10-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231025-USD,2023-10-25,USD,1.0,2023-10-25,Native USD; no conversion applied
+20231026-EUR,2023-10-26,EUR,1.054,2023-10-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231026-USD,2023-10-26,USD,1.0,2023-10-26,Native USD; no conversion applied
+20231027-EUR,2023-10-27,EUR,1.0541,2023-10-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231027-USD,2023-10-27,USD,1.0,2023-10-27,Native USD; no conversion applied
+20231028-USD,2023-10-28,USD,1.0,2023-10-28,Native USD; no conversion applied
+20231029-USD,2023-10-29,USD,1.0,2023-10-29,Native USD; no conversion applied
+20231030-EUR,2023-10-30,EUR,1.0605,2023-10-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231030-USD,2023-10-30,USD,1.0,2023-10-30,Native USD; no conversion applied
+20231031-EUR,2023-10-31,EUR,1.0619,2023-10-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231031-USD,2023-10-31,USD,1.0,2023-10-31,Native USD; no conversion applied
+20231101-EUR,2023-11-01,EUR,1.0537,2023-11-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231101-USD,2023-11-01,USD,1.0,2023-11-01,Native USD; no conversion applied
+20231102-EUR,2023-11-02,EUR,1.0661,2023-11-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231102-USD,2023-11-02,USD,1.0,2023-11-02,Native USD; no conversion applied
+20231103-EUR,2023-11-03,EUR,1.0702,2023-11-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231103-USD,2023-11-03,USD,1.0,2023-11-03,Native USD; no conversion applied
+20231104-USD,2023-11-04,USD,1.0,2023-11-04,Native USD; no conversion applied
+20231105-USD,2023-11-05,USD,1.0,2023-11-05,Native USD; no conversion applied
+20231106-EUR,2023-11-06,EUR,1.0741,2023-11-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231106-USD,2023-11-06,USD,1.0,2023-11-06,Native USD; no conversion applied
+20231107-EUR,2023-11-07,EUR,1.0686,2023-11-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231107-USD,2023-11-07,USD,1.0,2023-11-07,Native USD; no conversion applied
+20231108-EUR,2023-11-08,EUR,1.0671,2023-11-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231108-USD,2023-11-08,USD,1.0,2023-11-08,Native USD; no conversion applied
+20231109-EUR,2023-11-09,EUR,1.0691,2023-11-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231109-USD,2023-11-09,USD,1.0,2023-11-09,Native USD; no conversion applied
+20231110-EUR,2023-11-10,EUR,1.0683,2023-11-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231110-USD,2023-11-10,USD,1.0,2023-11-10,Native USD; no conversion applied
+20231111-USD,2023-11-11,USD,1.0,2023-11-11,Native USD; no conversion applied
+20231112-USD,2023-11-12,USD,1.0,2023-11-12,Native USD; no conversion applied
+20231113-EUR,2023-11-13,EUR,1.067,2023-11-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231113-USD,2023-11-13,USD,1.0,2023-11-13,Native USD; no conversion applied
+20231114-EUR,2023-11-14,EUR,1.0724,2023-11-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231114-USD,2023-11-14,USD,1.0,2023-11-14,Native USD; no conversion applied
+20231115-EUR,2023-11-15,EUR,1.0868,2023-11-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231115-USD,2023-11-15,USD,1.0,2023-11-15,Native USD; no conversion applied
+20231116-EUR,2023-11-16,EUR,1.0849,2023-11-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231116-USD,2023-11-16,USD,1.0,2023-11-16,Native USD; no conversion applied
+20231117-EUR,2023-11-17,EUR,1.0872,2023-11-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231117-USD,2023-11-17,USD,1.0,2023-11-17,Native USD; no conversion applied
+20231118-USD,2023-11-18,USD,1.0,2023-11-18,Native USD; no conversion applied
+20231119-USD,2023-11-19,USD,1.0,2023-11-19,Native USD; no conversion applied
+20231120-EUR,2023-11-20,EUR,1.0928,2023-11-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231120-USD,2023-11-20,USD,1.0,2023-11-20,Native USD; no conversion applied
+20231121-EUR,2023-11-21,EUR,1.0955,2023-11-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231121-USD,2023-11-21,USD,1.0,2023-11-21,Native USD; no conversion applied
+20231122-EUR,2023-11-22,EUR,1.0911,2023-11-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231122-USD,2023-11-22,USD,1.0,2023-11-22,Native USD; no conversion applied
+20231123-EUR,2023-11-23,EUR,1.09,2023-11-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231123-USD,2023-11-23,USD,1.0,2023-11-23,Native USD; no conversion applied
+20231124-EUR,2023-11-24,EUR,1.0916,2023-11-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231124-USD,2023-11-24,USD,1.0,2023-11-24,Native USD; no conversion applied
+20231125-USD,2023-11-25,USD,1.0,2023-11-25,Native USD; no conversion applied
+20231126-USD,2023-11-26,USD,1.0,2023-11-26,Native USD; no conversion applied
+20231127-EUR,2023-11-27,EUR,1.0951,2023-11-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231127-USD,2023-11-27,USD,1.0,2023-11-27,Native USD; no conversion applied
+20231128-EUR,2023-11-28,EUR,1.0949,2023-11-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231128-USD,2023-11-28,USD,1.0,2023-11-28,Native USD; no conversion applied
+20231129-EUR,2023-11-29,EUR,1.0985,2023-11-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231129-USD,2023-11-29,USD,1.0,2023-11-29,Native USD; no conversion applied
+20231130-EUR,2023-11-30,EUR,1.0931,2023-11-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231130-USD,2023-11-30,USD,1.0,2023-11-30,Native USD; no conversion applied
+20231201-EUR,2023-12-01,EUR,1.0875,2023-12-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231201-USD,2023-12-01,USD,1.0,2023-12-01,Native USD; no conversion applied
+20231202-USD,2023-12-02,USD,1.0,2023-12-02,Native USD; no conversion applied
+20231203-USD,2023-12-03,USD,1.0,2023-12-03,Native USD; no conversion applied
+20231204-EUR,2023-12-04,EUR,1.0868,2023-12-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231204-USD,2023-12-04,USD,1.0,2023-12-04,Native USD; no conversion applied
+20231205-EUR,2023-12-05,EUR,1.0817,2023-12-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231205-USD,2023-12-05,USD,1.0,2023-12-05,Native USD; no conversion applied
+20231206-EUR,2023-12-06,EUR,1.0778,2023-12-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231206-USD,2023-12-06,USD,1.0,2023-12-06,Native USD; no conversion applied
+20231207-EUR,2023-12-07,EUR,1.0771,2023-12-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231207-USD,2023-12-07,USD,1.0,2023-12-07,Native USD; no conversion applied
+20231208-EUR,2023-12-08,EUR,1.0777,2023-12-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231208-USD,2023-12-08,USD,1.0,2023-12-08,Native USD; no conversion applied
+20231209-USD,2023-12-09,USD,1.0,2023-12-09,Native USD; no conversion applied
+20231210-USD,2023-12-10,USD,1.0,2023-12-10,Native USD; no conversion applied
+20231211-EUR,2023-12-11,EUR,1.0757,2023-12-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231211-USD,2023-12-11,USD,1.0,2023-12-11,Native USD; no conversion applied
+20231212-EUR,2023-12-12,EUR,1.0804,2023-12-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231212-USD,2023-12-12,USD,1.0,2023-12-12,Native USD; no conversion applied
+20231213-EUR,2023-12-13,EUR,1.0787,2023-12-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231213-USD,2023-12-13,USD,1.0,2023-12-13,Native USD; no conversion applied
+20231214-EUR,2023-12-14,EUR,1.0919,2023-12-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231214-USD,2023-12-14,USD,1.0,2023-12-14,Native USD; no conversion applied
+20231215-EUR,2023-12-15,EUR,1.0946,2023-12-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231215-USD,2023-12-15,USD,1.0,2023-12-15,Native USD; no conversion applied
+20231216-USD,2023-12-16,USD,1.0,2023-12-16,Native USD; no conversion applied
+20231217-USD,2023-12-17,USD,1.0,2023-12-17,Native USD; no conversion applied
+20231218-EUR,2023-12-18,EUR,1.0918,2023-12-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231218-USD,2023-12-18,USD,1.0,2023-12-18,Native USD; no conversion applied
+20231219-EUR,2023-12-19,EUR,1.0962,2023-12-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231219-USD,2023-12-19,USD,1.0,2023-12-19,Native USD; no conversion applied
+20231220-EUR,2023-12-20,EUR,1.0944,2023-12-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231220-USD,2023-12-20,USD,1.0,2023-12-20,Native USD; no conversion applied
+20231221-EUR,2023-12-21,EUR,1.0983,2023-12-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231221-USD,2023-12-21,USD,1.0,2023-12-21,Native USD; no conversion applied
+20231222-EUR,2023-12-22,EUR,1.1023,2023-12-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231222-USD,2023-12-22,USD,1.0,2023-12-22,Native USD; no conversion applied
+20231223-USD,2023-12-23,USD,1.0,2023-12-23,Native USD; no conversion applied
+20231224-USD,2023-12-24,USD,1.0,2023-12-24,Native USD; no conversion applied
+20231225-USD,2023-12-25,USD,1.0,2023-12-25,Native USD; no conversion applied
+20231226-USD,2023-12-26,USD,1.0,2023-12-26,Native USD; no conversion applied
+20231227-EUR,2023-12-27,EUR,1.1065,2023-12-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231227-USD,2023-12-27,USD,1.0,2023-12-27,Native USD; no conversion applied
+20231228-EUR,2023-12-28,EUR,1.1114,2023-12-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231228-USD,2023-12-28,USD,1.0,2023-12-28,Native USD; no conversion applied
+20231229-EUR,2023-12-29,EUR,1.105,2023-12-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20231229-USD,2023-12-29,USD,1.0,2023-12-29,Native USD; no conversion applied
+20231230-USD,2023-12-30,USD,1.0,2023-12-30,Native USD; no conversion applied
+20231231-USD,2023-12-31,USD,1.0,2023-12-31,Native USD; no conversion applied
+20240101-USD,2024-01-01,USD,1.0,2024-01-01,Native USD; no conversion applied
+20240102-EUR,2024-01-02,EUR,1.0956,2024-01-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240102-USD,2024-01-02,USD,1.0,2024-01-02,Native USD; no conversion applied
+20240103-EUR,2024-01-03,EUR,1.0919,2024-01-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240103-USD,2024-01-03,USD,1.0,2024-01-03,Native USD; no conversion applied
+20240104-EUR,2024-01-04,EUR,1.0953,2024-01-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240104-USD,2024-01-04,USD,1.0,2024-01-04,Native USD; no conversion applied
+20240105-EUR,2024-01-05,EUR,1.0921,2024-01-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240105-USD,2024-01-05,USD,1.0,2024-01-05,Native USD; no conversion applied
+20240106-USD,2024-01-06,USD,1.0,2024-01-06,Native USD; no conversion applied
+20240107-USD,2024-01-07,USD,1.0,2024-01-07,Native USD; no conversion applied
+20240108-EUR,2024-01-08,EUR,1.0946,2024-01-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240108-USD,2024-01-08,USD,1.0,2024-01-08,Native USD; no conversion applied
+20240109-EUR,2024-01-09,EUR,1.094,2024-01-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240109-USD,2024-01-09,USD,1.0,2024-01-09,Native USD; no conversion applied
+20240110-EUR,2024-01-10,EUR,1.0946,2024-01-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240110-USD,2024-01-10,USD,1.0,2024-01-10,Native USD; no conversion applied
+20240111-EUR,2024-01-11,EUR,1.0987,2024-01-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240111-USD,2024-01-11,USD,1.0,2024-01-11,Native USD; no conversion applied
+20240112-EUR,2024-01-12,EUR,1.0942,2024-01-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240112-USD,2024-01-12,USD,1.0,2024-01-12,Native USD; no conversion applied
+20240113-USD,2024-01-13,USD,1.0,2024-01-13,Native USD; no conversion applied
+20240114-USD,2024-01-14,USD,1.0,2024-01-14,Native USD; no conversion applied
+20240115-EUR,2024-01-15,EUR,1.0945,2024-01-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240115-USD,2024-01-15,USD,1.0,2024-01-15,Native USD; no conversion applied
+20240116-EUR,2024-01-16,EUR,1.0882,2024-01-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240116-USD,2024-01-16,USD,1.0,2024-01-16,Native USD; no conversion applied
+20240117-EUR,2024-01-17,EUR,1.0877,2024-01-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240117-USD,2024-01-17,USD,1.0,2024-01-17,Native USD; no conversion applied
+20240118-EUR,2024-01-18,EUR,1.0875,2024-01-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240118-USD,2024-01-18,USD,1.0,2024-01-18,Native USD; no conversion applied
+20240119-EUR,2024-01-19,EUR,1.0887,2024-01-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240119-USD,2024-01-19,USD,1.0,2024-01-19,Native USD; no conversion applied
+20240120-USD,2024-01-20,USD,1.0,2024-01-20,Native USD; no conversion applied
+20240121-USD,2024-01-21,USD,1.0,2024-01-21,Native USD; no conversion applied
+20240122-EUR,2024-01-22,EUR,1.089,2024-01-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240122-USD,2024-01-22,USD,1.0,2024-01-22,Native USD; no conversion applied
+20240123-EUR,2024-01-23,EUR,1.0872,2024-01-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240123-USD,2024-01-23,USD,1.0,2024-01-23,Native USD; no conversion applied
+20240124-EUR,2024-01-24,EUR,1.0905,2024-01-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240124-USD,2024-01-24,USD,1.0,2024-01-24,Native USD; no conversion applied
+20240125-EUR,2024-01-25,EUR,1.0893,2024-01-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240125-USD,2024-01-25,USD,1.0,2024-01-25,Native USD; no conversion applied
+20240126-EUR,2024-01-26,EUR,1.0871,2024-01-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240126-USD,2024-01-26,USD,1.0,2024-01-26,Native USD; no conversion applied
+20240127-USD,2024-01-27,USD,1.0,2024-01-27,Native USD; no conversion applied
+20240128-USD,2024-01-28,USD,1.0,2024-01-28,Native USD; no conversion applied
+20240129-EUR,2024-01-29,EUR,1.0823,2024-01-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240129-USD,2024-01-29,USD,1.0,2024-01-29,Native USD; no conversion applied
+20240130-EUR,2024-01-30,EUR,1.0846,2024-01-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240130-USD,2024-01-30,USD,1.0,2024-01-30,Native USD; no conversion applied
+20240131-EUR,2024-01-31,EUR,1.0837,2024-01-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240131-USD,2024-01-31,USD,1.0,2024-01-31,Native USD; no conversion applied
+20240201-EUR,2024-02-01,EUR,1.0814,2024-02-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240201-USD,2024-02-01,USD,1.0,2024-02-01,Native USD; no conversion applied
+20240202-EUR,2024-02-02,EUR,1.0883,2024-02-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240202-USD,2024-02-02,USD,1.0,2024-02-02,Native USD; no conversion applied
+20240203-USD,2024-02-03,USD,1.0,2024-02-03,Native USD; no conversion applied
+20240204-USD,2024-02-04,USD,1.0,2024-02-04,Native USD; no conversion applied
+20240205-EUR,2024-02-05,EUR,1.0746,2024-02-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240205-USD,2024-02-05,USD,1.0,2024-02-05,Native USD; no conversion applied
+20240206-EUR,2024-02-06,EUR,1.0743,2024-02-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240206-USD,2024-02-06,USD,1.0,2024-02-06,Native USD; no conversion applied
+20240207-EUR,2024-02-07,EUR,1.0776,2024-02-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240207-USD,2024-02-07,USD,1.0,2024-02-07,Native USD; no conversion applied
+20240208-EUR,2024-02-08,EUR,1.0758,2024-02-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240208-USD,2024-02-08,USD,1.0,2024-02-08,Native USD; no conversion applied
+20240209-EUR,2024-02-09,EUR,1.0772,2024-02-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240209-USD,2024-02-09,USD,1.0,2024-02-09,Native USD; no conversion applied
+20240210-USD,2024-02-10,USD,1.0,2024-02-10,Native USD; no conversion applied
+20240211-USD,2024-02-11,USD,1.0,2024-02-11,Native USD; no conversion applied
+20240212-EUR,2024-02-12,EUR,1.0773,2024-02-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240212-USD,2024-02-12,USD,1.0,2024-02-12,Native USD; no conversion applied
+20240213-EUR,2024-02-13,EUR,1.0793,2024-02-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240213-USD,2024-02-13,USD,1.0,2024-02-13,Native USD; no conversion applied
+20240214-EUR,2024-02-14,EUR,1.0713,2024-02-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240214-USD,2024-02-14,USD,1.0,2024-02-14,Native USD; no conversion applied
+20240215-EUR,2024-02-15,EUR,1.0743,2024-02-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240215-USD,2024-02-15,USD,1.0,2024-02-15,Native USD; no conversion applied
+20240216-EUR,2024-02-16,EUR,1.0768,2024-02-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240216-USD,2024-02-16,USD,1.0,2024-02-16,Native USD; no conversion applied
+20240217-USD,2024-02-17,USD,1.0,2024-02-17,Native USD; no conversion applied
+20240218-USD,2024-02-18,USD,1.0,2024-02-18,Native USD; no conversion applied
+20240219-EUR,2024-02-19,EUR,1.0776,2024-02-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240219-USD,2024-02-19,USD,1.0,2024-02-19,Native USD; no conversion applied
+20240220-EUR,2024-02-20,EUR,1.0802,2024-02-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240220-USD,2024-02-20,USD,1.0,2024-02-20,Native USD; no conversion applied
+20240221-EUR,2024-02-21,EUR,1.0809,2024-02-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240221-USD,2024-02-21,USD,1.0,2024-02-21,Native USD; no conversion applied
+20240222-EUR,2024-02-22,EUR,1.0844,2024-02-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240222-USD,2024-02-22,USD,1.0,2024-02-22,Native USD; no conversion applied
+20240223-EUR,2024-02-23,EUR,1.0834,2024-02-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240223-USD,2024-02-23,USD,1.0,2024-02-23,Native USD; no conversion applied
+20240224-USD,2024-02-24,USD,1.0,2024-02-24,Native USD; no conversion applied
+20240225-USD,2024-02-25,USD,1.0,2024-02-25,Native USD; no conversion applied
+20240226-EUR,2024-02-26,EUR,1.0852,2024-02-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240226-USD,2024-02-26,USD,1.0,2024-02-26,Native USD; no conversion applied
+20240227-EUR,2024-02-27,EUR,1.0856,2024-02-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240227-USD,2024-02-27,USD,1.0,2024-02-27,Native USD; no conversion applied
+20240228-EUR,2024-02-28,EUR,1.0808,2024-02-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240228-USD,2024-02-28,USD,1.0,2024-02-28,Native USD; no conversion applied
+20240229-EUR,2024-02-29,EUR,1.0826,2024-02-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240229-USD,2024-02-29,USD,1.0,2024-02-29,Native USD; no conversion applied
+20240301-EUR,2024-03-01,EUR,1.0813,2024-03-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240301-USD,2024-03-01,USD,1.0,2024-03-01,Native USD; no conversion applied
+20240302-USD,2024-03-02,USD,1.0,2024-03-02,Native USD; no conversion applied
+20240303-USD,2024-03-03,USD,1.0,2024-03-03,Native USD; no conversion applied
+20240304-EUR,2024-03-04,EUR,1.0846,2024-03-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240304-USD,2024-03-04,USD,1.0,2024-03-04,Native USD; no conversion applied
+20240305-EUR,2024-03-05,EUR,1.0849,2024-03-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240305-USD,2024-03-05,USD,1.0,2024-03-05,Native USD; no conversion applied
+20240306-EUR,2024-03-06,EUR,1.0874,2024-03-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240306-USD,2024-03-06,USD,1.0,2024-03-06,Native USD; no conversion applied
+20240307-EUR,2024-03-07,EUR,1.0895,2024-03-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240307-USD,2024-03-07,USD,1.0,2024-03-07,Native USD; no conversion applied
+20240308-EUR,2024-03-08,EUR,1.0932,2024-03-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240308-USD,2024-03-08,USD,1.0,2024-03-08,Native USD; no conversion applied
+20240309-USD,2024-03-09,USD,1.0,2024-03-09,Native USD; no conversion applied
+20240310-USD,2024-03-10,USD,1.0,2024-03-10,Native USD; no conversion applied
+20240311-EUR,2024-03-11,EUR,1.0926,2024-03-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240311-USD,2024-03-11,USD,1.0,2024-03-11,Native USD; no conversion applied
+20240312-EUR,2024-03-12,EUR,1.0916,2024-03-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240312-USD,2024-03-12,USD,1.0,2024-03-12,Native USD; no conversion applied
+20240313-EUR,2024-03-13,EUR,1.0939,2024-03-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240313-USD,2024-03-13,USD,1.0,2024-03-13,Native USD; no conversion applied
+20240314-EUR,2024-03-14,EUR,1.0925,2024-03-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240314-USD,2024-03-14,USD,1.0,2024-03-14,Native USD; no conversion applied
+20240315-EUR,2024-03-15,EUR,1.0892,2024-03-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240315-USD,2024-03-15,USD,1.0,2024-03-15,Native USD; no conversion applied
+20240316-USD,2024-03-16,USD,1.0,2024-03-16,Native USD; no conversion applied
+20240317-USD,2024-03-17,USD,1.0,2024-03-17,Native USD; no conversion applied
+20240318-EUR,2024-03-18,EUR,1.0892,2024-03-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240318-USD,2024-03-18,USD,1.0,2024-03-18,Native USD; no conversion applied
+20240319-EUR,2024-03-19,EUR,1.0854,2024-03-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240319-USD,2024-03-19,USD,1.0,2024-03-19,Native USD; no conversion applied
+20240320-EUR,2024-03-20,EUR,1.0844,2024-03-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240320-USD,2024-03-20,USD,1.0,2024-03-20,Native USD; no conversion applied
+20240321-EUR,2024-03-21,EUR,1.0907,2024-03-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240321-USD,2024-03-21,USD,1.0,2024-03-21,Native USD; no conversion applied
+20240322-EUR,2024-03-22,EUR,1.0823,2024-03-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240322-USD,2024-03-22,USD,1.0,2024-03-22,Native USD; no conversion applied
+20240323-USD,2024-03-23,USD,1.0,2024-03-23,Native USD; no conversion applied
+20240324-USD,2024-03-24,USD,1.0,2024-03-24,Native USD; no conversion applied
+20240325-EUR,2024-03-25,EUR,1.0835,2024-03-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240325-USD,2024-03-25,USD,1.0,2024-03-25,Native USD; no conversion applied
+20240326-EUR,2024-03-26,EUR,1.0855,2024-03-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240326-USD,2024-03-26,USD,1.0,2024-03-26,Native USD; no conversion applied
+20240327-EUR,2024-03-27,EUR,1.0816,2024-03-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240327-USD,2024-03-27,USD,1.0,2024-03-27,Native USD; no conversion applied
+20240328-EUR,2024-03-28,EUR,1.0811,2024-03-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240328-USD,2024-03-28,USD,1.0,2024-03-28,Native USD; no conversion applied
+20240329-USD,2024-03-29,USD,1.0,2024-03-29,Native USD; no conversion applied
+20240330-USD,2024-03-30,USD,1.0,2024-03-30,Native USD; no conversion applied
+20240331-USD,2024-03-31,USD,1.0,2024-03-31,Native USD; no conversion applied
+20240401-USD,2024-04-01,USD,1.0,2024-04-01,Native USD; no conversion applied
+20240402-EUR,2024-04-02,EUR,1.0749,2024-04-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240402-USD,2024-04-02,USD,1.0,2024-04-02,Native USD; no conversion applied
+20240403-EUR,2024-04-03,EUR,1.0783,2024-04-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240403-USD,2024-04-03,USD,1.0,2024-04-03,Native USD; no conversion applied
+20240404-EUR,2024-04-04,EUR,1.0852,2024-04-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240404-USD,2024-04-04,USD,1.0,2024-04-04,Native USD; no conversion applied
+20240405-EUR,2024-04-05,EUR,1.0841,2024-04-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240405-USD,2024-04-05,USD,1.0,2024-04-05,Native USD; no conversion applied
+20240406-USD,2024-04-06,USD,1.0,2024-04-06,Native USD; no conversion applied
+20240407-USD,2024-04-07,USD,1.0,2024-04-07,Native USD; no conversion applied
+20240408-EUR,2024-04-08,EUR,1.0823,2024-04-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240408-USD,2024-04-08,USD,1.0,2024-04-08,Native USD; no conversion applied
+20240409-EUR,2024-04-09,EUR,1.0867,2024-04-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240409-USD,2024-04-09,USD,1.0,2024-04-09,Native USD; no conversion applied
+20240410-EUR,2024-04-10,EUR,1.086,2024-04-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240410-USD,2024-04-10,USD,1.0,2024-04-10,Native USD; no conversion applied
+20240411-EUR,2024-04-11,EUR,1.0729,2024-04-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240411-USD,2024-04-11,USD,1.0,2024-04-11,Native USD; no conversion applied
+20240412-EUR,2024-04-12,EUR,1.0652,2024-04-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240412-USD,2024-04-12,USD,1.0,2024-04-12,Native USD; no conversion applied
+20240413-USD,2024-04-13,USD,1.0,2024-04-13,Native USD; no conversion applied
+20240414-USD,2024-04-14,USD,1.0,2024-04-14,Native USD; no conversion applied
+20240415-EUR,2024-04-15,EUR,1.0656,2024-04-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240415-USD,2024-04-15,USD,1.0,2024-04-15,Native USD; no conversion applied
+20240416-EUR,2024-04-16,EUR,1.0637,2024-04-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240416-USD,2024-04-16,USD,1.0,2024-04-16,Native USD; no conversion applied
+20240417-EUR,2024-04-17,EUR,1.0638,2024-04-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240417-USD,2024-04-17,USD,1.0,2024-04-17,Native USD; no conversion applied
+20240418-EUR,2024-04-18,EUR,1.0679,2024-04-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240418-USD,2024-04-18,USD,1.0,2024-04-18,Native USD; no conversion applied
+20240419-EUR,2024-04-19,EUR,1.0653,2024-04-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240419-USD,2024-04-19,USD,1.0,2024-04-19,Native USD; no conversion applied
+20240420-USD,2024-04-20,USD,1.0,2024-04-20,Native USD; no conversion applied
+20240421-USD,2024-04-21,USD,1.0,2024-04-21,Native USD; no conversion applied
+20240422-EUR,2024-04-22,EUR,1.0632,2024-04-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240422-USD,2024-04-22,USD,1.0,2024-04-22,Native USD; no conversion applied
+20240423-EUR,2024-04-23,EUR,1.0674,2024-04-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240423-USD,2024-04-23,USD,1.0,2024-04-23,Native USD; no conversion applied
+20240424-EUR,2024-04-24,EUR,1.0686,2024-04-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240424-USD,2024-04-24,USD,1.0,2024-04-24,Native USD; no conversion applied
+20240425-EUR,2024-04-25,EUR,1.072,2024-04-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240425-USD,2024-04-25,USD,1.0,2024-04-25,Native USD; no conversion applied
+20240426-EUR,2024-04-26,EUR,1.0714,2024-04-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240426-USD,2024-04-26,USD,1.0,2024-04-26,Native USD; no conversion applied
+20240427-USD,2024-04-27,USD,1.0,2024-04-27,Native USD; no conversion applied
+20240428-USD,2024-04-28,USD,1.0,2024-04-28,Native USD; no conversion applied
+20240429-EUR,2024-04-29,EUR,1.072,2024-04-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240429-USD,2024-04-29,USD,1.0,2024-04-29,Native USD; no conversion applied
+20240430-EUR,2024-04-30,EUR,1.0718,2024-04-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240430-USD,2024-04-30,USD,1.0,2024-04-30,Native USD; no conversion applied
+20240501-USD,2024-05-01,USD,1.0,2024-05-01,Native USD; no conversion applied
+20240502-EUR,2024-05-02,EUR,1.0698,2024-05-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240502-USD,2024-05-02,USD,1.0,2024-05-02,Native USD; no conversion applied
+20240503-EUR,2024-05-03,EUR,1.0744,2024-05-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240503-USD,2024-05-03,USD,1.0,2024-05-03,Native USD; no conversion applied
+20240504-USD,2024-05-04,USD,1.0,2024-05-04,Native USD; no conversion applied
+20240505-USD,2024-05-05,USD,1.0,2024-05-05,Native USD; no conversion applied
+20240506-EUR,2024-05-06,EUR,1.0776,2024-05-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240506-USD,2024-05-06,USD,1.0,2024-05-06,Native USD; no conversion applied
+20240507-EUR,2024-05-07,EUR,1.0766,2024-05-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240507-USD,2024-05-07,USD,1.0,2024-05-07,Native USD; no conversion applied
+20240508-EUR,2024-05-08,EUR,1.0743,2024-05-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240508-USD,2024-05-08,USD,1.0,2024-05-08,Native USD; no conversion applied
+20240509-EUR,2024-05-09,EUR,1.0732,2024-05-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240509-USD,2024-05-09,USD,1.0,2024-05-09,Native USD; no conversion applied
+20240510-EUR,2024-05-10,EUR,1.0779,2024-05-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240510-USD,2024-05-10,USD,1.0,2024-05-10,Native USD; no conversion applied
+20240511-USD,2024-05-11,USD,1.0,2024-05-11,Native USD; no conversion applied
+20240512-USD,2024-05-12,USD,1.0,2024-05-12,Native USD; no conversion applied
+20240513-EUR,2024-05-13,EUR,1.0795,2024-05-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240513-USD,2024-05-13,USD,1.0,2024-05-13,Native USD; no conversion applied
+20240514-EUR,2024-05-14,EUR,1.0796,2024-05-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240514-USD,2024-05-14,USD,1.0,2024-05-14,Native USD; no conversion applied
+20240515-EUR,2024-05-15,EUR,1.0832,2024-05-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240515-USD,2024-05-15,USD,1.0,2024-05-15,Native USD; no conversion applied
+20240516-EUR,2024-05-16,EUR,1.0866,2024-05-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240516-USD,2024-05-16,USD,1.0,2024-05-16,Native USD; no conversion applied
+20240517-EUR,2024-05-17,EUR,1.0844,2024-05-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240517-USD,2024-05-17,USD,1.0,2024-05-17,Native USD; no conversion applied
+20240518-USD,2024-05-18,USD,1.0,2024-05-18,Native USD; no conversion applied
+20240519-USD,2024-05-19,USD,1.0,2024-05-19,Native USD; no conversion applied
+20240520-EUR,2024-05-20,EUR,1.0861,2024-05-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240520-USD,2024-05-20,USD,1.0,2024-05-20,Native USD; no conversion applied
+20240521-EUR,2024-05-21,EUR,1.0864,2024-05-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240521-USD,2024-05-21,USD,1.0,2024-05-21,Native USD; no conversion applied
+20240522-EUR,2024-05-22,EUR,1.083,2024-05-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240522-USD,2024-05-22,USD,1.0,2024-05-22,Native USD; no conversion applied
+20240523-EUR,2024-05-23,EUR,1.0854,2024-05-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240523-USD,2024-05-23,USD,1.0,2024-05-23,Native USD; no conversion applied
+20240524-EUR,2024-05-24,EUR,1.084,2024-05-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240524-USD,2024-05-24,USD,1.0,2024-05-24,Native USD; no conversion applied
+20240525-USD,2024-05-25,USD,1.0,2024-05-25,Native USD; no conversion applied
+20240526-USD,2024-05-26,USD,1.0,2024-05-26,Native USD; no conversion applied
+20240527-EUR,2024-05-27,EUR,1.0843,2024-05-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240527-USD,2024-05-27,USD,1.0,2024-05-27,Native USD; no conversion applied
+20240528-EUR,2024-05-28,EUR,1.0882,2024-05-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240528-USD,2024-05-28,USD,1.0,2024-05-28,Native USD; no conversion applied
+20240529-EUR,2024-05-29,EUR,1.0857,2024-05-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240529-USD,2024-05-29,USD,1.0,2024-05-29,Native USD; no conversion applied
+20240530-EUR,2024-05-30,EUR,1.0815,2024-05-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240530-USD,2024-05-30,USD,1.0,2024-05-30,Native USD; no conversion applied
+20240531-EUR,2024-05-31,EUR,1.0852,2024-05-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240531-USD,2024-05-31,USD,1.0,2024-05-31,Native USD; no conversion applied
+20240601-USD,2024-06-01,USD,1.0,2024-06-01,Native USD; no conversion applied
+20240602-USD,2024-06-02,USD,1.0,2024-06-02,Native USD; no conversion applied
+20240603-EUR,2024-06-03,EUR,1.0842,2024-06-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240603-USD,2024-06-03,USD,1.0,2024-06-03,Native USD; no conversion applied
+20240604-EUR,2024-06-04,EUR,1.0865,2024-06-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240604-USD,2024-06-04,USD,1.0,2024-06-04,Native USD; no conversion applied
+20240605-EUR,2024-06-05,EUR,1.0872,2024-06-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240605-USD,2024-06-05,USD,1.0,2024-06-05,Native USD; no conversion applied
+20240606-EUR,2024-06-06,EUR,1.0865,2024-06-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240606-USD,2024-06-06,USD,1.0,2024-06-06,Native USD; no conversion applied
+20240607-EUR,2024-06-07,EUR,1.0898,2024-06-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240607-USD,2024-06-07,USD,1.0,2024-06-07,Native USD; no conversion applied
+20240608-USD,2024-06-08,USD,1.0,2024-06-08,Native USD; no conversion applied
+20240609-USD,2024-06-09,USD,1.0,2024-06-09,Native USD; no conversion applied
+20240610-EUR,2024-06-10,EUR,1.0756,2024-06-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240610-USD,2024-06-10,USD,1.0,2024-06-10,Native USD; no conversion applied
+20240611-EUR,2024-06-11,EUR,1.073,2024-06-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240611-USD,2024-06-11,USD,1.0,2024-06-11,Native USD; no conversion applied
+20240612-EUR,2024-06-12,EUR,1.0765,2024-06-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240612-USD,2024-06-12,USD,1.0,2024-06-12,Native USD; no conversion applied
+20240613-EUR,2024-06-13,EUR,1.0784,2024-06-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240613-USD,2024-06-13,USD,1.0,2024-06-13,Native USD; no conversion applied
+20240614-EUR,2024-06-14,EUR,1.0686,2024-06-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240614-USD,2024-06-14,USD,1.0,2024-06-14,Native USD; no conversion applied
+20240615-USD,2024-06-15,USD,1.0,2024-06-15,Native USD; no conversion applied
+20240616-USD,2024-06-16,USD,1.0,2024-06-16,Native USD; no conversion applied
+20240617-EUR,2024-06-17,EUR,1.0712,2024-06-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240617-USD,2024-06-17,USD,1.0,2024-06-17,Native USD; no conversion applied
+20240618-EUR,2024-06-18,EUR,1.0715,2024-06-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240618-USD,2024-06-18,USD,1.0,2024-06-18,Native USD; no conversion applied
+20240619-EUR,2024-06-19,EUR,1.0749,2024-06-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240619-USD,2024-06-19,USD,1.0,2024-06-19,Native USD; no conversion applied
+20240620-EUR,2024-06-20,EUR,1.0719,2024-06-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240620-USD,2024-06-20,USD,1.0,2024-06-20,Native USD; no conversion applied
+20240621-EUR,2024-06-21,EUR,1.0688,2024-06-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240621-USD,2024-06-21,USD,1.0,2024-06-21,Native USD; no conversion applied
+20240622-USD,2024-06-22,USD,1.0,2024-06-22,Native USD; no conversion applied
+20240623-USD,2024-06-23,USD,1.0,2024-06-23,Native USD; no conversion applied
+20240624-EUR,2024-06-24,EUR,1.073,2024-06-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240624-USD,2024-06-24,USD,1.0,2024-06-24,Native USD; no conversion applied
+20240625-EUR,2024-06-25,EUR,1.0714,2024-06-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240625-USD,2024-06-25,USD,1.0,2024-06-25,Native USD; no conversion applied
+20240626-EUR,2024-06-26,EUR,1.0689,2024-06-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240626-USD,2024-06-26,USD,1.0,2024-06-26,Native USD; no conversion applied
+20240627-EUR,2024-06-27,EUR,1.0696,2024-06-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240627-USD,2024-06-27,USD,1.0,2024-06-27,Native USD; no conversion applied
+20240628-EUR,2024-06-28,EUR,1.0705,2024-06-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240628-USD,2024-06-28,USD,1.0,2024-06-28,Native USD; no conversion applied
+20240629-USD,2024-06-29,USD,1.0,2024-06-29,Native USD; no conversion applied
+20240630-USD,2024-06-30,USD,1.0,2024-06-30,Native USD; no conversion applied
+20240701-EUR,2024-07-01,EUR,1.0745,2024-07-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240701-USD,2024-07-01,USD,1.0,2024-07-01,Native USD; no conversion applied
+20240702-EUR,2024-07-02,EUR,1.0729,2024-07-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240702-USD,2024-07-02,USD,1.0,2024-07-02,Native USD; no conversion applied
+20240703-EUR,2024-07-03,EUR,1.0758,2024-07-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240703-USD,2024-07-03,USD,1.0,2024-07-03,Native USD; no conversion applied
+20240704-EUR,2024-07-04,EUR,1.08,2024-07-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240704-USD,2024-07-04,USD,1.0,2024-07-04,Native USD; no conversion applied
+20240705-EUR,2024-07-05,EUR,1.0824,2024-07-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240705-USD,2024-07-05,USD,1.0,2024-07-05,Native USD; no conversion applied
+20240706-USD,2024-07-06,USD,1.0,2024-07-06,Native USD; no conversion applied
+20240707-USD,2024-07-07,USD,1.0,2024-07-07,Native USD; no conversion applied
+20240708-EUR,2024-07-08,EUR,1.0835,2024-07-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240708-USD,2024-07-08,USD,1.0,2024-07-08,Native USD; no conversion applied
+20240709-EUR,2024-07-09,EUR,1.0814,2024-07-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240709-USD,2024-07-09,USD,1.0,2024-07-09,Native USD; no conversion applied
+20240710-EUR,2024-07-10,EUR,1.0825,2024-07-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240710-USD,2024-07-10,USD,1.0,2024-07-10,Native USD; no conversion applied
+20240711-EUR,2024-07-11,EUR,1.0855,2024-07-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240711-USD,2024-07-11,USD,1.0,2024-07-11,Native USD; no conversion applied
+20240712-EUR,2024-07-12,EUR,1.089,2024-07-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240712-USD,2024-07-12,USD,1.0,2024-07-12,Native USD; no conversion applied
+20240713-USD,2024-07-13,USD,1.0,2024-07-13,Native USD; no conversion applied
+20240714-USD,2024-07-14,USD,1.0,2024-07-14,Native USD; no conversion applied
+20240715-EUR,2024-07-15,EUR,1.0907,2024-07-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240715-USD,2024-07-15,USD,1.0,2024-07-15,Native USD; no conversion applied
+20240716-EUR,2024-07-16,EUR,1.0902,2024-07-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240716-USD,2024-07-16,USD,1.0,2024-07-16,Native USD; no conversion applied
+20240717-EUR,2024-07-17,EUR,1.0934,2024-07-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240717-USD,2024-07-17,USD,1.0,2024-07-17,Native USD; no conversion applied
+20240718-EUR,2024-07-18,EUR,1.093,2024-07-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240718-USD,2024-07-18,USD,1.0,2024-07-18,Native USD; no conversion applied
+20240719-EUR,2024-07-19,EUR,1.089,2024-07-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240719-USD,2024-07-19,USD,1.0,2024-07-19,Native USD; no conversion applied
+20240720-USD,2024-07-20,USD,1.0,2024-07-20,Native USD; no conversion applied
+20240721-USD,2024-07-21,USD,1.0,2024-07-21,Native USD; no conversion applied
+20240722-EUR,2024-07-22,EUR,1.0888,2024-07-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240722-USD,2024-07-22,USD,1.0,2024-07-22,Native USD; no conversion applied
+20240723-EUR,2024-07-23,EUR,1.086,2024-07-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240723-USD,2024-07-23,USD,1.0,2024-07-23,Native USD; no conversion applied
+20240724-EUR,2024-07-24,EUR,1.0848,2024-07-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240724-USD,2024-07-24,USD,1.0,2024-07-24,Native USD; no conversion applied
+20240725-EUR,2024-07-25,EUR,1.0851,2024-07-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240725-USD,2024-07-25,USD,1.0,2024-07-25,Native USD; no conversion applied
+20240726-EUR,2024-07-26,EUR,1.086,2024-07-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240726-USD,2024-07-26,USD,1.0,2024-07-26,Native USD; no conversion applied
+20240727-USD,2024-07-27,USD,1.0,2024-07-27,Native USD; no conversion applied
+20240728-USD,2024-07-28,USD,1.0,2024-07-28,Native USD; no conversion applied
+20240729-EUR,2024-07-29,EUR,1.0817,2024-07-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240729-USD,2024-07-29,USD,1.0,2024-07-29,Native USD; no conversion applied
+20240730-EUR,2024-07-30,EUR,1.0824,2024-07-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240730-USD,2024-07-30,USD,1.0,2024-07-30,Native USD; no conversion applied
+20240731-EUR,2024-07-31,EUR,1.0828,2024-07-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240731-USD,2024-07-31,USD,1.0,2024-07-31,Native USD; no conversion applied
+20240801-EUR,2024-08-01,EUR,1.0789,2024-08-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240801-USD,2024-08-01,USD,1.0,2024-08-01,Native USD; no conversion applied
+20240802-EUR,2024-08-02,EUR,1.0835,2024-08-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240802-USD,2024-08-02,USD,1.0,2024-08-02,Native USD; no conversion applied
+20240803-USD,2024-08-03,USD,1.0,2024-08-03,Native USD; no conversion applied
+20240804-USD,2024-08-04,USD,1.0,2024-08-04,Native USD; no conversion applied
+20240805-EUR,2024-08-05,EUR,1.0966,2024-08-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240805-USD,2024-08-05,USD,1.0,2024-08-05,Native USD; no conversion applied
+20240806-EUR,2024-08-06,EUR,1.0915,2024-08-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240806-USD,2024-08-06,USD,1.0,2024-08-06,Native USD; no conversion applied
+20240807-EUR,2024-08-07,EUR,1.0922,2024-08-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240807-USD,2024-08-07,USD,1.0,2024-08-07,Native USD; no conversion applied
+20240808-EUR,2024-08-08,EUR,1.093,2024-08-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240808-USD,2024-08-08,USD,1.0,2024-08-08,Native USD; no conversion applied
+20240809-EUR,2024-08-09,EUR,1.0917,2024-08-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240809-USD,2024-08-09,USD,1.0,2024-08-09,Native USD; no conversion applied
+20240810-USD,2024-08-10,USD,1.0,2024-08-10,Native USD; no conversion applied
+20240811-USD,2024-08-11,USD,1.0,2024-08-11,Native USD; no conversion applied
+20240812-EUR,2024-08-12,EUR,1.0925,2024-08-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240812-USD,2024-08-12,USD,1.0,2024-08-12,Native USD; no conversion applied
+20240813-EUR,2024-08-13,EUR,1.0931,2024-08-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240813-USD,2024-08-13,USD,1.0,2024-08-13,Native USD; no conversion applied
+20240814-EUR,2024-08-14,EUR,1.1019,2024-08-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240814-USD,2024-08-14,USD,1.0,2024-08-14,Native USD; no conversion applied
+20240815-EUR,2024-08-15,EUR,1.1011,2024-08-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240815-USD,2024-08-15,USD,1.0,2024-08-15,Native USD; no conversion applied
+20240816-EUR,2024-08-16,EUR,1.0994,2024-08-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240816-USD,2024-08-16,USD,1.0,2024-08-16,Native USD; no conversion applied
+20240817-USD,2024-08-17,USD,1.0,2024-08-17,Native USD; no conversion applied
+20240818-USD,2024-08-18,USD,1.0,2024-08-18,Native USD; no conversion applied
+20240819-EUR,2024-08-19,EUR,1.1041,2024-08-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240819-USD,2024-08-19,USD,1.0,2024-08-19,Native USD; no conversion applied
+20240820-EUR,2024-08-20,EUR,1.1084,2024-08-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240820-USD,2024-08-20,USD,1.0,2024-08-20,Native USD; no conversion applied
+20240821-EUR,2024-08-21,EUR,1.1116,2024-08-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240821-USD,2024-08-21,USD,1.0,2024-08-21,Native USD; no conversion applied
+20240822-EUR,2024-08-22,EUR,1.1135,2024-08-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240822-USD,2024-08-22,USD,1.0,2024-08-22,Native USD; no conversion applied
+20240823-EUR,2024-08-23,EUR,1.1121,2024-08-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240823-USD,2024-08-23,USD,1.0,2024-08-23,Native USD; no conversion applied
+20240824-USD,2024-08-24,USD,1.0,2024-08-24,Native USD; no conversion applied
+20240825-USD,2024-08-25,USD,1.0,2024-08-25,Native USD; no conversion applied
+20240826-EUR,2024-08-26,EUR,1.1163,2024-08-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240826-USD,2024-08-26,USD,1.0,2024-08-26,Native USD; no conversion applied
+20240827-EUR,2024-08-27,EUR,1.1162,2024-08-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240827-USD,2024-08-27,USD,1.0,2024-08-27,Native USD; no conversion applied
+20240828-EUR,2024-08-28,EUR,1.1117,2024-08-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240828-USD,2024-08-28,USD,1.0,2024-08-28,Native USD; no conversion applied
+20240829-EUR,2024-08-29,EUR,1.1088,2024-08-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240829-USD,2024-08-29,USD,1.0,2024-08-29,Native USD; no conversion applied
+20240830-EUR,2024-08-30,EUR,1.1087,2024-08-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240830-USD,2024-08-30,USD,1.0,2024-08-30,Native USD; no conversion applied
+20240831-USD,2024-08-31,USD,1.0,2024-08-31,Native USD; no conversion applied
+20240901-USD,2024-09-01,USD,1.0,2024-09-01,Native USD; no conversion applied
+20240902-EUR,2024-09-02,EUR,1.1061,2024-09-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240902-USD,2024-09-02,USD,1.0,2024-09-02,Native USD; no conversion applied
+20240903-EUR,2024-09-03,EUR,1.1035,2024-09-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240903-USD,2024-09-03,USD,1.0,2024-09-03,Native USD; no conversion applied
+20240904-EUR,2024-09-04,EUR,1.105,2024-09-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240904-USD,2024-09-04,USD,1.0,2024-09-04,Native USD; no conversion applied
+20240905-EUR,2024-09-05,EUR,1.1097,2024-09-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240905-USD,2024-09-05,USD,1.0,2024-09-05,Native USD; no conversion applied
+20240906-EUR,2024-09-06,EUR,1.1103,2024-09-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240906-USD,2024-09-06,USD,1.0,2024-09-06,Native USD; no conversion applied
+20240907-USD,2024-09-07,USD,1.0,2024-09-07,Native USD; no conversion applied
+20240908-USD,2024-09-08,USD,1.0,2024-09-08,Native USD; no conversion applied
+20240909-EUR,2024-09-09,EUR,1.1043,2024-09-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240909-USD,2024-09-09,USD,1.0,2024-09-09,Native USD; no conversion applied
+20240910-EUR,2024-09-10,EUR,1.1031,2024-09-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240910-USD,2024-09-10,USD,1.0,2024-09-10,Native USD; no conversion applied
+20240911-EUR,2024-09-11,EUR,1.1043,2024-09-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240911-USD,2024-09-11,USD,1.0,2024-09-11,Native USD; no conversion applied
+20240912-EUR,2024-09-12,EUR,1.1016,2024-09-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240912-USD,2024-09-12,USD,1.0,2024-09-12,Native USD; no conversion applied
+20240913-EUR,2024-09-13,EUR,1.1081,2024-09-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240913-USD,2024-09-13,USD,1.0,2024-09-13,Native USD; no conversion applied
+20240914-USD,2024-09-14,USD,1.0,2024-09-14,Native USD; no conversion applied
+20240915-USD,2024-09-15,USD,1.0,2024-09-15,Native USD; no conversion applied
+20240916-EUR,2024-09-16,EUR,1.1126,2024-09-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240916-USD,2024-09-16,USD,1.0,2024-09-16,Native USD; no conversion applied
+20240917-EUR,2024-09-17,EUR,1.1139,2024-09-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240917-USD,2024-09-17,USD,1.0,2024-09-17,Native USD; no conversion applied
+20240918-EUR,2024-09-18,EUR,1.1124,2024-09-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240918-USD,2024-09-18,USD,1.0,2024-09-18,Native USD; no conversion applied
+20240919-EUR,2024-09-19,EUR,1.1156,2024-09-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240919-USD,2024-09-19,USD,1.0,2024-09-19,Native USD; no conversion applied
+20240920-EUR,2024-09-20,EUR,1.1166,2024-09-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240920-USD,2024-09-20,USD,1.0,2024-09-20,Native USD; no conversion applied
+20240921-USD,2024-09-21,USD,1.0,2024-09-21,Native USD; no conversion applied
+20240922-USD,2024-09-22,USD,1.0,2024-09-22,Native USD; no conversion applied
+20240923-EUR,2024-09-23,EUR,1.1119,2024-09-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240923-USD,2024-09-23,USD,1.0,2024-09-23,Native USD; no conversion applied
+20240924-EUR,2024-09-24,EUR,1.1133,2024-09-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240924-USD,2024-09-24,USD,1.0,2024-09-24,Native USD; no conversion applied
+20240925-EUR,2024-09-25,EUR,1.1194,2024-09-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240925-USD,2024-09-25,USD,1.0,2024-09-25,Native USD; no conversion applied
+20240926-EUR,2024-09-26,EUR,1.1155,2024-09-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240926-USD,2024-09-26,USD,1.0,2024-09-26,Native USD; no conversion applied
+20240927-EUR,2024-09-27,EUR,1.1158,2024-09-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240927-USD,2024-09-27,USD,1.0,2024-09-27,Native USD; no conversion applied
+20240928-USD,2024-09-28,USD,1.0,2024-09-28,Native USD; no conversion applied
+20240929-USD,2024-09-29,USD,1.0,2024-09-29,Native USD; no conversion applied
+20240930-EUR,2024-09-30,EUR,1.1196,2024-09-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20240930-USD,2024-09-30,USD,1.0,2024-09-30,Native USD; no conversion applied
+20241001-EUR,2024-10-01,EUR,1.1086,2024-10-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241001-USD,2024-10-01,USD,1.0,2024-10-01,Native USD; no conversion applied
+20241002-EUR,2024-10-02,EUR,1.1071,2024-10-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241002-USD,2024-10-02,USD,1.0,2024-10-02,Native USD; no conversion applied
+20241003-EUR,2024-10-03,EUR,1.1039,2024-10-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241003-USD,2024-10-03,USD,1.0,2024-10-03,Native USD; no conversion applied
+20241004-EUR,2024-10-04,EUR,1.1029,2024-10-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241004-USD,2024-10-04,USD,1.0,2024-10-04,Native USD; no conversion applied
+20241005-USD,2024-10-05,USD,1.0,2024-10-05,Native USD; no conversion applied
+20241006-USD,2024-10-06,USD,1.0,2024-10-06,Native USD; no conversion applied
+20241007-EUR,2024-10-07,EUR,1.0982,2024-10-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241007-USD,2024-10-07,USD,1.0,2024-10-07,Native USD; no conversion applied
+20241008-EUR,2024-10-08,EUR,1.0982,2024-10-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241008-USD,2024-10-08,USD,1.0,2024-10-08,Native USD; no conversion applied
+20241009-EUR,2024-10-09,EUR,1.0957,2024-10-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241009-USD,2024-10-09,USD,1.0,2024-10-09,Native USD; no conversion applied
+20241010-EUR,2024-10-10,EUR,1.0932,2024-10-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241010-USD,2024-10-10,USD,1.0,2024-10-10,Native USD; no conversion applied
+20241011-EUR,2024-10-11,EUR,1.0938,2024-10-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241011-USD,2024-10-11,USD,1.0,2024-10-11,Native USD; no conversion applied
+20241012-USD,2024-10-12,USD,1.0,2024-10-12,Native USD; no conversion applied
+20241013-USD,2024-10-13,USD,1.0,2024-10-13,Native USD; no conversion applied
+20241014-EUR,2024-10-14,EUR,1.0915,2024-10-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241014-USD,2024-10-14,USD,1.0,2024-10-14,Native USD; no conversion applied
+20241015-EUR,2024-10-15,EUR,1.0903,2024-10-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241015-USD,2024-10-15,USD,1.0,2024-10-15,Native USD; no conversion applied
+20241016-EUR,2024-10-16,EUR,1.0897,2024-10-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241016-USD,2024-10-16,USD,1.0,2024-10-16,Native USD; no conversion applied
+20241017-EUR,2024-10-17,EUR,1.0866,2024-10-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241017-USD,2024-10-17,USD,1.0,2024-10-17,Native USD; no conversion applied
+20241018-EUR,2024-10-18,EUR,1.0847,2024-10-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241018-USD,2024-10-18,USD,1.0,2024-10-18,Native USD; no conversion applied
+20241019-USD,2024-10-19,USD,1.0,2024-10-19,Native USD; no conversion applied
+20241020-USD,2024-10-20,USD,1.0,2024-10-20,Native USD; no conversion applied
+20241021-EUR,2024-10-21,EUR,1.0853,2024-10-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241021-USD,2024-10-21,USD,1.0,2024-10-21,Native USD; no conversion applied
+20241022-EUR,2024-10-22,EUR,1.0821,2024-10-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241022-USD,2024-10-22,USD,1.0,2024-10-22,Native USD; no conversion applied
+20241023-EUR,2024-10-23,EUR,1.0767,2024-10-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241023-USD,2024-10-23,USD,1.0,2024-10-23,Native USD; no conversion applied
+20241024-EUR,2024-10-24,EUR,1.0801,2024-10-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241024-USD,2024-10-24,USD,1.0,2024-10-24,Native USD; no conversion applied
+20241025-EUR,2024-10-25,EUR,1.0825,2024-10-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241025-USD,2024-10-25,USD,1.0,2024-10-25,Native USD; no conversion applied
+20241026-USD,2024-10-26,USD,1.0,2024-10-26,Native USD; no conversion applied
+20241027-USD,2024-10-27,USD,1.0,2024-10-27,Native USD; no conversion applied
+20241028-EUR,2024-10-28,EUR,1.0818,2024-10-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241028-USD,2024-10-28,USD,1.0,2024-10-28,Native USD; no conversion applied
+20241029-EUR,2024-10-29,EUR,1.0774,2024-10-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241029-USD,2024-10-29,USD,1.0,2024-10-29,Native USD; no conversion applied
+20241030-EUR,2024-10-30,EUR,1.0815,2024-10-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241030-USD,2024-10-30,USD,1.0,2024-10-30,Native USD; no conversion applied
+20241031-EUR,2024-10-31,EUR,1.0882,2024-10-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241031-USD,2024-10-31,USD,1.0,2024-10-31,Native USD; no conversion applied
+20241101-EUR,2024-11-01,EUR,1.0885,2024-11-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241101-USD,2024-11-01,USD,1.0,2024-11-01,Native USD; no conversion applied
+20241102-USD,2024-11-02,USD,1.0,2024-11-02,Native USD; no conversion applied
+20241103-USD,2024-11-03,USD,1.0,2024-11-03,Native USD; no conversion applied
+20241104-EUR,2024-11-04,EUR,1.0904,2024-11-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241104-USD,2024-11-04,USD,1.0,2024-11-04,Native USD; no conversion applied
+20241105-EUR,2024-11-05,EUR,1.0897,2024-11-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241105-USD,2024-11-05,USD,1.0,2024-11-05,Native USD; no conversion applied
+20241106-EUR,2024-11-06,EUR,1.0695,2024-11-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241106-USD,2024-11-06,USD,1.0,2024-11-06,Native USD; no conversion applied
+20241107-EUR,2024-11-07,EUR,1.0785,2024-11-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241107-USD,2024-11-07,USD,1.0,2024-11-07,Native USD; no conversion applied
+20241108-EUR,2024-11-08,EUR,1.0772,2024-11-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241108-USD,2024-11-08,USD,1.0,2024-11-08,Native USD; no conversion applied
+20241109-USD,2024-11-09,USD,1.0,2024-11-09,Native USD; no conversion applied
+20241110-USD,2024-11-10,USD,1.0,2024-11-10,Native USD; no conversion applied
+20241111-EUR,2024-11-11,EUR,1.0651,2024-11-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241111-USD,2024-11-11,USD,1.0,2024-11-11,Native USD; no conversion applied
+20241112-EUR,2024-11-12,EUR,1.0617,2024-11-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241112-USD,2024-11-12,USD,1.0,2024-11-12,Native USD; no conversion applied
+20241113-EUR,2024-11-13,EUR,1.0629,2024-11-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241113-USD,2024-11-13,USD,1.0,2024-11-13,Native USD; no conversion applied
+20241114-EUR,2024-11-14,EUR,1.0533,2024-11-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241114-USD,2024-11-14,USD,1.0,2024-11-14,Native USD; no conversion applied
+20241115-EUR,2024-11-15,EUR,1.0583,2024-11-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241115-USD,2024-11-15,USD,1.0,2024-11-15,Native USD; no conversion applied
+20241116-USD,2024-11-16,USD,1.0,2024-11-16,Native USD; no conversion applied
+20241117-USD,2024-11-17,USD,1.0,2024-11-17,Native USD; no conversion applied
+20241118-EUR,2024-11-18,EUR,1.0552,2024-11-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241118-USD,2024-11-18,USD,1.0,2024-11-18,Native USD; no conversion applied
+20241119-EUR,2024-11-19,EUR,1.0578,2024-11-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241119-USD,2024-11-19,USD,1.0,2024-11-19,Native USD; no conversion applied
+20241120-EUR,2024-11-20,EUR,1.0562,2024-11-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241120-USD,2024-11-20,USD,1.0,2024-11-20,Native USD; no conversion applied
+20241121-EUR,2024-11-21,EUR,1.0526,2024-11-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241121-USD,2024-11-21,USD,1.0,2024-11-21,Native USD; no conversion applied
+20241122-EUR,2024-11-22,EUR,1.0412,2024-11-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241122-USD,2024-11-22,USD,1.0,2024-11-22,Native USD; no conversion applied
+20241123-USD,2024-11-23,USD,1.0,2024-11-23,Native USD; no conversion applied
+20241124-USD,2024-11-24,USD,1.0,2024-11-24,Native USD; no conversion applied
+20241125-EUR,2024-11-25,EUR,1.0495,2024-11-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241125-USD,2024-11-25,USD,1.0,2024-11-25,Native USD; no conversion applied
+20241126-EUR,2024-11-26,EUR,1.0522,2024-11-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241126-USD,2024-11-26,USD,1.0,2024-11-26,Native USD; no conversion applied
+20241127-EUR,2024-11-27,EUR,1.0531,2024-11-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241127-USD,2024-11-27,USD,1.0,2024-11-27,Native USD; no conversion applied
+20241128-EUR,2024-11-28,EUR,1.0542,2024-11-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241128-USD,2024-11-28,USD,1.0,2024-11-28,Native USD; no conversion applied
+20241129-EUR,2024-11-29,EUR,1.0562,2024-11-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241129-USD,2024-11-29,USD,1.0,2024-11-29,Native USD; no conversion applied
+20241130-USD,2024-11-30,USD,1.0,2024-11-30,Native USD; no conversion applied
+20241201-USD,2024-12-01,USD,1.0,2024-12-01,Native USD; no conversion applied
+20241202-EUR,2024-12-02,EUR,1.0507,2024-12-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241202-USD,2024-12-02,USD,1.0,2024-12-02,Native USD; no conversion applied
+20241203-EUR,2024-12-03,EUR,1.0512,2024-12-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241203-USD,2024-12-03,USD,1.0,2024-12-03,Native USD; no conversion applied
+20241204-EUR,2024-12-04,EUR,1.0492,2024-12-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241204-USD,2024-12-04,USD,1.0,2024-12-04,Native USD; no conversion applied
+20241205-EUR,2024-12-05,EUR,1.054,2024-12-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241205-USD,2024-12-05,USD,1.0,2024-12-05,Native USD; no conversion applied
+20241206-EUR,2024-12-06,EUR,1.0581,2024-12-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241206-USD,2024-12-06,USD,1.0,2024-12-06,Native USD; no conversion applied
+20241207-USD,2024-12-07,USD,1.0,2024-12-07,Native USD; no conversion applied
+20241208-USD,2024-12-08,USD,1.0,2024-12-08,Native USD; no conversion applied
+20241209-EUR,2024-12-09,EUR,1.0568,2024-12-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241209-USD,2024-12-09,USD,1.0,2024-12-09,Native USD; no conversion applied
+20241210-EUR,2024-12-10,EUR,1.0527,2024-12-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241210-USD,2024-12-10,USD,1.0,2024-12-10,Native USD; no conversion applied
+20241211-EUR,2024-12-11,EUR,1.0507,2024-12-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241211-USD,2024-12-11,USD,1.0,2024-12-11,Native USD; no conversion applied
+20241212-EUR,2024-12-12,EUR,1.0491,2024-12-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241212-USD,2024-12-12,USD,1.0,2024-12-12,Native USD; no conversion applied
+20241213-EUR,2024-12-13,EUR,1.0518,2024-12-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241213-USD,2024-12-13,USD,1.0,2024-12-13,Native USD; no conversion applied
+20241214-USD,2024-12-14,USD,1.0,2024-12-14,Native USD; no conversion applied
+20241215-USD,2024-12-15,USD,1.0,2024-12-15,Native USD; no conversion applied
+20241216-EUR,2024-12-16,EUR,1.0498,2024-12-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241216-USD,2024-12-16,USD,1.0,2024-12-16,Native USD; no conversion applied
+20241217-EUR,2024-12-17,EUR,1.0497,2024-12-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241217-USD,2024-12-17,USD,1.0,2024-12-17,Native USD; no conversion applied
+20241218-EUR,2024-12-18,EUR,1.0496,2024-12-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241218-USD,2024-12-18,USD,1.0,2024-12-18,Native USD; no conversion applied
+20241219-EUR,2024-12-19,EUR,1.0395,2024-12-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241219-USD,2024-12-19,USD,1.0,2024-12-19,Native USD; no conversion applied
+20241220-EUR,2024-12-20,EUR,1.039,2024-12-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241220-USD,2024-12-20,USD,1.0,2024-12-20,Native USD; no conversion applied
+20241221-USD,2024-12-21,USD,1.0,2024-12-21,Native USD; no conversion applied
+20241222-USD,2024-12-22,USD,1.0,2024-12-22,Native USD; no conversion applied
+20241223-EUR,2024-12-23,EUR,1.0393,2024-12-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241223-USD,2024-12-23,USD,1.0,2024-12-23,Native USD; no conversion applied
+20241224-EUR,2024-12-24,EUR,1.0395,2024-12-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241224-USD,2024-12-24,USD,1.0,2024-12-24,Native USD; no conversion applied
+20241225-USD,2024-12-25,USD,1.0,2024-12-25,Native USD; no conversion applied
+20241226-USD,2024-12-26,USD,1.0,2024-12-26,Native USD; no conversion applied
+20241227-EUR,2024-12-27,EUR,1.0435,2024-12-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241227-USD,2024-12-27,USD,1.0,2024-12-27,Native USD; no conversion applied
+20241228-USD,2024-12-28,USD,1.0,2024-12-28,Native USD; no conversion applied
+20241229-USD,2024-12-29,USD,1.0,2024-12-29,Native USD; no conversion applied
+20241230-EUR,2024-12-30,EUR,1.0444,2024-12-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241230-USD,2024-12-30,USD,1.0,2024-12-30,Native USD; no conversion applied
+20241231-EUR,2024-12-31,EUR,1.0389,2024-12-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20241231-USD,2024-12-31,USD,1.0,2024-12-31,Native USD; no conversion applied
+20250101-USD,2025-01-01,USD,1.0,2025-01-01,Native USD; no conversion applied
+20250102-EUR,2025-01-02,EUR,1.0321,2025-01-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250102-USD,2025-01-02,USD,1.0,2025-01-02,Native USD; no conversion applied
+20250103-EUR,2025-01-03,EUR,1.0299,2025-01-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250103-USD,2025-01-03,USD,1.0,2025-01-03,Native USD; no conversion applied
+20250104-USD,2025-01-04,USD,1.0,2025-01-04,Native USD; no conversion applied
+20250105-USD,2025-01-05,USD,1.0,2025-01-05,Native USD; no conversion applied
+20250106-EUR,2025-01-06,EUR,1.0426,2025-01-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250106-USD,2025-01-06,USD,1.0,2025-01-06,Native USD; no conversion applied
+20250107-EUR,2025-01-07,EUR,1.0393,2025-01-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250107-USD,2025-01-07,USD,1.0,2025-01-07,Native USD; no conversion applied
+20250108-EUR,2025-01-08,EUR,1.0286,2025-01-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250108-USD,2025-01-08,USD,1.0,2025-01-08,Native USD; no conversion applied
+20250109-EUR,2025-01-09,EUR,1.0305,2025-01-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250109-USD,2025-01-09,USD,1.0,2025-01-09,Native USD; no conversion applied
+20250110-EUR,2025-01-10,EUR,1.0304,2025-01-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250110-USD,2025-01-10,USD,1.0,2025-01-10,Native USD; no conversion applied
+20250111-USD,2025-01-11,USD,1.0,2025-01-11,Native USD; no conversion applied
+20250112-USD,2025-01-12,USD,1.0,2025-01-12,Native USD; no conversion applied
+20250113-EUR,2025-01-13,EUR,1.0198,2025-01-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250113-USD,2025-01-13,USD,1.0,2025-01-13,Native USD; no conversion applied
+20250114-EUR,2025-01-14,EUR,1.0245,2025-01-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250114-USD,2025-01-14,USD,1.0,2025-01-14,Native USD; no conversion applied
+20250115-EUR,2025-01-15,EUR,1.03,2025-01-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250115-USD,2025-01-15,USD,1.0,2025-01-15,Native USD; no conversion applied
+20250116-EUR,2025-01-16,EUR,1.0272,2025-01-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250116-USD,2025-01-16,USD,1.0,2025-01-16,Native USD; no conversion applied
+20250117-EUR,2025-01-17,EUR,1.0298,2025-01-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250117-USD,2025-01-17,USD,1.0,2025-01-17,Native USD; no conversion applied
+20250118-USD,2025-01-18,USD,1.0,2025-01-18,Native USD; no conversion applied
+20250119-USD,2025-01-19,USD,1.0,2025-01-19,Native USD; no conversion applied
+20250120-EUR,2025-01-20,EUR,1.0316,2025-01-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250120-USD,2025-01-20,USD,1.0,2025-01-20,Native USD; no conversion applied
+20250121-EUR,2025-01-21,EUR,1.0357,2025-01-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250121-USD,2025-01-21,USD,1.0,2025-01-21,Native USD; no conversion applied
+20250122-EUR,2025-01-22,EUR,1.0443,2025-01-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250122-USD,2025-01-22,USD,1.0,2025-01-22,Native USD; no conversion applied
+20250123-EUR,2025-01-23,EUR,1.0404,2025-01-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250123-USD,2025-01-23,USD,1.0,2025-01-23,Native USD; no conversion applied
+20250124-EUR,2025-01-24,EUR,1.0472,2025-01-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250124-USD,2025-01-24,USD,1.0,2025-01-24,Native USD; no conversion applied
+20250125-USD,2025-01-25,USD,1.0,2025-01-25,Native USD; no conversion applied
+20250126-USD,2025-01-26,USD,1.0,2025-01-26,Native USD; no conversion applied
+20250127-EUR,2025-01-27,EUR,1.053,2025-01-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250127-USD,2025-01-27,USD,1.0,2025-01-27,Native USD; no conversion applied
+20250128-EUR,2025-01-28,EUR,1.0421,2025-01-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250128-USD,2025-01-28,USD,1.0,2025-01-28,Native USD; no conversion applied
+20250129-EUR,2025-01-29,EUR,1.0396,2025-01-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250129-USD,2025-01-29,USD,1.0,2025-01-29,Native USD; no conversion applied
+20250130-EUR,2025-01-30,EUR,1.0403,2025-01-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250130-USD,2025-01-30,USD,1.0,2025-01-30,Native USD; no conversion applied
+20250131-EUR,2025-01-31,EUR,1.0393,2025-01-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250131-USD,2025-01-31,USD,1.0,2025-01-31,Native USD; no conversion applied
+20250201-USD,2025-02-01,USD,1.0,2025-02-01,Native USD; no conversion applied
+20250202-USD,2025-02-02,USD,1.0,2025-02-02,Native USD; no conversion applied
+20250203-EUR,2025-02-03,EUR,1.0274,2025-02-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250203-USD,2025-02-03,USD,1.0,2025-02-03,Native USD; no conversion applied
+20250204-EUR,2025-02-04,EUR,1.0335,2025-02-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250204-USD,2025-02-04,USD,1.0,2025-02-04,Native USD; no conversion applied
+20250205-EUR,2025-02-05,EUR,1.0422,2025-02-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250205-USD,2025-02-05,USD,1.0,2025-02-05,Native USD; no conversion applied
+20250206-EUR,2025-02-06,EUR,1.036,2025-02-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250206-USD,2025-02-06,USD,1.0,2025-02-06,Native USD; no conversion applied
+20250207-EUR,2025-02-07,EUR,1.0377,2025-02-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250207-USD,2025-02-07,USD,1.0,2025-02-07,Native USD; no conversion applied
+20250208-USD,2025-02-08,USD,1.0,2025-02-08,Native USD; no conversion applied
+20250209-USD,2025-02-09,USD,1.0,2025-02-09,Native USD; no conversion applied
+20250210-EUR,2025-02-10,EUR,1.032,2025-02-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250210-USD,2025-02-10,USD,1.0,2025-02-10,Native USD; no conversion applied
+20250211-EUR,2025-02-11,EUR,1.0324,2025-02-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250211-USD,2025-02-11,USD,1.0,2025-02-11,Native USD; no conversion applied
+20250212-EUR,2025-02-12,EUR,1.037,2025-02-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250212-USD,2025-02-12,USD,1.0,2025-02-12,Native USD; no conversion applied
+20250213-EUR,2025-02-13,EUR,1.039,2025-02-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250213-USD,2025-02-13,USD,1.0,2025-02-13,Native USD; no conversion applied
+20250214-EUR,2025-02-14,EUR,1.0478,2025-02-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250214-USD,2025-02-14,USD,1.0,2025-02-14,Native USD; no conversion applied
+20250215-USD,2025-02-15,USD,1.0,2025-02-15,Native USD; no conversion applied
+20250216-USD,2025-02-16,USD,1.0,2025-02-16,Native USD; no conversion applied
+20250217-EUR,2025-02-17,EUR,1.0473,2025-02-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250217-USD,2025-02-17,USD,1.0,2025-02-17,Native USD; no conversion applied
+20250218-EUR,2025-02-18,EUR,1.0447,2025-02-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250218-USD,2025-02-18,USD,1.0,2025-02-18,Native USD; no conversion applied
+20250219-EUR,2025-02-19,EUR,1.0434,2025-02-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250219-USD,2025-02-19,USD,1.0,2025-02-19,Native USD; no conversion applied
+20250220-EUR,2025-02-20,EUR,1.0443,2025-02-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250220-USD,2025-02-20,USD,1.0,2025-02-20,Native USD; no conversion applied
+20250221-EUR,2025-02-21,EUR,1.0465,2025-02-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250221-USD,2025-02-21,USD,1.0,2025-02-21,Native USD; no conversion applied
+20250222-USD,2025-02-22,USD,1.0,2025-02-22,Native USD; no conversion applied
+20250223-USD,2025-02-23,USD,1.0,2025-02-23,Native USD; no conversion applied
+20250224-EUR,2025-02-24,EUR,1.0466,2025-02-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250224-USD,2025-02-24,USD,1.0,2025-02-24,Native USD; no conversion applied
+20250225-EUR,2025-02-25,EUR,1.0497,2025-02-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250225-USD,2025-02-25,USD,1.0,2025-02-25,Native USD; no conversion applied
+20250226-EUR,2025-02-26,EUR,1.0487,2025-02-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250226-USD,2025-02-26,USD,1.0,2025-02-26,Native USD; no conversion applied
+20250227-EUR,2025-02-27,EUR,1.0477,2025-02-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250227-USD,2025-02-27,USD,1.0,2025-02-27,Native USD; no conversion applied
+20250228-EUR,2025-02-28,EUR,1.0411,2025-02-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250228-USD,2025-02-28,USD,1.0,2025-02-28,Native USD; no conversion applied
+20250301-USD,2025-03-01,USD,1.0,2025-03-01,Native USD; no conversion applied
+20250302-USD,2025-03-02,USD,1.0,2025-03-02,Native USD; no conversion applied
+20250303-EUR,2025-03-03,EUR,1.0465,2025-03-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250303-USD,2025-03-03,USD,1.0,2025-03-03,Native USD; no conversion applied
+20250304-EUR,2025-03-04,EUR,1.0557,2025-03-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250304-USD,2025-03-04,USD,1.0,2025-03-04,Native USD; no conversion applied
+20250305-EUR,2025-03-05,EUR,1.0694,2025-03-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250305-USD,2025-03-05,USD,1.0,2025-03-05,Native USD; no conversion applied
+20250306-EUR,2025-03-06,EUR,1.0796,2025-03-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250306-USD,2025-03-06,USD,1.0,2025-03-06,Native USD; no conversion applied
+20250307-EUR,2025-03-07,EUR,1.0857,2025-03-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250307-USD,2025-03-07,USD,1.0,2025-03-07,Native USD; no conversion applied
+20250308-USD,2025-03-08,USD,1.0,2025-03-08,Native USD; no conversion applied
+20250309-USD,2025-03-09,USD,1.0,2025-03-09,Native USD; no conversion applied
+20250310-EUR,2025-03-10,EUR,1.0845,2025-03-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250310-USD,2025-03-10,USD,1.0,2025-03-10,Native USD; no conversion applied
+20250311-EUR,2025-03-11,EUR,1.0912,2025-03-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250311-USD,2025-03-11,USD,1.0,2025-03-11,Native USD; no conversion applied
+20250312-EUR,2025-03-12,EUR,1.0886,2025-03-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250312-USD,2025-03-12,USD,1.0,2025-03-12,Native USD; no conversion applied
+20250313-EUR,2025-03-13,EUR,1.083,2025-03-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250313-USD,2025-03-13,USD,1.0,2025-03-13,Native USD; no conversion applied
+20250314-EUR,2025-03-14,EUR,1.0889,2025-03-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250314-USD,2025-03-14,USD,1.0,2025-03-14,Native USD; no conversion applied
+20250315-USD,2025-03-15,USD,1.0,2025-03-15,Native USD; no conversion applied
+20250316-USD,2025-03-16,USD,1.0,2025-03-16,Native USD; no conversion applied
+20250317-EUR,2025-03-17,EUR,1.0903,2025-03-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250317-USD,2025-03-17,USD,1.0,2025-03-17,Native USD; no conversion applied
+20250318-EUR,2025-03-18,EUR,1.0918,2025-03-18,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250318-USD,2025-03-18,USD,1.0,2025-03-18,Native USD; no conversion applied
+20250319-EUR,2025-03-19,EUR,1.0897,2025-03-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250319-USD,2025-03-19,USD,1.0,2025-03-19,Native USD; no conversion applied
+20250320-EUR,2025-03-20,EUR,1.0833,2025-03-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250320-USD,2025-03-20,USD,1.0,2025-03-20,Native USD; no conversion applied
+20250321-EUR,2025-03-21,EUR,1.0827,2025-03-21,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250321-USD,2025-03-21,USD,1.0,2025-03-21,Native USD; no conversion applied
+20250322-USD,2025-03-22,USD,1.0,2025-03-22,Native USD; no conversion applied
+20250323-USD,2025-03-23,USD,1.0,2025-03-23,Native USD; no conversion applied
+20250324-EUR,2025-03-24,EUR,1.0824,2025-03-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250324-USD,2025-03-24,USD,1.0,2025-03-24,Native USD; no conversion applied
+20250325-EUR,2025-03-25,EUR,1.0825,2025-03-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250325-USD,2025-03-25,USD,1.0,2025-03-25,Native USD; no conversion applied
+20250326-EUR,2025-03-26,EUR,1.0788,2025-03-26,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250326-USD,2025-03-26,USD,1.0,2025-03-26,Native USD; no conversion applied
+20250327-EUR,2025-03-27,EUR,1.0785,2025-03-27,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250327-USD,2025-03-27,USD,1.0,2025-03-27,Native USD; no conversion applied
+20250328-EUR,2025-03-28,EUR,1.0797,2025-03-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250328-USD,2025-03-28,USD,1.0,2025-03-28,Native USD; no conversion applied
+20250329-USD,2025-03-29,USD,1.0,2025-03-29,Native USD; no conversion applied
+20250330-USD,2025-03-30,USD,1.0,2025-03-30,Native USD; no conversion applied
+20250331-EUR,2025-03-31,EUR,1.0815,2025-03-31,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250331-USD,2025-03-31,USD,1.0,2025-03-31,Native USD; no conversion applied
+20250401-EUR,2025-04-01,EUR,1.0788,2025-04-01,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250401-USD,2025-04-01,USD,1.0,2025-04-01,Native USD; no conversion applied
+20250402-EUR,2025-04-02,EUR,1.0803,2025-04-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250402-USD,2025-04-02,USD,1.0,2025-04-02,Native USD; no conversion applied
+20250403-EUR,2025-04-03,EUR,1.1097,2025-04-03,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250403-USD,2025-04-03,USD,1.0,2025-04-03,Native USD; no conversion applied
+20250404-EUR,2025-04-04,EUR,1.1057,2025-04-04,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250404-USD,2025-04-04,USD,1.0,2025-04-04,Native USD; no conversion applied
+20250405-USD,2025-04-05,USD,1.0,2025-04-05,Native USD; no conversion applied
+20250406-USD,2025-04-06,USD,1.0,2025-04-06,Native USD; no conversion applied
+20250407-EUR,2025-04-07,EUR,1.0967,2025-04-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250407-USD,2025-04-07,USD,1.0,2025-04-07,Native USD; no conversion applied
+20250408-EUR,2025-04-08,EUR,1.095,2025-04-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250408-USD,2025-04-08,USD,1.0,2025-04-08,Native USD; no conversion applied
+20250409-EUR,2025-04-09,EUR,1.1045,2025-04-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250409-USD,2025-04-09,USD,1.0,2025-04-09,Native USD; no conversion applied
+20250410-EUR,2025-04-10,EUR,1.1082,2025-04-10,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250410-USD,2025-04-10,USD,1.0,2025-04-10,Native USD; no conversion applied
+20250411-EUR,2025-04-11,EUR,1.1346,2025-04-11,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250411-USD,2025-04-11,USD,1.0,2025-04-11,Native USD; no conversion applied
+20250412-USD,2025-04-12,USD,1.0,2025-04-12,Native USD; no conversion applied
+20250413-USD,2025-04-13,USD,1.0,2025-04-13,Native USD; no conversion applied
+20250414-EUR,2025-04-14,EUR,1.1377,2025-04-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250414-USD,2025-04-14,USD,1.0,2025-04-14,Native USD; no conversion applied
+20250415-EUR,2025-04-15,EUR,1.1324,2025-04-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250415-USD,2025-04-15,USD,1.0,2025-04-15,Native USD; no conversion applied
+20250416-EUR,2025-04-16,EUR,1.1355,2025-04-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250416-USD,2025-04-16,USD,1.0,2025-04-16,Native USD; no conversion applied
+20250417-EUR,2025-04-17,EUR,1.136,2025-04-17,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250417-USD,2025-04-17,USD,1.0,2025-04-17,Native USD; no conversion applied
+20250418-USD,2025-04-18,USD,1.0,2025-04-18,Native USD; no conversion applied
+20250419-USD,2025-04-19,USD,1.0,2025-04-19,Native USD; no conversion applied
+20250420-USD,2025-04-20,USD,1.0,2025-04-20,Native USD; no conversion applied
+20250421-USD,2025-04-21,USD,1.0,2025-04-21,Native USD; no conversion applied
+20250422-EUR,2025-04-22,EUR,1.1476,2025-04-22,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250422-USD,2025-04-22,USD,1.0,2025-04-22,Native USD; no conversion applied
+20250423-EUR,2025-04-23,EUR,1.1415,2025-04-23,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250423-USD,2025-04-23,USD,1.0,2025-04-23,Native USD; no conversion applied
+20250424-EUR,2025-04-24,EUR,1.1376,2025-04-24,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250424-USD,2025-04-24,USD,1.0,2025-04-24,Native USD; no conversion applied
+20250425-EUR,2025-04-25,EUR,1.1357,2025-04-25,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250425-USD,2025-04-25,USD,1.0,2025-04-25,Native USD; no conversion applied
+20250426-USD,2025-04-26,USD,1.0,2025-04-26,Native USD; no conversion applied
+20250427-USD,2025-04-27,USD,1.0,2025-04-27,Native USD; no conversion applied
+20250428-EUR,2025-04-28,EUR,1.1358,2025-04-28,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250428-USD,2025-04-28,USD,1.0,2025-04-28,Native USD; no conversion applied
+20250429-EUR,2025-04-29,EUR,1.1373,2025-04-29,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250429-USD,2025-04-29,USD,1.0,2025-04-29,Native USD; no conversion applied
+20250430-EUR,2025-04-30,EUR,1.1373,2025-04-30,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250430-USD,2025-04-30,USD,1.0,2025-04-30,Native USD; no conversion applied
+20250501-USD,2025-05-01,USD,1.0,2025-05-01,Native USD; no conversion applied
+20250502-EUR,2025-05-02,EUR,1.1343,2025-05-02,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250502-USD,2025-05-02,USD,1.0,2025-05-02,Native USD; no conversion applied
+20250503-USD,2025-05-03,USD,1.0,2025-05-03,Native USD; no conversion applied
+20250504-USD,2025-05-04,USD,1.0,2025-05-04,Native USD; no conversion applied
+20250505-EUR,2025-05-05,EUR,1.1343,2025-05-05,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250505-USD,2025-05-05,USD,1.0,2025-05-05,Native USD; no conversion applied
+20250506-EUR,2025-05-06,EUR,1.1325,2025-05-06,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250506-USD,2025-05-06,USD,1.0,2025-05-06,Native USD; no conversion applied
+20250507-EUR,2025-05-07,EUR,1.136,2025-05-07,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250507-USD,2025-05-07,USD,1.0,2025-05-07,Native USD; no conversion applied
+20250508-EUR,2025-05-08,EUR,1.1297,2025-05-08,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250508-USD,2025-05-08,USD,1.0,2025-05-08,Native USD; no conversion applied
+20250509-EUR,2025-05-09,EUR,1.1252,2025-05-09,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250509-USD,2025-05-09,USD,1.0,2025-05-09,Native USD; no conversion applied
+20250510-USD,2025-05-10,USD,1.0,2025-05-10,Native USD; no conversion applied
+20250511-USD,2025-05-11,USD,1.0,2025-05-11,Native USD; no conversion applied
+20250512-EUR,2025-05-12,EUR,1.1106,2025-05-12,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250512-USD,2025-05-12,USD,1.0,2025-05-12,Native USD; no conversion applied
+20250513-EUR,2025-05-13,EUR,1.1112,2025-05-13,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250513-USD,2025-05-13,USD,1.0,2025-05-13,Native USD; no conversion applied
+20250514-EUR,2025-05-14,EUR,1.1214,2025-05-14,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250514-USD,2025-05-14,USD,1.0,2025-05-14,Native USD; no conversion applied
+20250515-EUR,2025-05-15,EUR,1.1185,2025-05-15,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250515-USD,2025-05-15,USD,1.0,2025-05-15,Native USD; no conversion applied
+20250516-EUR,2025-05-16,EUR,1.1194,2025-05-16,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250516-USD,2025-05-16,USD,1.0,2025-05-16,Native USD; no conversion applied
+20250517-USD,2025-05-17,USD,1.0,2025-05-17,Native USD; no conversion applied
+20250518-USD,2025-05-18,USD,1.0,2025-05-18,Native USD; no conversion applied
+20250519-EUR,2025-05-19,EUR,1.1262,2025-05-19,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250519-USD,2025-05-19,USD,1.0,2025-05-19,Native USD; no conversion applied
+20250520-EUR,2025-05-20,EUR,1.1241,2025-05-20,"Frankfurter API v2, provider=ECB, EUR/USD; previous available published rate used for non-publication dates"
+20250520-USD,2025-05-20,USD,1.0,2025-05-20,Native USD; no conversion applied

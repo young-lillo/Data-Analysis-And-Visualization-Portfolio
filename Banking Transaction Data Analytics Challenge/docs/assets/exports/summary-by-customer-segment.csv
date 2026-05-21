@@ -1,0 +1,4 @@
+CustomerSegment,Transactions,Customers,TotalAmountUSD,AvgAmountUSD,TotalFeesUSD,FeeTransactions,LatePaymentUSD,AvgCustomerScore,AvgMonthlyIncome
+High Income Segment,6626,4647,35643297.64,5379.31,224733.03,3315,118421.76,576.19,8508.9
+Low Income Segment,4489,3530,23657475.99,5270.1,149944.97,2212,80452.22,576.76,2005.81
+Middle Income Segment,8885,5680,48653984.65,5475.97,306406.03,4579,157373.67,573.89,4987.61

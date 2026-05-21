@@ -1,0 +1,5 @@
+TransactionValueBandKey,TransactionValueBandUSD,TransactionValueBandOrder
+TV001,Under 1k,1
+TV002,1k-5k,2
+TV003,5k-10k,3
+TV004,10k+,4
