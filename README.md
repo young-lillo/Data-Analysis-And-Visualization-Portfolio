@@ -1,6 +1,6 @@
 # Data Analysis and Visualization Portfolio
 
-This repository collects four end-to-end analytics portfolio projects. Each folder contains the project README, documentation, data-preparation logic, dashboard assets, and deployment notes needed to understand or reproduce the work.
+This repository collects five end-to-end analytics portfolio projects. Each folder contains the project README, documentation, data-preparation logic, dashboard assets, and deployment notes needed to understand or reproduce the work.
 
 ## Portfolio Projects
 
@@ -16,6 +16,19 @@ Included materials:
 - Power BI `.pbix` files and dashboard screenshots
 
 Live dashboard: [Banking Transaction Data Analytics Challenge](https://app.powerbi.com/view?r=eyJrIjoiNjgyMTFlMGUtZGI1YS00NGMyLTk0ZmEtODUxODRlMzE2NWYzIiwidCI6IjM3MGZiM2I4LTMzMDYtNDg5MC05MDYzLWNjMDhiZTc4ODI1NyIsImMiOjEwfQ%3D%3D)
+
+### [Grocery Supermarket Sales SQL Portfolio](Grocery%20Supermarket%20Sales%20SQL%20Portfolio)
+
+SQL-first FMCG supermarket analytics project using 6.7M sales rows across products, customers, employees, categories, cities, and countries. The project demonstrates SQL Server schema design, CSV loading, validation, mart views, window functions, product ranking, customer segmentation, employee performance, and geographic market analysis.
+
+Included materials:
+
+- SQL Server database, raw schema, mart views, validation queries, and business-analysis queries
+- Cooked dashboard mart CSVs for reviewer-friendly inspection
+- Data dictionary, SQL analysis guide, engine translation notes, and validation report
+- Power BI handoff assets generated from the same marts
+
+Dashboard status: Power BI build guide ready; published link pending.
 
 ### [Airbnb Global Listings Reviews Analytics](Airbnb%20Global%20Listings%20Reviews%20Analytics)
 
@@ -73,6 +86,11 @@ Live dashboard: [Social Media Marketing Performance](https://data.khanh-pham.wor
 |   |-- README.md
 |   |-- docs/
 |   |-- powerbi/
+|   `-- tools/
+|-- Grocery Supermarket Sales SQL Portfolio/
+|   |-- README.md
+|   |-- docs/
+|   |-- sql/
 |   `-- tools/
 |-- Airbnb Global Listings Reviews Analytics/
 |   |-- README.md

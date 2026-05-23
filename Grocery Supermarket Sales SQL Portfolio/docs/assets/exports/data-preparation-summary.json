@@ -1,0 +1,257 @@
+{
+  "dataset_path": "source-data",
+  "source_counts": {
+    "categories": 11,
+    "cities": 96,
+    "countries": 206,
+    "customers": 98759,
+    "employees": 23,
+    "products": 452,
+    "sales": 6758125
+  },
+  "net_revenue_total": "4332445646.06",
+  "gross_revenue_estimate_total": "4466259165.52",
+  "units_sold": 87882708,
+  "invoice_count": 6758125,
+  "customer_count_with_sales": 98759,
+  "data_quality": {
+    "blank_sales_date": 67526,
+    "zero_total_price": 6758125
+  },
+  "revenue_formula_check_sample": [
+    {
+      "sales_id": "1",
+      "gross_estimate": "309.64",
+      "discount": "0.0",
+      "discount_formula_net": "309.64",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "309.64",
+      "source_difference": "-309.64"
+    },
+    {
+      "sales_id": "2",
+      "gross_estimate": "437.82",
+      "discount": "0.0",
+      "discount_formula_net": "437.82",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "437.82",
+      "source_difference": "-437.82"
+    },
+    {
+      "sales_id": "3",
+      "gross_estimate": "1896.44",
+      "discount": "0.0",
+      "discount_formula_net": "1896.44",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "1896.44",
+      "source_difference": "-1896.44"
+    },
+    {
+      "sales_id": "4",
+      "gross_estimate": "1545.02",
+      "discount": "0.2",
+      "discount_formula_net": "1236.01",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "1236.01",
+      "source_difference": "-1236.01"
+    },
+    {
+      "sales_id": "5",
+      "gross_estimate": "719.80",
+      "discount": "0.0",
+      "discount_formula_net": "719.80",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "719.80",
+      "source_difference": "-719.80"
+    },
+    {
+      "sales_id": "6",
+      "gross_estimate": "763.25",
+      "discount": "0.0",
+      "discount_formula_net": "763.25",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "763.25",
+      "source_difference": "-763.25"
+    },
+    {
+      "sales_id": "7",
+      "gross_estimate": "262.57",
+      "discount": "0.0",
+      "discount_formula_net": "262.57",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "262.57",
+      "source_difference": "-262.57"
+    },
+    {
+      "sales_id": "8",
+      "gross_estimate": "230.84",
+      "discount": "0.2",
+      "discount_formula_net": "184.67",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "184.67",
+      "source_difference": "-184.67"
+    },
+    {
+      "sales_id": "9",
+      "gross_estimate": "420.65",
+      "discount": "0.0",
+      "discount_formula_net": "420.65",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "420.65",
+      "source_difference": "-420.65"
+    },
+    {
+      "sales_id": "10",
+      "gross_estimate": "292.25",
+      "discount": "0.2",
+      "discount_formula_net": "233.80",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "233.80",
+      "source_difference": "-233.80"
+    },
+    {
+      "sales_id": "11",
+      "gross_estimate": "7.70",
+      "discount": "0.2",
+      "discount_formula_net": "6.16",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "6.16",
+      "source_difference": "-6.16"
+    },
+    {
+      "sales_id": "12",
+      "gross_estimate": "574.64",
+      "discount": "0.0",
+      "discount_formula_net": "574.64",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "574.64",
+      "source_difference": "-574.64"
+    },
+    {
+      "sales_id": "13",
+      "gross_estimate": "21.88",
+      "discount": "0.2",
+      "discount_formula_net": "17.51",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "17.51",
+      "source_difference": "-17.51"
+    },
+    {
+      "sales_id": "14",
+      "gross_estimate": "808.20",
+      "discount": "0.0",
+      "discount_formula_net": "808.20",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "808.20",
+      "source_difference": "-808.20"
+    },
+    {
+      "sales_id": "15",
+      "gross_estimate": "199.27",
+      "discount": "0.0",
+      "discount_formula_net": "199.27",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "199.27",
+      "source_difference": "-199.27"
+    },
+    {
+      "sales_id": "16",
+      "gross_estimate": "212.23",
+      "discount": "0.0",
+      "discount_formula_net": "212.23",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "212.23",
+      "source_difference": "-212.23"
+    },
+    {
+      "sales_id": "17",
+      "gross_estimate": "193.68",
+      "discount": "0.0",
+      "discount_formula_net": "193.68",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "193.68",
+      "source_difference": "-193.68"
+    },
+    {
+      "sales_id": "18",
+      "gross_estimate": "1876.96",
+      "discount": "0.1",
+      "discount_formula_net": "1689.27",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "1689.27",
+      "source_difference": "-1689.27"
+    },
+    {
+      "sales_id": "19",
+      "gross_estimate": "61.43",
+      "discount": "0.0",
+      "discount_formula_net": "61.43",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "61.43",
+      "source_difference": "-61.43"
+    },
+    {
+      "sales_id": "20",
+      "gross_estimate": "1145.57",
+      "discount": "0.0",
+      "discount_formula_net": "1145.57",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "1145.57",
+      "source_difference": "-1145.57"
+    },
+    {
+      "sales_id": "21",
+      "gross_estimate": "1190.87",
+      "discount": "0.0",
+      "discount_formula_net": "1190.87",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "1190.87",
+      "source_difference": "-1190.87"
+    },
+    {
+      "sales_id": "22",
+      "gross_estimate": "437.42",
+      "discount": "0.0",
+      "discount_formula_net": "437.42",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "437.42",
+      "source_difference": "-437.42"
+    },
+    {
+      "sales_id": "23",
+      "gross_estimate": "889.44",
+      "discount": "0.0",
+      "discount_formula_net": "889.44",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "889.44",
+      "source_difference": "-889.44"
+    },
+    {
+      "sales_id": "24",
+      "gross_estimate": "1494.34",
+      "discount": "0.0",
+      "discount_formula_net": "1494.34",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "1494.34",
+      "source_difference": "-1494.34"
+    },
+    {
+      "sales_id": "25",
+      "gross_estimate": "1083.17",
+      "discount": "0.0",
+      "discount_formula_net": "1083.17",
+      "source_total_price": "0.00",
+      "selected_net_revenue": "1083.17",
+      "source_difference": "-1083.17"
+    }
+  ],
+  "generated_files": [
+    "mart-class-performance.csv",
+    "mart-customer-segments.csv",
+    "mart-employee-performance.csv",
+    "mart-executive-kpis.csv",
+    "mart-geo-market.csv",
+    "mart-monthly-category-revenue.csv",
+    "mart-product-performance.csv"
+  ]
+}

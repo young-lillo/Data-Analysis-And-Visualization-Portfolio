@@ -1,0 +1,62 @@
+-- Suggested Power BI measures for the cooked FMCG marts.
+-- Create these in the relevant mart tables after importing the CSV outputs.
+
+Net Revenue =
+SUM ( 'mart-executive-kpis'[NetRevenue] )
+
+Gross Revenue Estimate =
+SUM ( 'mart-executive-kpis'[GrossRevenueEstimate] )
+
+Units Sold =
+SUM ( 'mart-executive-kpis'[UnitsSold] )
+
+Invoice Count =
+SUM ( 'mart-executive-kpis'[InvoiceCount] )
+
+Customer Count =
+SUM ( 'mart-executive-kpis'[CustomerCount] )
+
+Average Order Value =
+DIVIDE ( [Net Revenue], [Invoice Count] )
+
+Average Basket Size =
+DIVIDE ( [Units Sold], [Invoice Count] )
+
+Repeat Customer Ratio =
+DIVIDE (
+    SUM ( 'mart-executive-kpis'[RepeatCustomerCount] ),
+    SUM ( 'mart-executive-kpis'[CustomerCount] )
+)
+
+Category Revenue =
+SUM ( 'mart-monthly-category-revenue'[NetRevenue] )
+
+Category Share =
+DIVIDE (
+    [Category Revenue],
+    CALCULATE (
+        [Category Revenue],
+        ALLEXCEPT ( 'mart-monthly-category-revenue', 'mart-monthly-category-revenue'[SalesMonth] )
+    )
+)
+
+Product Revenue =
+SUM ( 'mart-product-performance'[NetRevenue] )
+
+Product Revenue Per Unit =
+DIVIDE (
+    SUM ( 'mart-product-performance'[NetRevenue] ),
+    SUM ( 'mart-product-performance'[UnitsSold] )
+)
+
+Customer Revenue =
+SUM ( 'mart-customer-segments'[NetRevenue] )
+
+Employee Revenue =
+SUM ( 'mart-employee-performance'[NetRevenue] )
+
+Geo Revenue =
+SUM ( 'mart-geo-market'[NetRevenue] )
+
+Class Revenue =
+SUM ( 'mart-class-performance'[NetRevenue] )
