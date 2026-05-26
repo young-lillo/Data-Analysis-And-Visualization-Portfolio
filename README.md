@@ -1,6 +1,6 @@
 # Data Analysis and Visualization Portfolio
 
-This repository collects five end-to-end analytics portfolio projects. Each folder contains the project README, documentation, data-preparation logic, dashboard assets, and deployment notes needed to understand or reproduce the work.
+This repository collects five end-to-end analytics portfolio projects. Each folder contains the project README, source assets, analysis logic, dashboard assets, and reproduction notes needed to understand the work.
 
 ## Portfolio Projects
 
@@ -19,16 +19,13 @@ Live dashboard: [Banking Transaction Data Analytics Challenge](https://app.power
 
 ### [Grocery Supermarket Sales SQL Portfolio](Grocery%20Supermarket%20Sales%20SQL%20Portfolio)
 
-SQL-first FMCG supermarket analytics project using 6.7M sales rows across products, customers, employees, categories, cities, and countries. The project demonstrates SQL Server schema design, CSV loading, validation, mart views, window functions, product ranking, customer segmentation, employee performance, and geographic market analysis.
+SQL-first FMCG supermarket analytics project using 6.7M sales rows in a 517 MB `sales.csv` file across 11 categories, 452 products, 98,759 customers, 23 employees, 96 cities, and 206 countries. The project demonstrates SQL Server schema design, large CSV loading, validation, mart views, window functions, product ranking, customer segmentation, employee performance, and category mix analysis.
 
 Included materials:
 
-- SQL Server database, raw schema, mart views, validation queries, and business-analysis queries
-- Cooked dashboard mart CSVs for reviewer-friendly inspection
-- Data dictionary, SQL analysis guide, engine translation notes, and validation report
-- Power BI handoff assets generated from the same marts
-
-Dashboard status: Power BI build guide ready; published link pending.
+- Raw grocery CSV files in `source-data/`
+- SQL Server schema, CSV loading, mart views, validation queries, and business-analysis queries
+- Reviewer-facing README with suggested problem statements and detailed Dataset Analysis insights for each business question
 
 ### [Airbnb Global Listings Reviews Analytics](Airbnb%20Global%20Listings%20Reviews%20Analytics)
 
@@ -89,9 +86,8 @@ Live dashboard: [Social Media Marketing Performance](https://data.khanh-pham.wor
 |   `-- tools/
 |-- Grocery Supermarket Sales SQL Portfolio/
 |   |-- README.md
-|   |-- docs/
 |   |-- sql/
-|   `-- tools/
+|   `-- source-data/
 |-- Airbnb Global Listings Reviews Analytics/
 |   |-- README.md
 |   |-- docs/
@@ -113,7 +109,7 @@ Start with the README inside each project folder for project-specific setup, dat
 ## Duplicate From GitHub
 
 ```bash
-git clone <portfolio-repository-url>
+git clone https://github.com/young-lillo/Data-Analysis-And-Visualization-Portfolio.git
 cd <portfolio-repository-folder>
 ```
 
